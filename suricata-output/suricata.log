@@ -16,3 +16,21 @@
 [39152 - Suricata-Main] 2023-12-04 11:03:53 Info: suricata: time elapsed 0.172s
 [39169 - RX#01] 2023-12-04 11:03:53 Notice: pcap: read 1 file, 8716 packets, 3838292 bytes
 [39152 - Suricata-Main] 2023-12-04 11:03:53 Info: counters: Alerts: 4617
+[68237 - Suricata-Main] 2023-12-04 13:01:19 Notice: suricata: This is Suricata version 7.0.3-dev (c8a7204b1 2023-11-02) running in USER mode
+[68237 - Suricata-Main] 2023-12-04 13:01:19 Info: cpu: CPUs/cores online: 4
+[68237 - Suricata-Main] 2023-12-04 13:01:19 Info: suricata: Setting engine mode to IDS mode by default
+[68237 - Suricata-Main] 2023-12-04 13:01:19 Info: exception-policy: master exception-policy set to: auto
+[68237 - Suricata-Main] 2023-12-04 13:01:19 Info: logopenfile: fast output device (regular) initialized: fast.log
+[68237 - Suricata-Main] 2023-12-04 13:01:19 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[68237 - Suricata-Main] 2023-12-04 13:01:19 Info: logopenfile: stats output device (regular) initialized: stats.log
+[68237 - Suricata-Main] 2023-12-04 13:01:20 Info: detect: 1 rule files processed. 35699 rules successfully loaded, 0 rules failed
+[68237 - Suricata-Main] 2023-12-04 13:01:20 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[68237 - Suricata-Main] 2023-12-04 13:01:20 Info: detect: 35702 signatures processed. 1312 are IP-only rules, 5330 are inspecting packet payload, 28848 inspect application layer, 108 are decoder event only
+[68262 - RX#01] 2023-12-04 13:01:23 Info: pcap: Starting file run for ./../Samba-01-Trace.pcap
+[68237 - Suricata-Main] 2023-12-04 13:01:23 Notice: threads: Threads created -> RX: 1 W: 4 FM: 1 FR: 1   Engine started.
+[68262 - RX#01] 2023-12-04 13:01:23 Info: checksum: Less than 1/10th of packets have an invalid checksum, assuming checksum offloading is NOT used (18/1000)
+[68262 - RX#01] 2023-12-04 13:01:23 Info: pcap: pcap file ./../Samba-01-Trace.pcap end of file reached (pcap err code 0)
+[68237 - Suricata-Main] 2023-12-04 13:01:23 Notice: suricata: Signal Received.  Stopping engine.
+[68237 - Suricata-Main] 2023-12-04 13:01:23 Info: suricata: time elapsed 0.183s
+[68262 - RX#01] 2023-12-04 13:01:23 Notice: pcap: read 1 file, 8716 packets, 3838292 bytes
+[68237 - Suricata-Main] 2023-12-04 13:01:23 Info: counters: Alerts: 4617
