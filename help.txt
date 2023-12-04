@@ -7,7 +7,7 @@ REQUIREMENTS
        python3, pip, suricata >= 7.0.3-dev
 
 SYNOPSIS
-       python3 suricata_analyzr [OPTION]... [FILE]...
+       python3 suricata_analyzr [OPTION] [ABS_PATH_PCAP_FILE] [PATH_OUTPUT_FILE<optional>]
 
 DESCRIPTION
        Analyse .pcap file for threat Detection, monitoring, more info below.
