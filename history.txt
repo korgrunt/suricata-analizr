@@ -1,0 +1,5378 @@
+    1  ls
+    2  cd 
+    3  vim ~/.tmux.conf
+    4  sudo apt-get install vim
+    5  vim ~/.tmux.conf
+    6  vim ~/.zshrc
+    7  source ~/.zshrc
+    8  ls -Z
+    9  ls -Z /
+   10  getenforce
+   11  getenforc
+   12  sestatus
+   13  cd
+   14  mkdir Workspace
+   15  cd Workspace
+   16  ls
+   17  mkdir day02
+   18  cd day02
+   19  mkdir test
+   20  cp test test2 && mv test2 test3
+   21  ls
+   22  cp ./test ./test2 && mv ./test2 ./test3
+   23  ls
+   24  cp ./test ./test2
+   25  cp -r /boot ./test2
+   26  sudo cp -r /boot ./test2
+   27  ls
+   28  mv test2 ./test3
+   29  LS
+   30  ls
+   31  cd test3
+   32  ls
+   33  cd ..
+   34  zsh-init
+   35  zsh-edit
+   36  ls
+   37  zsh-init
+   38  ls
+   39  cd test
+   40  ls
+   41  cd ..
+   42  cd test3
+   43  ls
+   44  ls -la 
+   45  rm config-6.2.0-26-generic
+   46  cd ..
+   47  rm -rf test3
+   48  sudo rm -rf test3
+   49  cat /var/log/auth.log
+   50  more /var/log/auth.log
+   51  zsh-edit
+   52  zsh-init
+   53  tmux-edit
+   54  sudo tmux-edit
+   55  sudo v ~/.tmux.conf
+   56  sudo vim ~/.tmux.conf
+   57  zsh-edit
+   58  sudo zsh-init
+   59  zsh-init
+   60  ls
+   61  touch log.log
+   62  tail -1000f log.log
+   63  cd
+   64  cd Workspace/day02
+   65  echo "jhdskjhdskjhdskjhdskjhdkjh" >> ./log.log
+   66  cd Workspace/day02
+   67  echo "jhdskjhdskjhdskjhdskjhdkjh" >> ./log.log
+   68  ls 
+   69  rm log.log
+   70  ls
+   71  touch log.log
+   72  echo "jhdskjhdskjhdskjhdskjhdkjh" >> ./log.log
+   73  tail -1000f log.log
+   74  echo "jhdskjhdskjhdskjhdskjhdkjh" >> ./log.log
+   75  more ./log.log
+   76  less ./log.log
+   77  cat /etc/group | grep root
+   78  cat /etc/group- | grep root
+   79  cat /etc/group | grep root
+   80  cat /etc/group grep root
+   81  grep /etc/group root
+   82  grep root /etc/group
+   83  cat /etc/group | grep root
+   84  grep root /etc/group
+   85  man grep
+   86  grep -v root /etc/group
+   87  grep root /etc/group
+   88  grep -v root /etc/group
+   89  grep root /etc/group | wc
+   90  grep -v root /etc/group | wc
+   91  sort /etc/group
+   92  unsort /etc/group
+   93  sort -i /etc/group
+   94  man sort
+   95  sort -i /etc/group
+   96  sort -r /etc/group
+   97  sort - /etc/group
+   98  sort /etc/group
+   99  sort -r /etc/group
+  100  cat /etc/group > ./
+  101  cat /etc/group > ./test
+  102  cat /etc/group > ./testF
+  103  ls
+  104  cat testF
+  105  sort testF > testF
+  106  cat testF
+  107  apt-get install strace
+  108  sudo apt-get install strace
+  109  cat /etc/group > ./testF
+  110  strace sort testF
+  111  cd
+  112  cd Workspace
+  113  ls
+  114  cd day02
+  115  ls
+  116  cat testF
+  117  ltrace cat testF
+  118  zsh-init
+  119  ltrace cat testF
+  120  vim ~/.bashrc
+  121  cd
+  122  cd Workspace/day02
+  123  mls
+  124  ls
+  125  sort testF
+  126  ltrace sort testF
+  127  sudo apt-get install ltrace
+  128  ltrace sort testF
+  129  strace sort testF
+  130  strace sort testF > testF
+  131  vimtutor
+  132  cd 
+  133  cd Downloads/
+  134  ls
+  135  ls -la
+  136  tar -xvf jdk-21_linux-x64_bin.tar.gz
+  137  ls
+  138  cp -r jdk-21 ~/.
+  139  zsh-edit
+  140  cd
+  141  ls
+  142  ls -la
+  143  java -v
+  144  java --version
+  145  ./jdk-21/bin/java
+  146  ./jdk-21/bin/java -v
+  147  ./jdk-21/bin/java -V
+  148  ./jdk-21/bin/java --version
+  149  zsh-edit
+  150  zsh-init
+  151  java --version
+  152  vim ~/.vimrc
+  153  vimtutor
+  154  vim ~/.vimrc
+  155  vimtutor
+  156  vim ~/.vimrc
+  157  vimtutor
+  158  c
+  159  cd
+  160  cd Workspace
+  161  ls
+  162  cd day02
+  163  ls
+  164  ln -s myLink testF
+  165  ln -s testF link
+  166  ls -la
+  167  cat link
+  168  cat testF
+  169  vim testF
+  170  cat link
+  171  ln -s testF link
+  172  rm link
+  173  ln -s testF link
+  174  ls -la
+  175  ln -s testF link
+  176  rm link
+  177  ls
+  178  ln -s testF link
+  179  ls
+  180  rm link
+  181  rm testF
+  182  ln -s testF link
+  183  ls
+  184  ls -la
+  185  echo testF
+  186  echo testF > link
+  187  ls
+  188  ls -la
+  189  cat testF
+  190  echo test2 > name2
+  191  cat name2
+  192  cat link
+  193  ls -la
+  194  rm link
+  195  rm testF
+  196  ls
+  197  rm name2
+  198  ln -s name2 name 1
+  199  ln -s name2 name1
+  200  ls
+  201  echo test1 > name1
+  202  ls
+  203  cat name1
+  204  echo test2 > name2
+  205  ls
+  206  cat name1
+  207  cat name2
+  208  ls -la
+  209  ls -il name2
+  210  ls -ila name2
+  211  ls -il name2
+  212  ls -la
+  213  ls -il 
+  214  ls -ila 
+  215  mkdir toto
+  216  ls -ld toto
+  217  ls -il
+  218  ls
+  219  rm -rf name2
+  220  rm -rf name1
+  221  ls
+  222  ln name2 name3
+  223  touch name2
+  224  ln name2 name3
+  225  ls -li
+  226  echo test3 > name3
+  227  echo test4 > name4
+  228  cat name2
+  229  ls -li
+  230  ln name2 name3
+  231  ln -s name2 name99
+  232  ls -il
+  233  ls
+  234  rm name99
+  235  rm name2
+  236  rm name3
+  237  ls
+  238  rm name4
+  239  ls
+  240  rm -rf test
+  241  rm -rf toto
+  242  ln -n toto toto
+  243  ln toto toto
+  244  ln toto
+  245  touch t
+  246  ln -s link1 t
+  247  ln -s t link1 
+  248  ls
+  249  ln -s link1 link1 
+  250  rm log.log
+  251  ls
+  252  rm link1
+  253  rm t
+  254  ln -s link link
+  255  ln -s link1 link1
+  256  ls 
+  257  ls -la
+  258  echo test > link1
+  259  strace echo test > link1
+  260  ltrace echo test > link1
+  261  ltrace bash -c "echo test > link1"
+  262  ls
+  263  rm *
+  264  rm .
+  265  ls /
+  266  ls -la /
+  267  ls
+  268  rm link link1
+  269  ls
+  270  ls -la
+  271  man ls 
+  272  info ls
+  273  man write
+  274  man man
+  275  man 1 write
+  276  man 2 write
+  277  man 3 write
+  278  man 1 write
+  279  man 1 man
+  280  ls /etc/passwd
+  281  ls -la /etc/passwd
+  282  ls /etc/shadow
+  283  ls -la /etc/shadow
+  284  man 1 man
+  285  ls -la  /usr/bin/ls
+  286  ll
+  287  ll  /usr/bin/ls
+  288  ll  /usr/bin/
+  289  ll /home/naouaichia
+  290  ls -la /home/naouaichia
+  291  ld -la /home/naouaichia
+  292  ls -ld /home/naouaichia
+  293  ls -ld /home/user
+  294  ls -ld /home/naouaichia
+  295  ls -ld /etc/passwd
+  296  sudo chmod 700 /home/naouaichia
+  297  ls -ld /home/naouaichia
+  298  ls /tmp
+  299  ls -la /tmp
+  300  ls -l /tmp
+  301  ls -l /
+  302  ls -l /etc/passwd
+  303  ls -l /bin/passwd
+  304  ls -l /bin/wall
+  305  man wall
+  306  ls -l /devl/tty
+  307  ls -l /dev/tty
+  308  ls -l /dev/
+  309  ls -l /bin/wall
+  310  man
+  311  man man
+  312  ls -l /tmp
+  313  ls -la /tmp
+  314  ls -la /
+  315  ls -l /etc/passwd
+  316  ls -l /bin/passwd
+  317  ls -la /
+  318  ls
+  319  cp /bin/bash /tmp/.
+  320  cd /tmp
+  321  ls
+  322  ls -la /tmp/bash
+  323  sudo chmod 6755 ./bash
+  324  ls -la /tmp/bash
+  325  grep /etc/passwd | wd
+  326  cat /etc/passwd | wd
+  327  cat /etc/passwd
+  328  man adduser
+  329  cd
+  330  ls
+  331  adduser
+  332  su root
+  333  sudo su -
+  334  su fake_user
+  335  v ~/.vimrc
+  336  man vim
+  337  su fake_user
+  338  man bash
+  339  ls
+  340  rm -rf /tmp/bash
+  341  whoami
+  342  cd
+  343  man chown
+  344  sudo -l
+  345  sudo -i
+  346  whoami
+  347  sudo -i
+  348  id
+  349  sudo -i
+  350  sl tmp
+  351  ls /tmp
+  352  cat /etc/sudoers
+  353  sudo cat /etc/sudoers
+  354  sudo cat /etc/passwd
+  355  su fake_user
+  356  groups
+  357  man sudo
+  358  man 2 write 
+  359  ls
+  360  cd
+  361  ls
+  362  cd Workspace
+  363  ls
+  364  cd day02
+  365  ls
+  366  ls -la
+  367  ls -R /etc > FILE.TXT
+  368  sudo ls -R /etc > FILE.TXT
+  369  l
+  370  catr FILE.TXT
+  371  cat FILE.TXT
+  372  ls -R /etc > FILE.TXT
+  373  ls -R /etc 2> FILE.TXT
+  374  cat FILE.TXT
+  375  ls -R /etc 3> FILE.TXT other.txt
+  376  ls
+  377  ls -R /etc 3> FILE.TXT other.txt
+  378  ls -R /etc 2> FILE.TXT other.txt
+  379  ls -R /etc 3> FILE.TXT other.txt
+  380  clr
+  381  ls -R /etc 3> FILE.TXT other.txt
+  382  ls
+  383  cat FILE.TXT
+  384  ls -R /etc 1> FILE.TXT  2> other.txt
+  385  ls
+  386  cat other.txt
+  387  cat FILE.TXT
+  388  rm FILE.TXT
+  389  ls -R /etc 1> FILE.TXT  2> other.txt
+  390  ls
+  391  cat other.txt
+  392  cat FILE.TXT
+  393  ls -R /etc 1> FILE.TXT  2>> FILE.TXT
+  394  ls -la
+  395  rm FILE.TXT
+  396  ls
+  397  rm other.txt
+  398  ls -R /etc 1> FILE.TXT  2>> FILE.TXT
+  399  cat FILE.TXT
+  400  ls -R /etc
+  401  ls
+  402  ls -R /etc 1>> FILE.TXT  2>> FILE.TXT
+  403  cat FILE.TXT | grep err
+  404  cat FILE.TXT | grep imp
+  405  ls -R /etc 1> FILE.TXT  2>> FILE.TXT
+  406  cat FILE.TXT | grep imp
+  407  ls -R /etc 
+  408  logout
+  409  cd Workspace
+  410  ls 
+  411  cd day02
+  412  ls
+  413  rm FILE.TXT
+  414  ls -R /etc
+  415  sudo -k
+  416  ls -R /etc
+  417  cat /etc/sudoers
+  418  cat /etc/sudoers > file.txt
+  419  cat /etc/sudoers 2> file.txt
+  420  cat file.txt
+  421  cat /etc/sudoers 2>> file.txt 1>> file.txt
+  422  cat file.txt
+  423  rm file.txt
+  424  cat /etc/sudoers 2>> file.txt 1>> file.txt
+  425  ava
+  426  java
+  427  cd
+  428  cd ghidra_10.4_PUBLIC
+  429  ls
+  430  ./ghidraRun
+  431  pwd
+  432  pwd >> ~/.zshrc
+  433  vim ~/.zshrc
+  434  d
+  435  cd
+  436  cd ghidra_10.4_PUBLIC
+  437  ls
+  438  vim ~/.zshrc
+  439  clr
+  440  CLR
+  441  clr
+  442  sudo apt-get install nfs-common
+  443  ls
+  444  cd 
+  445  ls
+  446  man mkdir
+  447  sudo mkdir -p /mnt/data
+  448  cd
+  449  cd Workspace
+  450  ls
+  451  mkdir day04
+  452  cd day04
+  453  vim nfs.txt
+  454  cat nfs.txt
+  455  vim nfs.txt
+  456  mount -t nfs 10.0.4.13:/home/user/Cours/ESIEA/Rappel\Res/NFS /mnt
+  457  ls /mnt/data
+  458  mount -t nfs 10.0.4.13:/home/user/Cours/ESIEA/Rappel_Res/NFS /mnt
+  459  sudo mount -t nfs 10.0.4.13:/home/user/Cours/ESIEA/Rappel_Res/NFS /mnt
+  460  ls /mnt
+  461  cp -R /mnt ./
+  462  ls
+  463  cd mnt
+  464  ls
+  465  vbox -v
+  466  vboxmanage
+  467  vboxmanage import ./A8_ESIEA.ova
+  468  cd
+  469  wget https://download.virtualbox.org/virtualbox/6.1.34/Oracle_VM_VirtualBox_Extension_Pack-6.1.34.vbox-extpack
+  470  ls
+  471  virtualbox
+  472  cd VirtualBox\ VMs
+  473  ls
+  474  rm -rf A8_ESIEA
+  475  LS
+  476  cd /bin
+  477  ls
+  478  ls | grep virtu
+  479  rm virtualbox
+  480  sudo rm virtualbox
+  481  cd
+  482  cd Downloads
+  483  ls
+  484  apt install ./virtualbox-7.0_7.0.10-158379\~Ubuntu\~jammy_amd64.deb 
+  485  sudpo apt install ./virtualbox-7.0_7.0.10-158379\~Ubuntu\~jammy_amd64.deb 
+  486  sudo apt install ./virtualbox-7.0_7.0.10-158379\~Ubuntu\~jammy_amd64.deb 
+  487  sudo apt install wireshark
+  488  ip link show
+  489  sudo wireshark
+  490  ip a
+  491  exit
+  492  ip a
+  493  wireshark
+  494  sudo wireshark
+  495  ip neigh show nud
+  496  ip neigh show nud noarp 
+  497  ip neigh show nud 
+  498  ip neigh 
+  499  ip n
+  500  ip neigh
+  501  lspci
+  502  lspci | grep nvi
+  503  lspci | grep NVI
+  504  lspci -v
+  505  lspci -v | grep ether
+  506  lspci -v | grep Eth
+  507  wq
+  508  ws
+  509  zsh-edit
+  510  zsh-init
+  511  ws
+  512  zsh-edit
+  513  zsh-init
+  514  ws
+  515  ping 10.10.10.10
+  516  ping 10.10.10.11
+  517  ping 10.0.4.13
+  518  clr
+  519  ping 10.0.4.13
+  520  ping 10.0.4.100
+  521  ping 6.6.6.6
+  522  ping 6.6.6.9
+  523  ping 222.222.222.222
+  524  ping 10.0.4.222
+  525  vimtu
+  526  vimtutor
+  527  cd
+  528  cd Workspace
+  529  ls 
+  530  cd day04
+  531  ls
+  532  vim ip-test.txt
+  533  ws
+  534  ping 8.8.8.8
+  535  ping 8.8.8.8 -b "ezze"
+  536  man ping
+  537  ping 8.8.8.8/tototototot
+  538  ping http://google.com
+  539  ping google.com
+  540  ping google.com/fffff
+  541  ping google.com:sdsd
+  542  man ping
+  543  ping 8.8.8.8 78787
+  544  ping 8.8.8.8 
+  545  ping 8.8.8.8 dy
+  546  ping 8.8.8.8 7878
+  547  ping 8.8.8.8 -p 160802
+  548  ping 8.8.8.8
+  549  ping 8.8.8.8 -p 66616b652d746574737465
+  550  man traceroute
+  551  sudo apt-get install traceroute
+  552  man traceroute
+  553  traceroute google.com
+  554  ip addr
+  555  cd /
+  556  cd mnt/data
+  557  ls
+  558  cd mnt/
+  559  ls
+  560  ls -la
+  561  ls
+  562  cp mssis_res_schema.pdf ~/.
+  563  cd
+  564  ls
+  565  exit
+  566  killall VBoxClient
+  567  ws
+  568  ls
+  569  cd Workspace
+  570  ls
+  571  cd day0
+  572  cd day04
+  573  lks
+  574  ls
+  575  vim thumbnail.pcap
+  576  man hexdump
+  577  hexadump thumbnail.pcap
+  578  hexdump thumbnail.pcap
+  579  hexdump thumbnail.pcap | xxd -r -p
+  580  hexdump thumbnail.pcap | xxd -r 
+  581  hexdump thumbnail.pcap | xxd -p
+  582  hexdump thumbnail.pcap | xxd -r
+  583  hexdump thumbnail.pcap | xxd -r -p
+  584  hexdump thumbnail.pcap | xxd -r 
+  585  hexdump -C thumbnail.pcap | xxd -r 
+  586  hexdump -C thumbnail.pcap 
+  587  man hexdump
+  588  hexdump -C thumbnail.pcap > hexdumped.txt
+  589  code hexdumped.txt
+  590  vim hexdumped.txt
+  591  ws
+  592  ping google.COM
+  593  vim hexdumped.txt
+  594  hexdump man
+  595  man hexdump 
+  596  vim hexdumped.txt
+  597  ws
+  598  vim ~/.vimrc
+  599  vim hexdumped.txt
+  600  man guint32
+  601  man 1 guint32
+  602  man 1 main
+  603  echo "02000400" | xxd -c -d
+  604  echo "02000400" | xxd -r -p
+  605  vim ~/.tmux.conf
+  606  cd Workspace/day04/mnt
+  607  cd ..
+  608  ks
+  609  ls
+  610  vim hexdumped.txt
+  611  ^[[200~bind -T copy-mode    DoubleClick1Pane select-pane \; send -X select-word \; send -X copy-pipe-no-clear "xsel -i"
+  612  bind -T copy-mode-vi DoubleClick1Pane select-pane \; send -X select-word \; send -X copy-pipe-no-clear "xsel -i"
+  613  bind -n DoubleClick1Pane select-pane \; copy-mode -M \; send -X select-word \; send -X copy-pipe-no-clear "xsel -i"
+  614  bind -T copy-mode    TripleClick1Pane select-pane \; send -X select-line \; send -X copy-pipe-no-clear "xsel -i"
+  615  bind -T copy-mode-vi TripleClick1Pane select-pane \; send -X select-line \; send -X copy-pipe-no-clear "xsel -i"
+  616  bind -n TripleClick1Pane select-pane \; copy-mode -M \; send -X select-line \; send -X copy-pipe-no-clear "xsel -i"
+  617  bind -n MouseDown2Pane run "tmux set-buffer -b primary_selection \"$(xsel -o)\"; tmux paste-buffer -b primary_selection; tmux delete-buffer -b primary_selection"
+  618  set -g @plugin 'tmux-plugins/tpm'
+  619  set -g @plugin 'tmux-plugins/tmux-yank'
+  620  set -g @yank_action 'copy-pipe-no-clear'
+  621  bind -T copy-mode    C-c send -X copy-pipe-no-clear "xsel -i --clipboard"
+  622  bind -T copy-mode-vi C-c send -X copy-pipe-no-clear "xsel -i --clipboard"
+  623  cd Workspace
+  624  ls 
+  625  cd day04
+  626  ls -la
+  627  mkdir progC
+  628  cd progC
+  629  vim main.c
+  630  cd
+  631  cd Workspace/day04/progC
+  632  ls
+  633  gcc main.c
+  634  vim main.c
+  635  gcc main.c
+  636  vim main.c
+  637  gcc main.c
+  638  ls
+  639  cd Workspace/day04
+  640  ls
+  641  vim hexdumped.txt
+  642  ls
+  643  cd progC
+  644  ls
+  645  gcc main.c
+  646  pkg-config --cflags glib-2.0
+  647  pkg-config --libs glib-2.0
+  648  gcc main.c
+  649  gcc main.c `pkg-config --cflags --libs glib-2.0` -o test
+  650  ls
+  651  ./test
+  652  vim main.c
+  653  gcc main.c `pkg-config --cflags --libs glib-2.0` -o test
+  654  gcc main.c `pkg-config --cflags --libs glib-2.0` -o test && ./test
+  655  vim main.c
+  656  gcc main.c `pkg-config --cflags --libs glib-2.0` -o test && ./test
+  657  vim main.c
+  658  gcc main.c `pkg-config --cflags --libs glib-2.0` -o test && ./test
+  659  man sizeof
+  660  man 1 sizeof
+  661  man 3 sizeof
+  662  man 4 sizeof
+  663  man 5 sizeof
+  664  man 6 sizeof
+  665  man 7 sizeof
+  666  man 8 sizeof
+  667  man man
+  668  man 3 fopen
+  669  man 3 sizeof
+  670  cd ..
+  671  ls 
+  672  vim hexdumped.txt
+  673  h
+  674  edit-zsh
+  675  zsh-edit
+  676  zsh-init
+  677  h
+  678  h | grep hex
+  679  hexdump -C thumbnail-one-tcp.pcap > thumb-one.txt
+  680  vim thumb-one.txt
+  681  ls
+  682  cd
+  683  git clone git@github.com:korgrunt/naouaichia-home.git
+  684  cd ~/.ssh
+  685  ls -la
+  686  ssh-keygen
+  687  cat ./id_rsa.pub
+  688  cat ~/.tmux.conf
+  689  vim ~/.tmux.conf
+  690  zsh-init
+  691  cat ~/.tmux.conf
+  692  apt-get remove tmux
+  693  sudo apt-get remove tmux
+  694  sudo apt-get install tmux
+  695  sudo apt-get remove tmux
+  696  python -V
+  697  python -v
+  698  python --version
+  699  python3 --version
+  700  ls
+  701  git clone git@github.com:korgrunt/naouaichia-home.git
+  702  cat ~/.ssh/id_rsa.pub
+  703  git clone git@github.com:korgrunt/naouaichia-home.git
+  704  cd naouaichia-home
+  705  ls 
+  706  ls -la
+  707  vim ./.vimrc
+  708  vim ~/.vimrc
+  709  ls 
+  710  cat ./.zshrc
+  711  cat ~/.zshrc
+  712  vim ~/.zshrc
+  713  cd
+  714  pwd
+  715  vim ./.zshrc
+  716  cd
+  717  cd Workspace
+  718  ls
+  719  mkdir day05
+  720  cd day05
+  721  ls
+  722  mkdir python
+  723  cd python
+  724  vim app.py
+  725  cd
+  726  cd Workspace
+  727  cd day05/ls
+  728  cd day05
+  729  ls
+  730  cd python
+  731  ls
+  732  python3 app.py
+  733  vim app.py
+  734  python3 app.py
+  735  vim app.py
+  736  python3 app.py
+  737  vim app.py
+  738  python3 app.py
+  739  vim app.py
+  740  python3 app.py
+  741  vim app.py
+  742  python3 app.py
+  743  vim app.py
+  744  python3 app.py
+  745  cd ..
+  746  cd ../day04
+  747  ls
+  748  vim hexdumped.txt
+  749  bc 
+  750  man bc 
+  751  vi ~/.vimrc
+  752  vim app.py
+  753  ls
+  754  cd ../day05
+  755  ls
+  756  cd python
+  757  ls
+  758  python3 app.py
+  759  vim ~/.zshrc
+  760  source ~/.zshrc
+  761  vim ~/.zshrc
+  762  source ~/.zshrc
+  763  python3 app.py
+  764  source ~/.zshrc
+  765  editzsh
+  766  source ~/.zshrc
+  767  py app.py
+  768  vim app.py
+  769  py app.py
+  770  ls /bin/
+  771  ls /
+  772  ls /.
+  773  ls
+  774  cd /
+  775  ls
+  776  editzsh
+  777  ls
+  778  ls /
+  779  cd
+  780  cd Workspace
+  781  ls
+  782  cd day05
+  783  ls
+  784  cd python
+  785  vim app.py
+  786  cd
+  787  cd Workspace
+  788  ls
+  789  cd day05/python
+  790  ls
+  791  python app.py
+  792  py app.py
+  793  python app.py
+  794  py app.py
+  795  cd ..
+  796  ls
+  797  cd ../day04
+  798  ls
+  799  cd ..
+  800  ls
+  801  mkdir PROJECTS
+  802  cd PROJECTS
+  803  ls
+  804  git clone git@github.com:korgrunt/pcap-reader.git
+  805  ls
+  806  cd pcap-reader
+  807  ls
+  808  rm Application.class && javac Application.java && java Application.class
+  809  sudo apt-get install screen
+  810  screen -S toto
+  811  screen -ls
+  812  screen -S tata
+  813  screen -ls
+  814  screen -r
+  815  exit
+  816  screen l s
+  817  screen ls
+  818  screen -r
+  819  sudo apt-get install tmux
+  820  tmux
+  821  ls
+  822  vim ~/.tmux.conf
+  823  tmux source-file ~/.tmux.conf
+  824  ls
+  825  tmux -V
+  826  vim ~/.tmux.conf
+  827  tmux source-file ~/.tmux.conf
+  828  vim ~/.tmux.conf
+  829  tmux source-file ~/.tmux.conf
+  830  sudo apt install xclip
+  831  sudo apt-get remove tmux
+  832  exit
+  833  clr
+  834  sl
+  835  screen
+  836  screen -r
+  837  ls
+  838  clr
+  839  ls
+  840  cd ??
+  841  cd
+  842  cd Workspace
+  843  ls
+  844  cd day0
+  845  cd day02
+  846  ls
+  847  cat file.txt
+  848  sudo cat file.txt
+  849  ls
+  850  cd init_java
+  851  ls
+  852  cd partie_
+  853  cd partie_1
+  854  ls
+  855  screen
+  856  cd 
+  857  cd Workspace
+  858  cd PROJECTS
+  859  ls
+  860  git clone git@github.com:korgrunt/calc-polska.git
+  861  ls
+  862  cd calc-polska
+  863  ls
+  864  vim Application.java
+  865  ls
+  866  cd 
+  867  cd Workspace/PROJECTS/calc-polska
+  868  ls
+  869  clr
+  870  mv Application.java FooCalcRPL.java
+  871  ls
+  872  touch ObjEmp.java
+  873  touch PileRPL.java
+  874  ls
+  875  vim FooCalcRPL.java
+  876  javac FooCalcRPL.java && java FooCalcRPL
+  877  ls
+  878  vim PileRPL.java
+  879  q
+  880  ls
+  881  vim FooCalcRPL.javacat PileRPL.java
+  882  cat ObjEmp.java
+  883  cd partie_1l s
+  884  ls 
+  885  cat FooCalcRPL.java
+  886  cat PileRPL.java
+  887  ls
+  888  rm ObjEmp.java
+  889  cp PileRPL.java ObjEmp.java
+  890  vim ObjEmp.java
+  891  vim FooCalcRPL.java
+  892  vim PileRPL.java
+  893  vim FooCalcRPL.class
+  894  vim FooCalcRPL.java
+  895  javac FooCalcRPL.java && java FooCalcRPL
+  896  vim ObjEmp.java
+  897  vim FooCalcRPL.java
+  898  javac FooCalcRPL.java && java FooCalcRPL
+  899  l
+  900  lclr
+  901  javac FooCalcRPL.java && java FooCalcRPLclr
+  902  clr
+  903  vim ./README.md
+  904  exit
+  905  vim FooCalcRPL.java
+  906  javac FooCalcRPL.java && java FooCalcRPL
+  907  vim PileRPL.java
+  908  javac FooCalcRPL.java && java FooCalcRPL
+  909  editvim
+  910  vim PileRPL.java
+  911  vim FooCalcRPL.java
+  912  javac FooCalcRPL.java && java FooCalcRPL
+  913  vim PileRPL.java
+  914  ls
+  915  javac FooCalcRPL.java && java FooCalcRPL
+  916  vim FooCalcRPL.java
+  917  javac FooCalcRPL.java && java FooCalcRPL
+  918  man vim
+  919  man 2 vim
+  920  man 3 vim
+  921  man 4 vim
+  922  cd
+  923  cd Workspace/PROJECTS
+  924  ls
+  925  cd calc-polska
+  926  git add .
+  927  git commit -m "start code calc polska"
+  928  git config --global user.email "naim.aouaichia@gmail.com"
+  929  git config --global user.name "korgrunt"
+  930  git commit -m "start code calc polska"
+  931  git push
+  932  ls
+  933  vim ObjEmp.java
+  934  ls
+  935  cd Workspace
+  936  ls
+  937  cd PROJECTS/calc-polska
+  938  ls
+  939  ls -la
+  940  ls -la | grep java
+  941  vim PileRPL.java
+  942  javac FooCalcRPL.java && java FooCalcRPL
+  943  vim PileRPL.java
+  944  javac FooCalcRPL.java && java FooCalcRPL
+  945  vim PileRPL.java
+  946  clr
+  947  javac FooCalcRPL.java && java FooCalcRPL
+  948  git add .
+  949  git commit -m "implement stack"
+  950  git push
+  951  ls
+  952  touch CalcUI.java
+  953  cd
+  954  cd Workspace/PROJECTS/calc-polska
+  955  vim CalcUI.java
+  956  exit
+  957  vim FooCalcRPL.java
+  958  cd Workspace/PROJECTS/calc-polska 
+  959  vim ObjEmp.java
+  960  ls
+  961  vim PileRPL.java
+  962  cd Workspace/PROJECTS/calc-polska
+  963  ls
+  964  vim CalcUI.java
+  965  cd
+  966  cd Workspace/PROJECTS/calc-polska
+  967  ls
+  968  vim ObjEmp.java
+  969  ls
+  970  cat FooCalcRPL.java
+  971  rm CalcUI.java
+  972  cp FooCalcRPL.java CalcUI.java
+  973  vim CalcUI.java
+  974  ls
+  975  vim ~/.vimrc
+  976  vim CalcUI.java
+  977  xclip -selection clipboard < ~/.vimrc
+  978  xclip -selection clipboard < ~/.zshrc
+  979  git add .
+  980  git commit -m "calc UI"
+  981  git push
+  982  cd
+  983  mkdir GitWorkspace
+  984  git clone git@github.com:korgrunt/workspace.git
+  985  git add .
+  986  cd GitWorkspace/
+  987  ls
+  988  cd workspace
+  989  ls
+  990  git add .
+  991  cd
+  992  rm ./.zshrc
+  993  vim ./.zshrc
+  994  source ./.zshrc
+  995  hsyncpull
+  996  rm naouaichia-home
+  997  rm -rf naouaichia-home
+  998  hsyncpull
+  999  source ./.zshrc
+ 1000  ls
+ 1001  cd Workspace/PROJECTS/calc-polska
+ 1002  ls
+ 1003  cd ..
+ 1004  ls 
+ 1005  mkdir day06
+ 1006  cd day0
+ 1007  cd day06
+ 1008  clr
+ 1009  ls
+ 1010  cd
+ 1011  cd Workspace/PROJECTS
+ 1012  ls
+ 1013  cd calc-polska
+ 1014  git pull
+ 1015  ls 
+ 1016  vim ./CalcUI.java
+ 1017  clr
+ 1018  ls
+ 1019  touch api.py 
+ 1020  vim api.py 
+ 1021  cd Workspace/day06
+ 1022  ls
+ 1023  python3 api.py
+ 1024  ls
+ 1025  python api.py
+ 1026  python3 api.py
+ 1027  man python3 
+ 1028  python3 api.py -X
+ 1029  python3 api.py
+ 1030  sudo apt-get install python3-venv
+ 1031  python3 -m venv venv
+ 1032  ls
+ 1033  source ./venv/bin/activate
+ 1034  quit
+ 1035  deactivate
+ 1036  vim ./venv/bin/activate
+ 1037  ./venv/bin/pip install requests
+ 1038  ./venv/bin/pip install flask
+ 1039  ./venv/bin/pip freeze > requirements.txt
+ 1040  ls
+ 1041  cat requirements.txt
+ 1042  ls
+ 1043  ls ./venv/lib
+ 1044  ls ./venv/lib/python3.10/site-packages
+ 1045  ls
+ 1046  ls -la 
+ 1047  ls /venv
+ 1048  ls ./venv
+ 1049  touch 01-get-data.py
+ 1050  python3 01-get-data.py
+ 1051  python3 01-get-data.py > whiski.json
+ 1052  vim whiski.json
+ 1053  python3 01-get-data.py > whiski.json
+ 1054  vim whiski.json
+ 1055  python3 01-get-data.py
+ 1056  ls
+ 1057  touch __init__.py
+ 1058  ls
+ 1059  vim ./__init__.py
+ 1060  editvim
+ 1061  vim .
+ 1062  hsyncpush
+ 1063  cdc
+ 1064  cd Workspace/day06
+ 1065  ls
+ 1066  vim ./
+ 1067  cd 
+ 1068  cd Downloads
+ 1069  ls
+ 1070  sudo apt install ./dbeaver-ce_23.2.2_amd64.deb
+ 1071  cd
+ 1072  cd Workspace/day06
+ 1073  ls
+ 1074  python3 02-db.py
+ 1075  cat whiski.json
+ 1076  python3 01-get-data.py
+ 1077  python3 02-db.py
+ 1078  cat whiski.json
+ 1079  python3 01-get-data.py
+ 1080  cat lmdw.json
+ 1081  python3 01-get-data.py
+ 1082  cat lmdw.json
+ 1083  python3 02-db.py
+ 1084  rm whiski.json
+ 1085  python3 02-db.py
+ 1086  vim ./
+ 1087  python3 02-db.py
+ 1088  exit
+ 1089  ls
+ 1090  cd Workspace
+ 1091  cd day06
+ 1092  vim ./
+ 1093  cd
+ 1094  cd Workspace/day06
+ 1095  ls
+ 1096  ./venv/bin/activate
+ 1097  sudo ./venv/bin/activate
+ 1098  ls
+ 1099  source ./venv/bin/activate
+ 1100  python3 02-db.py
+ 1101  ls
+ 1102  python3 03-flask.py
+ 1103  pip install Flask
+ 1104  python3 03-flask.py
+ 1105  pip install flask
+ 1106  python3 03-flask.py
+ 1107  cat api.py
+ 1108  python3 03-flask.py
+ 1109  ls
+ 1110  python3 03-flask.py
+ 1111  cd Downloads
+ 1112  ls
+ 1113  sudo apt install ./Insomnia.Core-8.2.0.deb
+ 1114  cd 
+ 1115  cd Workspace
+ 1116  ls
+ 1117  editvim
+ 1118  editzsh
+ 1119  initzsh
+ 1120  hsyncpush
+ 1121  ls
+ 1122  cdw
+ 1123  editzsh
+ 1124  initzsh
+ 1125  cdp
+ 1126  ls
+ 1127  vim sudo nano /usr/share/X11/xkb/symbols/capslock
+ 1128  sudo nano /usr/share/X11/xkb/symbols/capslock
+ 1129  sudo vmi /usr/share/X11/xkb/symbols/capslock
+ 1130  sudo vim /usr/share/X11/xkb/symbols/capslock
+ 1131  sudo dpkg-reconfigure xkb-data
+ 1132  sudo vim /usr/share/X11/xkb/symbols/capslock
+ 1133  ls
+ 1134  clr
+ 1135  cdw
+ 1136  cd day06
+ 1137  ls
+ 1138  vim ./
+ 1139  ls
+ 1140  sudo vim /usr/share/X11/xkb/symbols/capslock
+ 1141  cdw
+ 1142  cd day06
+ 1143  ls
+ 1144  python3 03-flask.py
+ 1145  sudo dpkg-reconfigure xkb-data
+ 1146  sudo apt install dconf-cli dconf-editor
+ 1147  sudo apt-get install gnome-tweak-tool -y && gnome-tweak-tool
+ 1148  python3 03-flask.py
+ 1149  ls
+ 1150  python3 03-flask.py
+ 1151  python3 app..py
+ 1152  python3 app.py
+ 1153  python3 app..py
+ 1154  python3 app.py
+ 1155  cd whiskyApi
+ 1156  ls
+ 1157  python3 app.py
+ 1158  ls
+ 1159  cdw
+ 1160  cd day06
+ 1161  ls
+ 1162  cd whiskyApi
+ 1163  vim ./
+ 1164  ls
+ 1165  cd ..
+ 1166  ls
+ 1167  cd cours
+ 1168  ls
+ 1169  cat 02-db.py
+ 1170  cdw
+ 1171  cd day06
+ 1172  ls
+ 1173  cd whiskyApi
+ 1174  ls
+ 1175  python3 app.py
+ 1176  cd ..
+ 1177  mkdir qt
+ 1178  cd qt
+ 1179  python 3 -m venv venv
+ 1180  python3 -m venv venv
+ 1181  source ./venv/bin/activate
+ 1182  ./venv/bin/pip install pyside6
+ 1183  ./venv/bin/pip freeze > requirements.txt
+ 1184  ls
+ 1185  vim 01.py
+ 1186  ls
+ 1187  cdw
+ 1188  cd day06
+ 1189  ls
+ 1190  cd qt
+ 1191  python3 app.py
+ 1192  cd ..
+ 1193  cd whiskyApi
+ 1194  ls
+ 1195  vim ./ 
+ 1196  vim ./
+ 1197  ./venv/bin/pip install pyside6
+ 1198  python3 app.py
+ 1199  clr
+ 1200  vim ./
+ 1201  cd ..
+ 1202  cd qt
+ 1203  ls
+ 1204  source ./venv/bin/activate
+ 1205  ./venv/bin/python3 ./01.py
+ 1206  cd ..
+ 1207  ls
+ 1208  cd ..
+ 1209  ls
+ 1210  deactivate
+ 1211  cdw
+ 1212  ls
+ 1213  cd COURS
+ 1214  ls
+ 1215  cd day06
+ 1216  ls
+ 1217  cd qt
+ 1218  ls
+ 1219  source ./venv/bin/activate
+ 1220  cdw
+ 1221  cd COURS
+ 1222  cd day06/qt
+ 1223  ./venv/bin/python3 01.py
+ 1224  vim ./
+ 1225  ./venv/bin/python3 01.py
+ 1226  cdw
+ 1227  cd COURS
+ 1228  ls
+ 1229  cd day06
+ 1230  ls
+ 1231  cd qt
+ 1232  source ./venv/bin/activate
+ 1233  ./venv/bin/python3 ./01.py
+ 1234  cdw
+ 1235  cd COURS/day06/qt
+ 1236  source ./venv/bin/activate
+ 1237  ./venv/bin/python3 ./01.py
+ 1238  cd
+ 1239  cdw
+ 1240  git clone git@github.com:korgrunt/COURS.git 
+ 1241  cd COURS
+ 1242  ls
+ 1243  cd day06
+ 1244  cd qt
+ 1245  ./venv/bin/python3 ./01.py
+ 1246  cdw
+ 1247  cd COURS
+ 1248  ls
+ 1249  git add .
+ 1250  ls
+ 1251  ls -la
+ 1252  touch .gitignore
+ 1253  ls
+ 1254  cp 01.py 02.py
+ 1255  ls
+ 1256  vim 02.py
+ 1257  ./venv/bin/python3 ./02.py
+ 1258  touch .gitignore
+ 1259  ./venv/bin/python3 ./02.py
+ 1260  ls
+ 1261  ms -la
+ 1262  lla
+ 1263  la
+ 1264  vim .gitignore
+ 1265  git add .
+ 1266  ./venv/bin/python3 ./02.py
+ 1267  git commit -m "put cours on git"
+ 1268  cdw
+ 1269  cd COURS
+ 1270  git push
+ 1271  ./venv/bin/python3 ./02.py
+ 1272  ls
+ 1273  cd day02
+ 1274  l
+ 1275  cd ..
+ 1276  cd day02
+ 1277  ls
+ 1278  cd ..
+ 1279  cd day03
+ 1280  ls
+ 1281  cd day04
+ 1282  ls
+ 1283  cd mnt
+ 1284  ls
+ 1285  cd ..
+ 1286  vim ./.gitignore
+ 1287  git add .
+ 1288  git commit -m "push all except ova and venv file"
+ 1289  git push
+ 1290  ./venv/bin/python3 ./02.py
+ 1291  git push
+ 1292  ls
+ 1293  cat .gitignore
+ 1294  git reset .
+ 1295  git reset *
+ 1296  git add .
+ 1297  git commit -m "all file ova ignored"
+ 1298  git push
+ 1299  git status 
+ 1300  git branch develop
+ 1301  ls
+ 1302  git checkout develop
+ 1303  ms
+ 1304  ls
+ 1305  git add .
+ 1306  git commit -m "ignore ova file"
+ 1307  git push
+ 1308  git push --force origin develop
+ 1309  git diff --staged --name-only
+ 1310  git diff --cached --name-only
+ 1311  ls
+ 1312  ls -la
+ 1313  rm .git
+ 1314  rm -rf .git
+ 1315  ls
+ 1316  cd ..
+ 1317  git clone git@github.com:korgrunt/COURS.git ./COURS-git
+ 1318  cp -r ./COURS-git/.git ./COURS/.
+ 1319  cd COURS
+ 1320  ls
+ 1321  ls 
+ 1322  lla
+ 1323  la
+ 1324  cat .gitignore
+ 1325  find ./ -type f -exec ls -lh {} \;
+ 1326  find ./ \( -name 'venv' -prune \) -o -type f -exec ls -lh {} \;
+ 1327  find ./ \( -name 'venv' -prune \) -o -type f -exec ls -lh {} \; > files.txt
+ 1328  vim files.txt
+ 1329  vim .gitignore
+ 1330  ls -la
+ 1331  lla
+ 1332  la
+ 1333  git add . 
+ 1334  git commit keep all except ova file
+ 1335  git commit -m "keep all except ova file"
+ 1336  git push
+ 1337  hsyncpush
+ 1338  ls /etc/crontab/
+ 1339  cat /etc/crontab/
+ 1340  cat /etc/crontab
+ 1341  ls
+ 1342  cdw
+ 1343  ls
+ 1344  cd COURS
+ 1345  ls 
+ 1346  la
+ 1347  cat .gitignore
+ 1348  cd ../COURS-git
+ 1349  la
+ 1350  cd ..
+ 1351  rm -rf COURS-git
+ 1352  ls
+ 1353  cd PROJECTS
+ 1354  ls
+ 1355  cd calc-polska
+ 1356  l 
+ 1357  git pull
+ 1358  javac CalcUI.java && java CalcUI
+ 1359  cd ../pcap-reader
+ 1360  ls
+ 1361  la
+ 1362  touch .gitignore
+ 1363  vim ./
+ 1364  git add .
+ 1365  git commit -m "ignore class file"
+ 1366  git push
+ 1367  cd calc-polska
+ 1368  ld 
+ 1369  ls 
+ 1370  cd ..
+ 1371  ls 
+ 1372  cd ..
+ 1373  cdp
+ 1374  ls
+ 1375  ls /
+ 1376  cdc
+ 1377  cd ..
+ 1378  cd COURS
+ 1379  ls
+ 1380  mkdir day87
+ 1381  mkdir day7
+ 1382  cd day7
+ 1383  touch main.c
+ 1384  vim ./
+ 1385  rm main2.c
+ 1386  cp main.c main2.c
+ 1387  vim .
+ 1388  cd
+ 1389  cd Workspace/COURS/day7
+ 1390  ls
+ 1391  gcc main3.c && ./a.out asci2int
+ 1392  gcc main3.c && ./a.out a
+ 1393  gcc main3.c && ./a.out i
+ 1394  gcc main3.c && ./a.out 1
+ 1395  gcc main3.c && ./a.out i
+ 1396  gcc main3.c && ./a.out a
+ 1397  gcc main3.c && ./a.out i
+ 1398  gcc main3.c && ./a.out a
+ 1399  gcc main3.c && ./a.out i
+ 1400  ls
+ 1401  gcc main3.c && ./a.out i
+ 1402  gcc main3.c && ./a.out a
+ 1403  cd ..
+ 1404  cd ../PROJECTS
+ 1405  ls
+ 1406  cd brute-force-pass-lang-c
+ 1407  ls
+ 1408  ls -la
+ 1409  mkdir specs
+ 1410  cd specs
+ 1411  touch endu_illustre.txt
+ 1412  touch rendu.txt
+ 1413  vim rendu.txt
+ 1414  vim ./endu_illustre.txt
+ 1415  ls
+ 1416  mv endu_illustre.txt rendu_illustre.txt
+ 1417  ls
+ 1418  cd ..
+ 1419  ls
+ 1420  git add .
+ 1421  git commit -m "Add spec to project"
+ 1422  git push
+ 1423  cd ..
+ 1424  ls
+ 1425  pwd
+ 1426  editzsh
+ 1427  initzsh
+ 1428  hsyncpush
+ 1429  ls
+ 1430  cdc
+ 1431  ls
+ 1432  ls day87
+ 1433  rm day87
+ 1434  rm -rf day87
+ 1435  cd day7
+ 1436  ls
+ 1437  mkdir charAndInt
+ 1438  cp main* ./charAndInt/.
+ 1439  ls
+ 1440  ls charAndInt
+ 1441  rm main2.c
+ 1442  rm main3.c
+ 1443  rm main.c
+ 1444  rm a.out
+ 1445  ls
+ 1446  mkdir fs
+ 1447  cd fs
+ 1448  cp ./../charAndInt/main3.c .
+ 1449  ls
+ 1450  mv main3.c main.c
+ 1451  vim ./
+ 1452  touch input.txt
+ 1453  vim ./
+ 1454  initzsh
+ 1455  cdc
+ 1456  ls
+ 1457  cat files.txt
+ 1458  ls
+ 1459  cd day7
+ 1460  ls
+ 1461  cd fs
+ 1462  ls
+ 1463  gcc main.c 
+ 1464  ls
+ 1465  gcc main.c  && ./a.out
+ 1466  cat ./input.txt && gcc main.c  && ./a.out
+ 1467  cat ./input.txt && echo "_________" && gcc main.c  && ./a.out
+ 1468  cat ./input.txt && gcc main.c  && ./a.out
+ 1469  cat ./input.txt && gcc main.c  && ./a.out && cat ./output.txt
+ 1470  cat ./output.txt
+ 1471  cat ./input.txt && gcc main.c  && ./a.out && cat ./output.txt
+ 1472  rm output.txt
+ 1473  cat ./input.txt && gcc main.c  && ./a.out && cat ./output.txt
+ 1474  ls
+ 1475  cd ..
+ 1476  ls
+ 1477  mkdir pointer
+ 1478  cd ../pointer
+ 1479  clr
+ 1480  cp ./../fs/main.c ./.
+ 1481  vim ./
+ 1482  cd pointer
+ 1483  gcc main.c
+ 1484  ./a.out
+ 1485  gcc main.c
+ 1486  ./a.out
+ 1487  ls
+ 1488  cd ..
+ 1489  ls
+ 1490  cd
+ 1491  cd Downloads
+ 1492  ks
+ 1493  ls
+ 1494  chmod u+x ./balenaEtcher-1.18.11-x64.AppImage
+ 1495  ./balenaEtcher-1.18.11-x64.AppImage
+ 1496  sudo apt-get install fuse libfuse2
+ 1497  ./balenaEtcher-1.18.11-x64.AppImage
+ 1498  ls
+ 1499  lsblk
+ 1500  ls
+ 1501  cdp
+ 1502  ls
+ 1503  cd brute-force-pass-lang-c
+ 1504  git add .
+ 1505  git commit -m "spec added"
+ 1506  git push
+ 1507  cd
+ 1508  clr
+ 1509  ls
+ 1510  cdp
+ 1511  ls
+ 1512  cd brute-force-pass-lang-c
+ 1513  ls
+ 1514  cd specs
+ 1515  ls
+ 1516  vim ./
+ 1517  cd ..
+ 1518  cd ../pcap-reader
+ 1519  ls
+ 1520  vim ./
+ 1521  cdp
+ 1522  ls
+ 1523  cd pcap-reader
+ 1524  ls
+ 1525  javac Application.java && java Application 
+ 1526  cat ./paquet-snap-truncated.txt
+ 1527  javac Application.java && java Application 
+ 1528  cat ./paquet-snap-truncated.txt
+ 1529  javac Application.java && java Application 
+ 1530  ls
+ 1531  ls /mnt
+ 1532  ls /mnt/data
+ 1533  history | grep mnt
+ 1534  sudo mount -t nfs 10.0.4.13:/home/user/Cours/ESIEA/Rappel_Res/NFS /mnt
+ 1535  ls /mnt
+ 1536  cd ..
+ 1537  ls 
+ 1538  cd COURS
+ 1539  ls
+ 1540  mkdir day08
+ 1541  cp -r /mnt/* ~/Workspace/COURS/day08/.
+ 1542  sudo unmount -t nfs 10.0.4.13:/home/user/Cours/ESIEA/Rappel_Res/NFS /mnt
+ 1543  sudo unmount -f /mnt
+ 1544  sudo unmount -f -l /mnt
+ 1545  cat /etc/nsswitch.conf
+ 1546  cat /etc/resolv.conf
+ 1547  cat /sys/block/CCCC
+ 1548  dig
+ 1549  dig f.root-servers.net
+ 1550  dig -t AAAA f.root-servers.net
+ 1551  dig -t AAAA google.ocm
+ 1552  dig -t AAAA google.com
+ 1553  dig -t AAAA esiea.com
+ 1554  dig -t A esiea.com
+ 1555  ws
+ 1556  dig -t A esiea.com
+ 1557  dig -t A amazon.fr
+ 1558  dig -t A amazon.com
+ 1559  dig -t amazon.com
+ 1560  dig -t amzndns.com
+ 1561  dig amazon.com
+ 1562  dig -t NS amazon.com
+ 1563  dig -t NS ns1.amzndns.co.uk
+ 1564  dig -t A ns1.amzndns.co.uk
+ 1565  dig -t NS paypal.com
+ 1566  dig -t A ns1.p57.dynect.net.
+ 1567  dig @108.59.161.57 -t A paypal.com
+ 1568  dig -t A paypal.com
+ 1569  dig @108.59.161.57 -t A paypal.com +dnssec
+ 1570  dig -x 108.59.161.57
+ 1571  dig -x 64.4.250.37
+ 1572  dig -t MX paypal.com
+ 1573  dig naptr.eff.org
+ 1574  la /mnt
+ 1575  la /mnt/data
+ 1576  sudo mount -t nfs 10.0.4.13:/home/user/Cours/ESIEA/Rappel_Res/NFS /mnt
+ 1577  la /mnt
+ 1578  cp -R /mnt/* ~/Workspace/COURS/day08
+ 1579  dig TLSA _443._tcp.nohast.ca +dnssec
+ 1580  dig TLSA _443._tcp.nohats.ca +dnssec
+ 1581  man ssh-keyscan
+ 1582  clr
+ 1583  man dig
+ 1584  clr
+ 1585  sudo unmount  /mnt
+ 1586  sudo apt-get install mount
+ 1587  sudo unmount  /mnt
+ 1588  sudo apt-get install unmount
+ 1589  sudo umount  /mnt
+ 1590  ip a
+ 1591  dhclient eno1
+ 1592  sudo dhclient eno1
+ 1593  ip link set eno1 down
+ 1594  sudo ip link set eno1 down
+ 1595  sudo ip link set eno1 up
+ 1596  sudo dhclient eno1
+ 1597  sudo ip link set eno1 down
+ 1598  sudo ip link set eno1 up
+ 1599  sudo ip link set eno1 down
+ 1600  sudo ip link set eno1 up
+ 1601  clr
+ 1602  cd 
+ 1603  cdp
+ 1604  ls
+ 1605  cd pcap-reader
+ 1606  ls
+ 1607  vim ./
+ 1608  cdp
+ 1609  cd pcap-reader
+ 1610  ls
+ 1611  javac Application.java && Application
+ 1612  javac Application.java && java Application
+ 1613  la /mnt
+ 1614  history | grep mnt
+ 1615  sudo mount -t nfs 10.0.4.13:/home/user/Cours/ESIEA/Rappel_Res/NFS /mnt
+ 1616  la /mnt
+ 1617  mkdir ~/Workspace/NFS_DAMIEN_GROS && cp -R /mnt/* ~/Workspace/NFS_DAMIEN_GROS/*
+ 1618  cp -R /mnt/* ~/Workspace/NFS_DAMIEN_GROS/*
+ 1619  cp -R /mnt/* ~/Workspace/NFS_DAMIEN_GROS/.
+ 1620  ls
+ 1621  cat paquet-snap-truncated.txt
+ 1622  ls 
+ 1623  code ./paquet-snap-truncated.txt
+ 1624  ws
+ 1625  cdp
+ 1626  cd pcap-reader
+ 1627  ls
+ 1628  rm ont-paquet-tcp.pcapng
+ 1629  ls
+ 1630  rm -f ont-paquet-tcp.pcapng
+ 1631  ls
+ 1632  hexdump one-tcp-paquet.pcap
+ 1633  hexdump one-tcp-paquet.pcap > one-tcp-hexdumped.txt
+ 1634  vim ./
+ 1635  history | grep hexdump
+ 1636  hexdump -C one-tcp-paquet.pcap
+ 1637  hexdump one-tcp-paquet.pcap
+ 1638  history | grep hexdump
+ 1639  man hexdump
+ 1640  vim ./
+ 1641  javac Application.java && java Application
+ 1642  javac Application.java && Application
+ 1643  javac Application.java && java Application 
+ 1644  ls
+ 1645  javac Application.java && java Application 
+ 1646  pwd
+ 1647  javac Application.java && java Application 
+ 1648  git add .
+ 1649  git commit -m "pcap readed as byte"
+ 1650  git push
+ 1651  git push -f
+ 1652  cd ..
+ 1653  cdc
+ 1654  git add .
+ 1655  git commit -m "cours reseau"
+ 1656  git push
+ 1657  cat ~/.zshrc
+ 1658  vim ~/.zshrc
+ 1659  cdp
+ 1660  cd pcap-reader
+ 1661  git pull
+ 1662  clr
+ 1663  cdc
+ 1664  ls
+ 1665  mkdir day09
+ 1666  ls
+ 1667  cd day09
+ 1668  ls
+ 1669  cdc
+ 1670  cd day09
+ 1671  ls ./../day7/
+ 1672  cp ./../day7/pointer/main.c ./.
+ 1673  ls
+ 1674  vim ./
+ 1675  gcc main.c
+ 1676  ./a.out
+ 1677  gcc main.c
+ 1678  ./a.out
+ 1679  clr
+ 1680  ls
+ 1681  mkdir pointerPart2
+ 1682  cp main.c ./pointerPart2/.
+ 1683  ls
+ 1684  ls pointerPart2
+ 1685  rm main.c
+ 1686  ls
+ 1687  cd pointerPart2
+ 1688  ls
+ 1689  gcc main.c
+ 1690  cd ..
+ 1691  vim ./
+ 1692  ls
+ 1693  cd pointerPart2
+ 1694  ls
+ 1695  ./a.out
+ 1696  clr
+ 1697  ls
+ 1698  mkdir malloc
+ 1699  cd malloc
+ 1700  ls
+ 1701  touch main.c
+ 1702  cd ../malloc
+ 1703  ls
+ 1704  rm main.c
+ 1705  cp ./../pointerPart2/main.c ./.
+ 1706  vim ./
+ 1707  gcc main.c
+ 1708  ./a.out
+ 1709  gcc main.c
+ 1710  ./a.out
+ 1711  htop
+ 1712  top
+ 1713  sudo apt-get install htop
+ 1714  htop
+ 1715  ./a.out
+ 1716  clr
+ 1717  cd ..
+ 1718  ls
+ 1719  sudo apt-get install valgrind
+ 1720  cd malloc
+ 1721  valgrind ./a.out
+ 1722  htop
+ 1723  s
+ 1724  ls
+ 1725  cdc
+ 1726  ls
+ 1727  cd day09
+ 1728  ks
+ 1729  ls
+ 1730  cp -r malloc mallocFree
+ 1731  cd mallocFree
+ 1732  vim ./
+ 1733  ls
+ 1734  cdc
+ 1735  cd day09
+ 1736  ls
+ 1737  cd mallocFree
+ 1738  gcc main.c
+ 1739  gcc main.c -g
+ 1740  valgrind ./a.out
+ 1741  valgrind ./a.out --leak-check=full
+ 1742  htop
+ 1743  man valgrind
+ 1744  valgrind ./a.out --leak-check=full -v
+ 1745  valgrind ./a.out --leak-check=full -v --track-origins=yes
+ 1746  valgrind --leak-check=full -v --track-origins=yes ./a.out
+ 1747  valgrind --leak-check=full -v --track-origins=yes ./a.out > info.txt
+ 1748  ls
+ 1749  vim info.txt
+ 1750  valgrind --leak-check=full -v --track-origins=yes ./a.out 
+ 1751  ls
+ 1752  cd ..
+ 1753  ls
+ 1754  cp -r mallocFreeDynamique
+ 1755  cp -r mallocFreeDynamique ./.
+ 1756  cp -r mallocFree ./mallocFreeDynamique
+ 1757  cd mallocFreeDynamique
+ 1758  l
+ 1759  vim ./
+ 1760  cd ./../mallocFreeDynamique/
+ 1761  ls
+ 1762  gcc main.c
+ 1763  clr
+ 1764  gcc main.c
+ 1765  ./a.out
+ 1766  gcc main.c
+ 1767  ./a.out
+ 1768  ./a.out 23
+ 1769  gcc main.c
+ 1770  ./a.out 23
+ 1771  ./a.out 23 23
+ 1772  gcc main.c
+ 1773  ./a.out 23 23
+ 1774  gcc main.c
+ 1775  ./a.out 23 23
+ 1776  gcc main.c
+ 1777  ./a.out 23 23
+ 1778  gcc main.c
+ 1779  ./a.out 23 23
+ 1780  gcc main.c
+ 1781  ./a.out 23 23
+ 1782  gcc main.c
+ 1783  ./a.out 23 23
+ 1784  ./a.out 2323
+ 1785  ./a.out 23 23
+ 1786  gcc main.c
+ 1787  ./a.out 23 23
+ 1788  ./a.out 2323
+ 1789  ./a.out 23
+ 1790  gcc main.c && ./a.out 23
+ 1791  gcc main.c && echo "_________" && ./a.out 23
+ 1792  ls
+ 1793  gcc main.c && echo "_________" && ./a.out 23
+ 1794  gcc main.c && echo "_________" && ./a.out "23"
+ 1795  gcc main.c && echo "_________" && ./a.out 23
+ 1796  gcc main.c && echo "_________" && ./a.out
+ 1797  ls
+ 1798  cd ..
+ 1799  ls
+ 1800  cp -r mallocFreeDynamique ./twoDimensonalArray
+ 1801  cd twoDimensonalArray
+ 1802  ls
+ 1803  rm info.txt
+ 1804  rm a.out
+ 1805  main ./
+ 1806  vim ./
+ 1807  cd ..
+ 1808  cd twoDimensonalArray
+ 1809  gcc main.c
+ 1810  ./a.out
+ 1811  gcc main.c
+ 1812  ./a.out
+ 1813  gcc main.c && ./a.out
+ 1814  gcc main.c && valgrind ./a.out
+ 1815  gcc main.c && ./a.out
+ 1816  gcc main.c && ./a.out > output.txt
+ 1817  vim output.txt
+ 1818  gcc main.c && ./a.out >> output.txt
+ 1819  vim output.txt
+ 1820  gcc main.c && ./a.out
+ 1821  cp -r mallocFreeDynamique ./.
+ 1822  gcc main.c && valgrind ./a.out
+ 1823  gcc main.c && ./a.out
+ 1824  cdc
+ 1825  ls
+ 1826  cd day09
+ 1827  ls
+ 1828  cp -r twoDimensonalArray ./threeDimensionalArray
+ 1829  cd threeDimensionalArray
+ 1830  ls
+ 1831  rm a.out
+ 1832  rm output.txt
+ 1833  cd ../threeDimensionalArray
+ 1834  vim ./
+ 1835  gcc main.c
+ 1836  ls
+ 1837  ./a.out
+ 1838  gcc main.c
+ 1839  ./a.out
+ 1840  gcc main.c && valgrind ./a.out
+ 1841  gcc main.c && ./a.out
+ 1842  OA
+ 1843  gcc main.c && ./a.out
+ 1844  gcc main.c && valgrind ./a.out
+ 1845  gcc main.c && valgrind ./a.out > result.txt
+ 1846  code result.txt
+ 1847  gcc main.c && valgrind ./a.out > result.txt
+ 1848  code result.txt
+ 1849  ls
+ 1850  cd ..
+ 1851  ls
+ 1852  cat main.c
+ 1853  cd ..
+ 1854  ls
+ 1855  mkdir struct
+ 1856  ls
+ 1857  cd struct
+ 1858  ls 
+ 1859  cp ./../threeDimensionalArray/main.c ./.
+ 1860  ls
+ 1861  vim ./
+ 1862  ls
+ 1863  vim ./
+ 1864  cd struct
+ 1865  ls
+ 1866  gcc main.c
+ 1867  gcc main.c ./a.out
+ 1868  ls
+ 1869  gcc main.c && ./a.out
+ 1870  ./a.out
+ 1871  gcc main.c && ./a.out
+ 1872  ./a.out
+ 1873  gcc main.c && ./a.out
+ 1874  gcc main.c && echo "_________" && ./a.out
+ 1875  cd ..
+ 1876  ls
+ 1877  cd ..
+ 1878  ls
+ 1879  git add .
+ 1880  git commit -m "C course, pointer, struct"
+ 1881  git push
+ 1882  gcc main.c && echo "_________" && valgrind ./a.out
+ 1883  cd day09
+ 1884  ls
+ 1885  cd struct
+ 1886  ls
+ 1887  gcc main.c && echo "_________" && valgrind ./a.out
+ 1888  gcc main.c && echo "_________" && ./a.out
+ 1889  code result.txt
+ 1890  gcc main.c && echo "_________" && ./a.out
+ 1891  clr
+ 1892  gcc main.c && echo "_________" && ./a.out
+ 1893  vim ~/.screenrc
+ 1894  clr
+ 1895  gcc main.c && echo "_________" && ./a.out
+ 1896  cdc
+ 1897  cd day09
+ 1898  ls
+ 1899  cd struct
+ 1900  ls
+ 1901  vim ./
+ 1902  clr
+ 1903  gcc main.c && echo "_________" && ./a.out
+ 1904  cdc
+ 1905  cd day09
+ 1906  ls
+ 1907  cd struct
+ 1908  ls
+ 1909  gcc main.c && echo "_________" && ./a.out
+ 1910  gcc main.c && echo "_________" && ./a.out > result.txt
+ 1911  vim ./result.txt
+ 1912  vim ~/.screenrc 
+ 1913  clr
+ 1914  ls
+ 1915  cdc
+ 1916  cd day09
+ 1917  ls
+ 1918  cd struct
+ 1919  ls
+ 1920  vim ./
+ 1921  cdc
+ 1922  cd day09
+ 1923  cd struct
+ 1924  ls
+ 1925  gcc main.c && echo "_________" && ./a.out
+ 1926  gcc main.c && echo "_________" && valgrind ./a.out
+ 1927  cd ..
+ 1928  ls
+ 1929  git add .
+ 1930  git commit -m "struct with chained list"
+ 1931  git push
+ 1932  cdc
+ 1933  ls
+ 1934  mkdir day10
+ 1935  cd day
+ 1936  cd day10
+ 1937  ls
+ 1938  cdc
+ 1939  git add .
+ 1940  git commit -m "struct and chained list"
+ 1941  cd day10
+ 1942  ls
+ 1943  la
+ 1944  cd ..:
+ 1945  cd ..
+ 1946  ls
+ 1947  cd day08
+ 1948  ls
+ 1949  cd ../day7
+ 1950  ls
+ 1951  cd ../day06
+ 1952  ls
+ 1953  cd qt
+ 1954  ls
+ 1955  ls -la
+ 1956  cd ..
+ 1957  cd ../day10
+ 1958  ls
+ 1959  vim ./qt-info.txt
+ 1960  ls
+ 1961  history | grep venv
+ 1962  python3 -m venv venv
+ 1963  ls
+ 1964  python3 ./venv/bin/activate
+ 1965  source ./venv/bin/activate
+ 1966  deactivate
+ 1967  ls
+ 1968  cd ./../day06
+ 1969  ls
+ 1970  cd qt
+ 1971  ls
+ 1972  touch 03.py
+ 1973  source ./venv/bin/activate
+ 1974  deactivate
+ 1975  vim ./
+ 1976  cd ./../day06
+ 1977  cd qt
+ 1978  ls
+ 1979  source ./venv/bin/activate
+ 1980  python3 03.py
+ 1981  cat ./02.py
+ 1982  vim ./02.py
+ 1983  python3 03.py
+ 1984  ./venv/bin/python3 03.py
+ 1985  vim ./
+ 1986  ./venv/bin/python3 03.py
+ 1987  vim ./
+ 1988  ./venv/bin/python3 03.py
+ 1989  python3 03.py
+ 1990  ./venv/bin/python3 03.py
+ 1991  vim ./
+ 1992  ./venv/bin/python3 03.py
+ 1993  vim ./
+ 1994  clr
+ 1995  sudo apt install neovim
+ 1996  neovim ./
+ 1997  which nvim
+ 1998  nvim
+ 1999  ls
+ 2000  nvim ./
+ 2001  clr
+ 2002  ls
+ 2003  ls -la ~/.
+ 2004  ls
+ 2005  source ./venv/bin/activate
+ 2006  ./venv/bin/pip install pyqt6-tools
+ 2007  pip install pyqt6-tools
+ 2008  pyqt6-tools
+ 2009  ./venv/bin/pip3 install pyqt6-tools
+ 2010  ls
+ 2011  cd venv
+ 2012  ls
+ 2013  vim pyvenv.cfg
+ 2014  clr
+ 2015  ls
+ 2016  la
+ 2017  cd bin
+ 2018  ls
+ 2019  la
+ 2020  vim pip3
+ 2021  cdc
+ 2022  cd day06
+ 2023  ls
+ 2024  cd qt
+ 2025  ls
+ 2026  pwd
+ 2027  clr
+ 2028  ls
+ 2029  cd ..
+ 2030  ls
+ 2031  ./venv/bin/pip3 install pyqt6-tools
+ 2032  pyqt6-tools designer
+ 2033  pyqt6-tools
+ 2034  sudo apt install qttools5-dev-tools
+ 2035  qttools5-dev-tools
+ 2036  ls
+ 2037  cp 03.py 04.py
+ 2038  vim 04.py
+ 2039  ls
+ 2040  ./venv/bin/python3 04.py 
+ 2041  ls
+ 2042  ./venv/bin/python3 04.py 
+ 2043  ./venv/bin/pip install pyinstaller 
+ 2044  vim ./venv/bin/pip 
+ 2045  ./venv/bin/pip install pyinstaller 
+ 2046  ./venv/bin/pyinstaller --noconsole --onfile 05.py
+ 2047  ls
+ 2048  ./venv/bin/pyinstaller --noconsole --onefile 05.py
+ 2049  ./venv/bin/pyinstaller --noconsole --onefile 03.py
+ 2050  pyside6-uic ./designXML.ui > ui_widget.py
+ 2051  ./venv/bin/pyside6-uic ./designXML.ui > ui_widget.py
+ 2052  ./venv/bin/pyside6-uic designXML.ui > designXML.py
+ 2053  vim ./venv/bin/pyside6-uic
+ 2054  ./venv/bin/pyside6-uic designXML.ui > designXML.py
+ 2055  vim designXML.py
+ 2056  qttools5-dev-tools
+ 2057  ls
+ 2058  touch scraping.py
+ 2059  vim ./scraping.py
+ 2060  ls
+ 2061  cd 
+ 2062  cdc
+ 2063  cd day06/qt
+ 2064  ls
+ 2065  source ./venv/bin/activate
+ 2066  ./venv/bin/python3 scraping.py
+ 2067  ./venv/bin/pip install request
+ 2068  ./venv/bin/pip3 install request
+ 2069  ./venv/bin/pip3 install requests
+ 2070  ./venv/bin/python3 scraping.py
+ 2071  ./venv/bin/pip3 install bs4
+ 2072  ./venv/bin/python3 scraping.py
+ 2073  ls
+ 2074  code scraping.py
+ 2075  cd ..
+ 2076  cdp
+ 2077  ls
+ 2078  mkdir file-analyser
+ 2079  cd file-analyser
+ 2080  ls
+ 2081  touch sujet
+ 2082  code sujet
+ 2083  ls
+ 2084  cdc
+ 2085  ls
+ 2086  cd day06
+ 2087  ls
+ 2088  cd qt
+ 2089  ls
+ 2090  ./venv/bin/python3 designXML.py
+ 2091  ls
+ 2092  vim designXML.py
+ 2093  ./venv/bin/python3 designXML.py
+ 2094  vim designXML.py
+ 2095  ./venv/bin/python3 designXML.py
+ 2096  cd ..
+ 2097  cd day09
+ 2098  ls
+ 2099  cd struct
+ 2100  ls
+ 2101  vim ./
+ 2102  ls
+ 2103  cd Downloads
+ 2104  ls
+ 2105  sudo apt install ./google-chrome-stable_current_amd64.deb
+ 2106  cdc
+ 2107  git add .
+ 2108  git commit -m "cours lang C"
+ 2109  git push
+ 2110  ls
+ 2111  clr
+ 2112  cd ../../day10-C
+ 2113  clr
+ 2114  cd
+ 2115  deactivate
+ 2116  ls
+ 2117  deactivate
+ 2118  ls
+ 2119  exit
+ 2120  deactivate
+ 2121  exit
+ 2122  ls
+ 2123  clr
+ 2124  ls
+ 2125  sudo snap install intellij-idea-community --classic
+ 2126  sl
+ 2127  ls
+ 2128  cd ..
+ 2129  ls
+ 2130  cd day10-C/makeFile
+ 2131  cd day10-C/db-chained-list
+ 2132  gcc main.c
+ 2133  ./a.out
+ 2134  gcc main.c && ./a.out
+ 2135  cd
+ 2136  cdc
+ 2137  git add .
+ 2138  git commit -m "makefile"
+ 2139  git push
+ 2140  wmic printer list brief
+ 2141  cdp
+ 2142  cd pcap-reader
+ 2143  ls
+ 2144  git pull
+ 2145  javac ./*.java && java Application
+ 2146  javac ./*.java && java Application > result.txt
+ 2147  ls
+ 2148  cdc
+ 2149  mkdir lang_C
+ 2150  mkdir lang_python
+ 2151  mkdir lang_java
+ 2152  cd lang_
+ 2153  cd lang_C
+ 2154  mkdir binaryTree
+ 2155  cd binaryTree
+ 2156  cp ./../../day10-C/db-chained-list/main.c ./.
+ 2157  ls
+ 2158  vim ./
+ 2159  cdc
+ 2160  cd lang_C/binaryTree
+ 2161  ls
+ 2162  gcc main.c
+ 2163  gcc main.c && ./a.out
+ 2164  cat ./../../day10-C/db-chained-list/main.c
+ 2165  less ./../../day10-C/db-chained-list/main.c
+ 2166  ls
+ 2167  gcc main.c
+ 2168  gcc main.c && ./a.out
+ 2169  ls
+ 2170  rm a.out
+ 2171  gcc main.c && ./a.out
+ 2172  less ./../../day10-C/db-chained-list/main.c
+ 2173  gcc main.c && ./a.out
+ 2174  rm a.out
+ 2175  gcc main.c && ./a.out
+ 2176  mkdir lang_java
+ 2177  ls
+ 2178  rm lang_java
+ 2179  rm -rf lang_java
+ 2180  gcc main.c && ./a.out
+ 2181  javac ./*.java && java Application > result.txt
+ 2182  LS
+ 2183  S
+ 2184  _zypper ls
+ 2185  ls
+ 2186  cd
+ 2187  cdc
+ 2188  ls
+ 2189  git add .
+ 2190  git commit -m "modify directory structure"
+ 2191  git push
+ 2192  history
+ 2193  history > my-history
+ 2194  ls
+ 2195  cat ~/.zshrc
+ 2196  code ~/.zshrc
+ 2197  javac ./*.java && java Application > result.txt
+ 2198  git add .
+ 2199  git commit -m "new structure"
+ 2200  gitpush
+ 2201  cdp
+ 2202  cd pcap-reader
+ 2203  lks
+ 2204  ls
+ 2205  git add .
+ 2206  git commit -m "Keep byte buffer for payload of ethernetPacket, will know check if it's IP or ARP packet inside"
+ 2207  git push
+ 2208  javac ./*.java && java Application > result.txt
+ 2209  git add .
+ 2210  git commit -m "keep rawPayload, should check ip or arp packet"
+ 2211  git push
+ 2212  cd ../brute-force-pass-lang-c
+ 2213  git add .
+ 2214  git commit -m "updated specs"
+ 2215  git push
+ 2216  cdp
+ 2217  cd pcap-reader
+ 2218  git pull
+ 2219  ls
+ 2220  javac -d target src/**/*.java && java -cp target Application > result.txt
+ 2221  history | grep 2>
+ 2222  history | grep >>
+ 2223  history | grep 2
+ 2224  history
+ 2225  history > myhisto
+ 2226  ls -R /etc 1> FILE.TXT  2>> FILE.TXT
+ 2227  ls -R /etc 
+ 2228  >&2 echo "error"
+ 2229  cat stdout.txt
+ 2230  htop
+ 2231  ls /root
+ 2232  ls /root && echo "ok"
+ 2233  echo "ok" && ls /root
+ 2234  echo "ok" && ls /root &2>1 ./FILE.TXT
+ 2235  cat ./FILE.TXT
+ 2236  echo "" > FILE.TXT
+ 2237  cat FILE.TXT
+ 2238  echo "ok" && ls /root &2>1 ./FILE.TXT
+ 2239  cat FILE.TXT
+ 2240  echo "ok" && ls /root 2&>1 ./FILE.TXT
+ 2241  cat ./FILE.TXT œ
+ 2242  ls
+ 2243  cat 1
+ 2244  echo "ok" && ls /root 2>&1 ./FILE.TXT
+ 2245  cat FILE.TXT
+ 2246  echo "ok" && ls /root 2>1> ./FILE.TXT
+ 2247  echo "ok" && ls /root 2>&1 ./FILE.TXT
+ 2248  ls
+ 2249  rm FILE.TXT
+ 2250  echo "ok" && ls /root 2>&1 ./FILE.TXT
+ 2251  ls
+ 2252  echo "ok" && ls /root 2&1> ./FILE.TXT
+ 2253  echo "ok" && ls /root 21> ./FILE.TXT
+ 2254  echo "ok" && ls /root 2>&1 > ./FILE.TXT
+ 2255  cat FILE.TXT
+ 2256  rm FILE.TXT
+ 2257  echo "ok" && ls /root 2>&1 > ./FILE.TXT
+ 2258  cat FILE.TXT
+ 2259  ls /root 2>&1 > ./FILE.TXT
+ 2260  cmd
+ 2261  ls -R /etc 2>&1 > ./FILE.TXT
+ 2262  ls -R /etc
+ 2263  ls -R /etc > FILE.TXT 2>&1
+ 2264  ls -R /etc 1> FILE.TXT  2>&1 FILE.TXT
+ 2265  ls -R /etc 2> FILE.TXT  1>&2 FILE.TXT
+ 2266  ls &> FILE.TXT 
+ 2267  ls -R &> FILE.TXT 
+ 2268  ls -R &> ./FILE.TXT 
+ 2269  ls -R /etc &> ./FILE.TXT 
+ 2270  man sort
+ 2271  cp FILE.TXT ./FILE2.TXT
+ 2272  ls
+ 2273  sort ./FILE.TXT ./FILE2.TXT
+ 2274  ls -R /etc &> ./FILE.TXT 
+ 2275  sort ./FILE.TXT 
+ 2276  sort ./FILE.TXT > FILE2.TXT
+ 2277  sort > FILE2.TXT
+ 2278  ls -R /etc | sort &> FILE2.TXT 
+ 2279  ls -R /etc | sort | &> FILE2.TXT 
+ 2280  ls -R /etc | sort | 2>&1 FILE2.TXT 
+ 2281  ls -R /etc &> | sort &> FILE2.TXT 
+ 2282  ls -R /etc &> | sort > FILE2.TXT 
+ 2283  ls -R /etc &> echo | sort > FILE2.TXT 
+ 2284  ls -R /etc 2>&1 echo | sort > FILE2.TXT 
+ 2285  man uniq
+ 2286  man sort
+ 2287  more FILE2.TXT
+ 2288  cat file | more
+ 2289  cat FILE2.TXT | more
+ 2290  man more
+ 2291  man args
+ 2292  man xargs
+ 2293  ls
+ 2294  touch script.py
+ 2295  vim script.py
+ 2296  python script.py
+ 2297  python3 script.py
+ 2298  vim script.py
+ 2299  python3 script.py
+ 2300  vim script.py
+ 2301  python3 script.py | xargs
+ 2302  ls
+ 2303  python3 script.py
+ 2304  vim script.py
+ 2305  python3 script.py
+ 2306  python3 script.py | xargs
+ 2307  ls
+ 2308  ls /
+ 2309  ls
+ 2310  man xargs
+ 2311  xargs | python3 script.py
+ 2312  ls
+ 2313  man xargs
+ 2314  vim script.py
+ 2315  ./script.py
+ 2316  chmod +x ./script.py
+ 2317  ./script.py
+ 2318  vim script.py
+ 2319  ./script.py
+ 2320  ./script.py | xargs mkdir
+ 2321  ls
+ 2322  ./script.py | xargs rmdir
+ 2323  ls
+ 2324  vim script.py
+ 2325  ./script.py | xargs mkdir
+ 2326  ls
+ 2327  ./script.py | xargs rmdir
+ 2328  ls
+ 2329  ./script.py | xargs -- mkdir
+ 2330  ls
+ 2331  ./script.py | xargs -- rmdir
+ 2332  l
+ 2333  ./script.py | xargs -0 mkdir
+ 2334  ls
+ 2335  vim script.py
+ 2336  ./script.py | xargs -0 mkdir
+ 2337  vim script.py
+ 2338  ./script.py | xargs -0 mkdir
+ 2339  vim script.py
+ 2340  ./script.py | xargs -0 mkdir
+ 2341  vim script.py
+ 2342  ./script.py | xargs -0 mkdir
+ 2343  ls
+ 2344  ./script.py | xargs -0 rmdir
+ 2345  ls
+ 2346  vim script.py
+ 2347  ./script.py | xargs -0 mkdir
+ 2348  ls
+ 2349  ./script.py | xargs -0 rmdir
+ 2350  ./script.py | xargs -0 mkdir --
+ 2351  ls
+ 2352  ./script.py | xargs -0 rmdir
+ 2353  ls
+ 2354  cat echo
+ 2355  ls
+ 2356  rm echo
+ 2357  ls -la
+ 2358  cat stdout.txt
+ 2359  rm stdout.txt
+ 2360  rm FILE2.TXT
+ 2361  rm FILE.TXT 
+ 2362  ls
+ 2363  ./script.py | xargs -0 rmdir
+ 2364  ./script.py | xargs -0 mkdir
+ 2365  ls
+ 2366  la
+ 2367  ./script.py | xargs -0 rmdir
+ 2368  cd ..
+ 2369  ls
+ 2370  cd ../COURS/
+ 2371  ls
+ 2372  mkdir unix
+ 2373  cd unix
+ 2374  ls
+ 2375  mv ./../../PROJECTS/pcap-reader/script.py ./.
+ 2376  ls
+ 2377  echo "test" > echoout.txt
+ 2378  cat echoout.txt
+ 2379  man tee
+ 2380  cat echoout.txt | tee echofile.txt
+ 2381  cat echofile.txt
+ 2382  cat echoout.txt >> tee echofile2.txt
+ 2383  cat echoout.txt > tee echofile2.txt
+ 2384  tee >> echofile.txt
+ 2385  ls /dev/null
+ 2386  ls /dev/
+ 2387  la /dev/
+ 2388  man dd
+ 2389  htop
+ 2390  yes
+ 2391  bg %1
+ 2392  htop
+ 2393  yes
+ 2394  bg %1
+ 2395  fg %1
+ 2396  evince ./Workspace/COURS/lang_C/2023_Révisions\ C_1.pdf
+ 2397  bg %1
+ 2398  fg %1
+ 2399  bg %2
+ 2400  fg %2
+ 2401  evince ./Workspace/COURS/lang_C/2023_Révisions\ C_1.pdf
+ 2402  kill %2
+ 2403  kill %1
+ 2404  fg %3
+ 2405  jobs
+ 2406  evince ./Workspace/COURS/lang_C/2023_Révisions\ C_1.pdf
+ 2407  jobs
+ 2408  vim ./
+ 2409  clr
+ 2410  vim ./
+ 2411  ps
+ 2412  ps aux
+ 2413  ps faux
+ 2414  clone exec ve
+ 2415  jobs
+ 2416  top
+ 2417  ps
+ 2418  ps aux
+ 2419  top
+ 2420  top -M
+ 2421  top M
+ 2422  man top
+ 2423  tom
+ 2424  toM
+ 2425  topM
+ 2426  top M
+ 2427  top -M
+ 2428  top --M
+ 2429  top -M
+ 2430  htop -M
+ 2431  htop -P
+ 2432  cat
+ 2433  javac -d target src/**/*.java && java -cp target Application > result.txt
+ 2434  ip a
+ 2435  ws
+ 2436  ip a
+ 2437  javac -d target src/**/*.java && java -cp target Application > result.txt
+ 2438  echo "jjfj"
+ 2439  echo "i am a $USER"
+ 2440  echo 'i am a $USER'
+ 2441  uname -a
+ 2442  uname -r
+ 2443  ls /lib/modules
+ 2444  ls -a /lib/modules
+ 2445  ls -la /lib/modules
+ 2446  cd /lib/modules/6.2.0-34-generic/ls
+ 2447  cd /lib/modules/6.2.0-34-generic/
+ 2448  ls
+ 2449  cd /
+ 2450  cd /lib/modules/`uname -r`
+ 2451  cd /lib/modules/$(uname -r)
+ 2452  cd /
+ 2453  cd /lib/modules/$(uname -r)
+ 2454  time cd /lib/modules/$(uname -r)
+ 2455  cd /
+ 2456  time cd /lib/modules/$(uname -r)
+ 2457  time ls 
+ 2458  ls 
+ 2459  ls ls
+ 2460  sleep 3
+ 2461  time sleep 3
+ 2462  time sleep 5
+ 2463  time ls -R /etc
+ 2464  time sleep 5
+ 2465  bash
+ 2466  sh
+ 2467  man time
+ 2468  export tooto=toto
+ 2469  echo $tooto
+ 2470  tooto=toto
+ 2471  echo $tooto
+ 2472  echo tooto
+ 2473  echo $tooto
+ 2474  LANG=Z man ls
+ 2475  LANG=P man ls
+ 2476  LANG=A man ls
+ 2477  echo $PATH
+ 2478  editzsh
+ 2479  echo $PATH | wc
+ 2480  initzsh
+ 2481  echo $PATH
+ 2482  editzsh
+ 2483  initzsh
+ 2484  java -V
+ 2485  java -v
+ 2486  java --version
+ 2487  editzsh
+ 2488  echo $EDITOR
+ 2489  editzsh
+ 2490  echo $EDITOR
+ 2491  initzsh
+ 2492  echo $EDITOR
+ 2493  crontab -e
+ 2494  clr
+ 2495  strings
+ 2496  strings ./mssis_res_schema.pdf
+ 2497  cdp
+ 2498  ls
+ 2499  cd pcap-reader
+ 2500  ls
+ 2501  cd resources
+ 2502  ls
+ 2503  strings ./one-arp-request-packet.pcap
+ 2504  strings ./one-tcp-packet-ubuntu-perso.pcap
+ 2505  env
+ 2506  set
+ 2507  man set
+ 2508  set man
+ 2509  man env
+ 2510  man zsh
+ 2511  ls /proc/self
+ 2512  ls /proc/self/environ
+ 2513  cat /proc/self/environ
+ 2514  cat /proc/self/environ | grep PATH
+ 2515  cat /proc/self/environ
+ 2516  cat /proc/self/environ | less
+ 2517  su root
+ 2518  which vim
+ 2519  clr
+ 2520  whereis vim
+ 2521  which vim
+ 2522  man which
+ 2523  which -a vim
+ 2524  cd
+ 2525  touch whereistrash
+ 2526  vim whereistrash
+ 2527  ls -la
+ 2528  cat .profile
+ 2529  vim whereistrash
+ 2530  ls
+ 2531  chmod +x ./whereistrash
+ 2532  vim whereistrash
+ 2533  \t:q
+ 2534  history
+ 2535  echo toto
+ 2536  history
+ 2537  set +o history
+ 2538  unset HISTFILE
+ 2539  cd
+ 2540  cdc
+ 2541  ls
+ 2542  cd unix
+ 2543  ls
+ 2544  dd if=/dev/zero of=./test.dd count=1
+ 2545  du -h ./test.dd
+ 2546  la
+ 2547  df /.
+ 2548  df / -s
+ 2549  df / -h
+ 2550  man dd
+ 2551  dd if=/dev/zero of=./test.dd count=1 seek=1000000000
+ 2552  la
+ 2553  dd if=/dev/zero of=./test.dd count=1 seek=100000000000
+ 2554  dd if=/dev/zero of=./test.dd count=1 seek=10000000000
+ 2555  la
+ 2556  ls
+ 2557  la
+ 2558  rm test.dd
+ 2559  la
+ 2560  vim test.txt
+ 2561  cat test.txt | gzip - > file.gz
+ 2562  ls
+ 2563  vim file.gz
+ 2564  ls
+ 2565  la
+ 2566  ls -la
+ 2567  cat test.txt >> test.txt
+ 2568  cat test.txt >> test2.txt
+ 2569  ls
+ 2570  la
+ 2571  yes >> test.txt
+ 2572  cat test2.txt
+ 2573  cat test2.txt | gzip - > file.gz
+ 2574  la
+ 2575  cat file.gz
+ 2576  la
+ 2577  la -
+ 2578  tar -cf etc.tar /etc
+ 2579  la
+ 2580  du -s /etc
+ 2581  tar -cf test2.txt
+ 2582  tar -cf test2.txt test2.tar
+ 2583  tar -cf ./test2.txt test2.tar
+ 2584  tar cf ./test2.txt test2.tar
+ 2585  tar -cf ./test2.tar ./test2.txt
+ 2586  la
+ 2587  gzip -k ./test2.txt
+ 2588  la
+ 2589  cat test2.txt.gz
+ 2590  man tar
+ 2591  hexdump -C test2.tar | less
+ 2592  hexdump -C test2.tar | more
+ 2593  ls
+ 2594  gzip -k test2.tar
+ 2595  la
+ 2596  bzip2 -k test2.tar
+ 2597  la
+ 2598  man bzip2
+ 2599  bzip2 -kxz test2.tar
+ 2600  bzip2 -k -xz test2.tar
+ 2601  bzip2 -xz test2.tar
+ 2602  la
+ 2603  bzip2 -xz ./test2.tar
+ 2604  xz ./test2.tar
+ 2605  ls
+ 2606  la
+ 2607  man xz
+ 2608  tar -cf test2.txt test2.tar
+ 2609  la
+ 2610  tar cf ./test2.txt ./test2.tar
+ 2611  tar cf ./test2.txt 
+ 2612  tar -cf ./test2.txt 
+ 2613  tar -cf ./test2.txt ./test2.tar
+ 2614  la
+ 2615  history
+ 2616  tar -cf test2.txt
+ 2617  man tar
+ 2618  tar cf test2.txt
+ 2619  tar cf test2.tar test2.txt
+ 2620  la
+ 2621  man gunzip
+ 2622  la
+ 2623  tar cf etc.tar /etc
+ 2624  la
+ 2625  gzip -k etc.tar
+ 2626  bzip2 -k etc.tar
+ 2627  xz -k etc.tar
+ 2628  la
+ 2629  man curl
+ 2630  man zip
+ 2631  ls
+ 2632  man zip
+ 2633  l
+ 2634  cp test2.txt test3.txt 
+ 2635  zip test3.txt
+ 2636  zip /etc
+ 2637  ls
+ 2638  man zip
+ 2639  zip -r etc.zip /etc
+ 2640  ls
+ 2641  la
+ 2642  du -h /etc
+ 2643  du -sh /etc
+ 2644  la
+ 2645  man zip
+ 2646  ls /
+ 2647  ls -la /
+ 2648  cd /etc/alternatives
+ 2649  ls
+ 2650  la
+ 2651  man tar
+ 2652  ma, ssh-keygen
+ 2653  man ssh-keygen
+ 2654  cat ~/.ssh/known_hosts
+ 2655  date
+ 2656  man bc
+ 2657  bc
+ 2658  cdc
+ 2659  cd unix
+ 2660  mkdir exo01
+ 2661  cd exo01
+ 2662  mkdir v0
+ 2663  cd v0
+ 2664  cp ./../../script.py ./.
+ 2665  ls
+ 2666  cd ../
+ 2667  cp v0 v1
+ 2668  ls
+ 2669  cp -r v0 v1
+ 2670  vim v1/script.py
+ 2671  cd ..
+ 2672  ls
+ 2673  cd exo01
+ 2674  ls
+ 2675  diff -ru v0 v1
+ 2676  diff -ru v0 v1 > file.patch
+ 2677  cd v0
+ 2678  patch -p1 <../file.patch
+ 2679  cat script.py
+ 2680  man patch
+ 2681  patch -R <../file.patch
+ 2682  cat script.py
+ 2683  patch -p1 <../file.patch
+ 2684  patch -R <../file.patch
+ 2685  cat script.py
+ 2686  patch -R <../file.patch
+ 2687  cat script.py
+ 2688  find /bin -type f -perm -4000 -ls
+ 2689  find /bin -R -type f -perm -4000 -ls
+ 2690  find /bin -typef -perm -4000 -ls
+ 2691  find /bin -type f -perm -4000 -ls
+ 2692  find -R /bin -type f -perm -4000 -ls
+ 2693  find -r /bin -type f -perm -4000 -ls
+ 2694  find /bin/ -type f -perm -4000 -ls
+ 2695  find /bin/ -type f -perm -2000 -ls
+ 2696  find /bin/ -type f -perm -1000 -ls
+ 2697  find /bin/ -type f -perm -5000 -ls
+ 2698  find /bin/ -type f -perm -4000 -ls
+ 2699  find /bin/ -type f -perm -1000 -ls
+ 2700  find /bin/ -type f -perm -2000 -ls
+ 2701  find /bin/ -type f -perm -6000 -ls
+ 2702  find /bin/ -type f -perm -4000 -ls
+ 2703  find /bin/ -type f -perm -2000 -ls
+ 2704  find /bin/ -type f -perm -6000 -ls
+ 2705  find /bin/ -type f -perm -0000 -ls
+ 2706  find /bin/ -type f -perm -2000 -ls
+ 2707  find /bin/ -type f -perm -4000 -ls
+ 2708  find /bin/ -type f -o -perm -2000 -ls
+ 2709  find /bin/ -type f -perm -4000 -o -perm -2000 -ls
+ 2710  find /bin/ -type f -perm -4000 -ls -o -perm -2000 -ls
+ 2711  v -size +10m
+ 2712  v -size +10 m
+ 2713  v -size +10 n
+ 2714  ~ -size +10n
+ 2715  sudo ~ -size +10n
+ 2716  sudo ~ -size +10 n
+ 2717  sudo ~ -size +10n
+ 2718  sudo ~ -size +10m
+ 2719  sudo ~ -size +10M
+ 2720  find ~ -size +10M
+ 2721  who
+ 2722  whoami
+ 2723  id
+ 2724  who
+ 2725  w
+ 2726  wget -N https://google.com
+ 2727  ls
+ 2728  cat index.html
+ 2729  wget -N https://google.com
+ 2730  clr
+ 2731  man wc
+ 2732  wc
+ 2733  date
+ 2734  cal
+ 2735  calendar
+ 2736  grep -r number ./
+ 2737  man grep
+ 2738  ssh admin@10.0.4.9
+ 2739  cat ~/.ssh/known_hosts
+ 2740  ssh root@10.0.4.9
+ 2741  ssh grenier@10.0.4.9
+ 2742  ssh admin@10.0.4.9
+ 2743  ssh authorized@10.0.4.9
+ 2744  vim ~/.ssh/known_hosts
+ 2745  cap ~/.ssh/known_hosts ~/.ssh/known_hosts_old_old
+ 2746  cp ~/.ssh/known_hosts ~/.ssh/known_hosts_old_old
+ 2747  rm ~/.ssh/known_hosts
+ 2748  ssh root@10.0.4.9
+ 2749  ssh root@10.0.4.9:12221
+ 2750  ssh root@10.0.4.9 -p 12221
+ 2751  ssh ctf@10.0.4.9 -p 12221
+ 2752  ssh root@10.0.4.9 -p 12222
+ 2753  ssh names@10.0.4.9 -p 12222
+ 2754  cat ~/.ssh/known_hosts 
+ 2755  ssh names@10.0.4.9 -p 12223
+ 2756  ssh -v
+ 2757  ssh -V
+ 2758  ls
+ 2759  cd ..
+ 2760  ls
+ 2761  mkdir ctf
+ 2762  cd ctf
+ 2763  ls
+ 2764  wget -m http://10.0.4.9:8000/
+ 2765  ls
+ 2766  cd 10.0.4.9:8000
+ 2767  ls
+ 2768  cd ..
+ 2769  ssh root@10.0.4.9 -p 12224
+ 2770  cat ls
+ 2771  ls
+ 2772  mkdir new
+ 2773  cd new
+ 2774  wget -m http://10.0.4.9:8000/
+ 2775  ls
+ 2776  ssh root@10.0.4.9 -p 12228
+ 2777  ssh user@10.0.4.9 -p 12228
+ 2778  sshpass
+ 2779  apt get-install sshpass
+ 2780  apt-get install sshpass
+ 2781  sudo apt-get install sshpass
+ 2782  shpass -p easyssh ssh ctf@10.0.4.9 -p 12228
+ 2783  sshpass -p easyssh ssh ctf@10.0.4.9 -p 12228
+ 2784  sshpass -p 'easyssh' ssh ctf@10.0.4.9 -p 12228
+ 2785  ssh ctf@10.0.4.9 -p 12228
+ 2786  sftp ctf@10.0.4.9 -p 12228
+ 2787  cd
+ 2788  cdc
+ 2789  ls
+ 2790  git add .
+ 2791  git commit -m "add unix cours"
+ 2792  git push
+ 2793  cd unix
+ 2794  ls
+ 2795  ls -la
+ 2796  ls -lah
+ 2797  rm test.txt
+ 2798  cd ..
+ 2799  git add .
+ 2800  git commit -m "Remove large file"
+ 2801  git push
+ 2802  ls
+ 2803  ls -a unix
+ 2804  ls -la ./unix
+ 2805  git push -f
+ 2806  ls
+ 2807  cd unix
+ 2808  ls -lah
+ 2809  git reset unix/test.txt
+ 2810  cd ..
+ 2811  git reset ./unix/test.txt
+ 2812  git rm --cached unix/test.txt
+ 2813  git reset unix/test.txt
+ 2814  git reset HEAD~
+ 2815  ls
+ 2816  cd unix
+ 2817  ls
+ 2818  ls -la
+ 2819  cd ..
+ 2820  git add .
+ 2821  git commit -m "unix course"
+ 2822  git push
+ 2823  git reset HEAD~
+ 2824  git reset
+ 2825  git status
+ 2826  git add
+ 2827  git add .
+ 2828  git commit -a
+ 2829  ls
+ 2830  cdc
+ 2831  cd unix
+ 2832  ls
+ 2833  ls -la
+ 2834  ls -lah
+ 2835  git add .
+ 2836  git commit -m "delete large file"
+ 2837  git push
+ 2838  cd ..
+ 2839  git log
+ 2840  git status
+ 2841  ls
+ 2842  git reset ./unix/test.txt
+ 2843  git status
+ 2844  git add .
+ 2845  htop
+ 2846  cd
+ 2847  cd  Workspace
+ 2848  git clone git@github.com:korgrunt/COURS.git
+ 2849  cd COURS_olg/unix
+ 2850  ls
+ 2851  ls -lah
+ 2852  cd ..
+ 2853  cd ../COURS
+ 2854  ls
+ 2855  git add .
+ 2856  git commit -m "unix cours"
+ 2857  git push
+ 2858  cdp
+ 2859  cd pcap-reader
+ 2860  ls
+ 2861  ls -la
+ 2862  git pull
+ 2863  ls
+ 2864  git add .
+ 2865  git commit -m "Add idea in gitignore"
+ 2866  git push
+ 2867  git add .
+ 2868  git commit -m "Add idea in gitignore for real"
+ 2869  git pusll
+ 2870  git pull
+ 2871  history | grep nfs
+ 2872  bc
+ 2873  ws
+ 2874  history
+ 2875  history | grep ip
+ 2876  sudo ip link set eno1 down
+ 2877  sudo ip link set eno1 up
+ 2878  sudo apt-get install lynx
+ 2879  lynx google.com
+ 2880  clr
+ 2881  hisotry | grep mnt
+ 2882  history | grep mnt
+ 2883  sudo mount -t nfs 10.0.4.13:/home/user/Cours/ESIEA/Rappel_Res/NFS /mnt
+ 2884  cp -r /mnt ~/Workspace/COURS/reseaux/mnt2/.
+ 2885  ls
+ 2886  cdc
+ 2887  hsyncpush
+ 2888  cdc
+ 2889  git add .
+ 2890  git commit -m "new file from mnt network course"
+ 2891  git push
+ 2892  lynx www.esiea.com
+ 2893  lynx www.cyberwithlove.com
+ 2894  clr
+ 2895  ws
+ 2896  ls /mnt
+ 2897  cp -r /mnt ~/Workspace/COURS/reseaux/mnt2/.
+ 2898  rm -rf ~/Workspace/COURS/reseaux/mnt2
+ 2899  cp -r /mnt ~/Workspace/COURS/reseaux/mnt2/.
+ 2900  mkdir ~/Workspace/COURS/reseaux/mnt2
+ 2901  cp -r /mnt ~/Workspace/COURS/reseaux/mnt2/.
+ 2902  cd ~/Workspace/COURS/reseaux/mnt2/
+ 2903  ls
+ 2904  cd mnt
+ 2905  ls
+ 2906  java HelloServer1
+ 2907  cd ~/Workspace/COURS/reseaux/mnt2/
+ 2908  cd mnt
+ 2909  ols
+ 2910  ls
+ 2911  java HelloClient1
+ 2912  java HelloServer1
+ 2913  java HelloClient1
+ 2914  java HelloServer1
+ 2915  htop
+ 2916  kill 8852
+ 2917  java HelloServer1
+ 2918  lsof -v
+ 2919  lsof -i :1111
+ 2920  kill -9 8852
+ 2921  java HelloServer1
+ 2922  java HelloClient1
+ 2923  java HelloServer1
+ 2924  java HelloClient1
+ 2925  ss -tnpa | grep 1111
+ 2926  java HelloServer1
+ 2927  ss -tnpa | grep 1111
+ 2928  java HelloClient1
+ 2929  ss -tnpa | grep 1111
+ 2930  man ss
+ 2931  ls
+ 2932  javac HelloClient1.java HelloServer1.java
+ 2933  java HelloClient1
+ 2934  java HelloServer1
+ 2935  java HelloClient1
+ 2936  cdc
+ 2937  git add .
+ 2938  git commit -m "Modify client and server for allow them to communicate"
+ 2939  git push
+ 2940  history | grep javac
+ 2941  javac -d target src/**/*.java && java -cp target Application > result.txt
+ 2942  git commit -m "Modify client and server for allow them to communicate"
+ 2943  javac -d target src/**/*.java && java -cp target Application > result.txt
+ 2944  git add .
+ 2945  git commit -m "ipv4 ok, quic long header now"
+ 2946  git push
+ 2947  javac -d target src/**/*.java
+ 2948  javac -d target src/**/*.java && java -cp target Application 
+ 2949  javac -d target src/**/*.java && java -cp target ./target/Application
+ 2950  javac -d target src/**/*.java && java -cp target ./target/src/Application
+ 2951  javac -d target src/**/*.java && java -cp target target/src/Application
+ 2952  javac -d target src/**/*.java && java -cp target src.Application
+ 2953  javac -d target src/**/*.java && java -cp target src.Application "1111"
+ 2954  javac -d target src/**/*.java && java -cp target src.Application 1111
+ 2955  javac -d target src/**/*.java && java -cp target src.Application --port=1111
+ 2956  javac -d target src/**/*.java && java -cp target src.Application --port=1112
+ 2957  sudo javac -d target src/**/*.java && java -cp target src.Application --port=1112
+ 2958  javac -d target src/**/*.java && sudo java -cp target src.Application --port=1112
+ 2959  javac -d target src/**/*.java && java -cp target src.Application --port=1112
+ 2960  lsof -i :1111
+ 2961  lsof -i :1112
+ 2962  javac -d target src/**/*.java && java -cp target src.Application --port=1112
+ 2963  telnet 127.0.0.1 1111
+ 2964  javac -d target src/**/*.java && java -cp target src.Application --port=1112
+ 2965  telnet 127.0.0.1 1111
+ 2966  javac -d target src/**/*.java && java -cp target src.Application --port=1112
+ 2967  OA
+ 2968  javac -d target src/**/*.java && java -cp target src.Application --port=1112
+ 2969  telnet 127.0.0.1 1111
+ 2970  javac -d target src/**/*.java && java -cp target src.Application --port=1112
+ 2971  ws
+ 2972  sudo mount -t nfs 10.0.4.13:/home/user/Cours/ESIEA/Rappel_Res/NFS /mnt
+ 2973  mkdir mnt3
+ 2974  cp -r /mnt ~/mnt3/.
+ 2975  sudo umount /mnt
+ 2976  cd
+ 2977  cd Workspace/PROJECTS/pcap-reader
+ 2978  git add .
+ 2979  git commit -m "response to tcp folllow stream"
+ 2980  git push
+ 2981  cdc
+ 2982  git add .
+ 2983  git commit -m "cours reseau last session"
+ 2984  git push
+ 2985  git add .
+ 2986  git commit -m "cours reseau last session and last resource"
+ 2987  git push
+ 2988  cdp
+ 2989  hsyncpush
+ 2990  cdp
+ 2991  ls
+ 2992  git clone git@github.com:korgrunt/java-http1-server.git
+ 2993  ls
+ 2994  cd java-http1-server
+ 2995  git add .
+ 2996  git commit -m "java http server"
+ 2997  git push
+ 2998  cdp
+ 2999  ls
+ 3000  cd java-http1-server
+ 3001  ls
+ 3002  cd ..
+ 3003  cd java-server
+ 3004  ls
+ 3005  cd ../java-http1-server
+ 3006  javac -d target src/**/*.java && java -cp target Application 
+ 3007  cd ../java-server
+ 3008  javac -d target src/**/*.java && java -cp target Application 
+ 3009  javac -d target src/**/*.java && java -cp target src.Application 
+ 3010  javac -d target src/**/*.java && java -cp target src.CalcUI
+ 3011  javac -d target src/**/*.java 
+ 3012  cd ../calc-polska
+ 3013  ls
+ 3014  javac -d target src/**/*.java && java -cp target src.CalcUI
+ 3015  hsyncpull
+ 3016  javac -d target src/**/*.java && java -cp target src.CalcUI
+ 3017  cdp
+ 3018  cd calc-polska
+ 3019  javac -d target src/**/*.java && java -cp target src.CalcUI
+ 3020  javac -d target src/**/*.java && java -cp target src.Application
+ 3021  cdp
+ 3022  ls
+ 3023  git clone git@github.com:korgrunt/unix-awesome-ctf.git 
+ 3024  ls
+ 3025  javac -d target src/**/*.java && java -cp target src.CalcUI
+ 3026  javac -d target src/**/*.java && java -cp target src.CalcUI --user=local
+ 3027  git add .
+ 3028  git commit -m "add InputStream and OutputStream"
+ 3029  git push
+ 3030  cdc
+ 3031  git add .
+ 3032  git commit -m "Cours content"
+ 3033  git push
+ 3034  ls
+ 3035  cat ctf.txt
+ 3036  cd unix
+ 3037  ls
+ 3038  git add .
+ 3039  cdp
+ 3040  ls
+ 3041  ls -la
+ 3042  cd unix-awesome-ctf
+ 3043  ls
+ 3044  cd ..
+ 3045  cd file-analyser
+ 3046  l
+ 3047  git add .
+ 3048  javac -d target src/**/*.java && java -cp target src.Application
+ 3049  cdp
+ 3050  cd brute-force-pass-lang-c
+ 3051  git pull
+ 3052  cd ..
+ 3053  rm -rf ./brute-force-pass-lang-c
+ 3054  git clone git@github.com:korgrunt/brute-force-pass-lang-c.git
+ 3055  cd brute-force-pass-lang-c
+ 3056  more rockyou.txt
+ 3057  make
+ 3058  /bin/ld: cannot find -lcrypto: No such file or directory
+ 3059  apt install -y make
+ 3060  apt-get install -y make
+ 3061  sudo apt-get install -y make
+ 3062  sudo apt-get install -y libssl-dev
+ 3063  make
+ 3064  sudo apt install libfl-dev
+ 3065  make
+ 3066  sudo apt remove docker-desktop
+ 3067  sudo apt-get remove docker-desktop
+ 3068  sudo apt-get update
+ 3069  sudo apt-get remove docker-desktop
+ 3070  cd 
+ 3071  cd Downloads
+ 3072  ls
+ 3073  sudo apt install ./docker-desktop-4.25.0-amd64.deb 
+ 3074  sudo apt-get install docker-ce-cli
+ 3075  sudo apt-get update
+ 3076  kill -9 2812
+ 3077  sudo kill -9 2812
+ 3078  sudo apt-get install docker-ce-cli
+ 3079  sudo apt-get update
+ 3080  sudo apt-get install docker-ce-cli
+ 3081  sudo apt install ./docker-desktop-4.25.0-amd64.deb 
+ 3082  docker -v
+ 3083  apt-cache madison docker-ce | awk '{ print $3 }'
+ 3084  sudo apt-get install docker-ce=$VERSION_STRING docker-ce-cli=$VERSION_STRING containerd.io docker-buildx-plugin docker-compose-plugin
+ 3085  sudo snap install docker
+ 3086  docker -v
+ 3087  cdp
+ 3088  cd brute-force-pass-lang-c
+ 3089  ls -la
+ 3090  sudo snap install docker
+ 3091  docker build -t brute-force-pass-lang-c .
+ 3092  sudo docker build -t brute-force-pass-lang-c .
+ 3093  docker run -it brute-force-pass-lang-c /bin/bash
+ 3094  sudo docker run -it brute-force-pass-lang-c /bin/bash
+ 3095  ls
+ 3096  make
+ 3097  sudo apt install libfl-dev
+ 3098  make
+ 3099  cdp
+ 3100  cd brute-force-pass-lang-c
+ 3101  ls
+ 3102  make
+ 3103  sudo apt-get install libssl-dev
+ 3104  make
+ 3105  ./out -G -i ./rockyou.txt -o ./rainbow.table
+ 3106  cat ./inputModeLSHA256.txt | ./out -L -i ./rainbow.table --threads 16
+ 3107  cat rainbow.table
+ 3108  more rainbow.table
+ 3109  cd Downloads
+ 3110  sudo wget https://github.com/shiftkey/desktop/releases/download/release-3.3.3-linux2/GitHubDesktop-linux-amd64-3.3.3-linux2.deb
+ 3111  sudo apt install ./GitHubDesktop-linux-amd64-3.3.3-linux2.deb -y
+ 3112  cdp
+ 3113  cd calc-polska
+ 3114  ls
+ 3115  git pull
+ 3116  cdp
+ 3117  cd calc-polska
+ 3118  ls
+ 3119  javac -d target src/**/*.java && java -cp target src.Application
+ 3120  cd ../brute-force-pass-lang-c
+ 3121  make
+ 3122  ./out -G -i ./rockyou.txt -o ./rainbow.table
+ 3123  cat inputModeLSHA256.txt
+ 3124  cat ./inputModeLSHA256.txt | ./out -L -i ./rainbow.table
+ 3125  cat ./inputModeLSHA256.txt | ./out -L -i ./rainbow.table --threads 8
+ 3126  cd ..
+ 3127  ls
+ 3128  rm -rf brute-force-pass-lang-c
+ 3129  git@github.com:korgrunt/brute-force-pass-lang-c.git
+ 3130  git clone git@github.com:korgrunt/brute-force-pass-lang-c.git
+ 3131  cd brute-force-pass-lang-c
+ 3132  make
+ 3133  ./out -G -i ./rockyou.txt -o ./rainbow.table
+ 3134  cat ./inputModeLSHA256.txt | ./out -L -i ./rainbow.table --threads 8
+ 3135  cat ./inputModeLSHA256.txt | ./out -L -i ./rainbow.table --threads 1
+ 3136  make && cat ./inputModeLSHA256.txt | ./out -L -i ./rainbow.table --threads 1
+ 3137  make && cat ./inputModeLSHA256.txt | ./out -L -i ./rainbow.table --threads 8
+ 3138  git pull
+ 3139  make && cat ./inputModeLSHA256.txt | ./out -L -i ./rainbow.table --threads 8
+ 3140  more rainbow.table
+ 3141  make && ./out -G -i ./rockyou.txt -o ./rainbow.table
+ 3142  make && ./out -G -i ./rockyou.txt -o ./rainbow.table --algorithm SHA_256
+ 3143  make && ./out -G -i ./rockyou.txt -o ./rainbow.table --algorithm SHA_256 > result.g.txt
+ 3144  more rockyou.txt
+ 3145  make && ./out -G -i ./rockyou.min.txt -o ./rainbow.table --algorithm SHA_256 > result.g.txt
+ 3146  make && ./out -G -i ./rockyou.min.txt -o ./rainbow.table --algorithm SHA_256
+ 3147  more rainbow.table
+ 3148  make && ./out -G -i ./rockyou.min.txt -o ./rainbow.table --algorithm SHA_256
+ 3149  make && ./out -G -i ./rockyou.min.txt -o ./rainbow.table --algorithm SHA_512
+ 3150  more ./rainbow.table
+ 3151  make && ./out -G -i ./rockyou.txt -o ./rainbow.table --algorithm SHA_512
+ 3152  cdp
+ 3153  cd calc-polska
+ 3154  javac -d target src/**/*.java && java -cp target src.Application
+ 3155  javac -d target src/**/*.java && java -cp target src.Application --users=REMOTE_SHARED_STACK
+ 3156  java -cp target src.Application --users=REMOTE_SHARED_STACK
+ 3157  java src.Application --users=REMOTE_SHARED_STACK
+ 3158  java -cp target src.Application --users=REMOTE_SHARED_STACK
+ 3159  telnet localhost 8888
+ 3160  git pull
+ 3161  java -cp target src.Application --users=REMOTE_SHARED_STACK
+ 3162  telnet localhost 8888
+ 3163  telnet 127.0.0.1  8888
+ 3164  lof -1 :8888
+ 3165  lsof -1 :8888
+ 3166  lsof -i :8888
+ 3167  git pull
+ 3168  java -cp target src.Application --user=REMOTE_SHARED_STACK
+ 3169  telnet 127.0.0.1  8888
+ 3170  telnet localhost 8888
+ 3171  telnet 127.0.0.1  8888
+ 3172  java -cp target src.Application --user=USERS_REMOTE_SHARED_STACK
+ 3173  java -cp target src.Application --user=USERS_REMOTE_SHARED_STACK --log=LOG
+ 3174  java -cp target src.Application --user=USERS_REMOTE_SHARED_STACK --log=REPLAy
+ 3175  make && ./out -G -i ./rockyou.txt -o ./rainbow.table --algorithm SHA_512
+ 3176  cat ./hashes_to_guess_sha512.txt | ./out -L -i ./rainbow.table --threads 8
+ 3177  cat ./hashes_to_guess_sha512.txt | ./out -L -i ./rainbow.table --threads 32
+ 3178  cat ./hashes_to_guess_sha512.txt | ./out -L -i ./rainbow.table --threads 16
+ 3179  cdp
+ 3180  cd pcap-reader
+ 3181  ls
+ 3182  javac -d target src/**/*.java && java -cp target Application > result.txt
+ 3183  javac -d target src/**/*.java && java -cp target Application
+ 3184  javac -d target src/**/*.java && java -cp target Application > result.txt
+ 3185  ws
+ 3186  javac -d target src/**/*.java && java -cp target Application > result.txt
+ 3187  ws
+ 3188  ls
+ 3189  cd
+ 3190  la /usr/
+ 3191  ls -la /usr/
+ 3192  cd /usr
+ 3193  ls
+ 3194  la
+ 3195  ls
+ 3196  ls -la
+ 3197  cdp
+ 3198  cd pcap-reader
+ 3199  git pull
+ 3200  history | grep inteli
+ 3201  history | grep intel
+ 3202  sudo snap uninstall intellij-idea-community
+ 3203  snap -h
+ 3204  sudo snap remove intellij-idea-community
+ 3205  git -h
+ 3206  man git
+ 3207  rm -rf ~/.config/JetBrains
+ 3208  rm -rf ~/.local/share/JetBrains
+ 3209  rm -rf ~/.cache/JetBrains
+ 3210  la
+ 3211  rm -rf .idea
+ 3212  la
+ 3213  cat ~/.ideavimrc
+ 3214  ws
+ 3215  javac -d target src/**/*.java && java -cp target Application
+ 3216  javac -d target src/**/*.java && java -cp target Application > result.txt
+ 3217  javac -d target src/**/*.java && java -cp target Application 
+ 3218  javac -d target src/**/*.java && java -cp target Application &> result.txt
+ 3219  git add .
+ 3220  git commit -m "quic short and long header ok"
+ 3221  git push
+ 3222  javac -d target src/**/*.java && java -cp target Application &> result.txt
+ 3223  git add .
+ 3224  git commit -m "on dns paquet"
+ 3225  git push
+ 3226  ghidra
+ 3227  cdc
+ 3228  ls
+ 3229  mkdir ios
+ 3230  cd ios
+ 3231  ls
+ 3232  code ./
+ 3233  ls
+ 3234  mkdir pymobiledevice3
+ 3235  cd pymobiledevice3
+ 3236  python3 -m pip install -U pymobiledevice3
+ 3237  pymobiledevice3 -v
+ 3238  python -m venv venv
+ 3239  python3 -m venv venv
+ 3240  ls
+ 3241  source ./venv/bin/activate
+ 3242  ./venv/bin/python3 -m ./venv/bin/pip install -U pymobiledevice3
+ 3243  python3 -m pip install -U pymobiledevice3
+ 3244  pymobiledevice3 syslog live
+ 3245  pymobiledevice3 syslog live -m SpringBoard
+ 3246  pymobiledevice3 diagnostics restart
+ 3247  pymobiledevice3 apps list --user --system
+ 3248  pymobiledevice3 apps list --user --system | grep -u cydia
+ 3249  pymobiledevice3 apps list --user --system | grep Cydia
+ 3250  pymobiledevice3 apps list --user --system | grep -i Cydia
+ 3251  pymobiledevice3 apps list --user --system | grep -i media
+ 3252  pymobiledevice3 afc shell
+ 3253  python3 -m pip install -U plutil
+ 3254  sudo apt-search plutil
+ 3255  sudo apt search plutil
+ 3256  sudo apt search plutils
+ 3257  sudo apt search plist
+ 3258  sudo apt search plist-utils
+ 3259  sudo apt-get install libplist-utils
+ 3260  cd ..
+ 3261  ls
+ 3262  plistutil -i secret.plist -o output.plist
+ 3263  cat output.plist
+ 3264  plistutil -h
+ 3265  man plistutil
+ 3266  plistutil -i secret.plist -o output.plist -f bin
+ 3267  cat output.plist
+ 3268  plistutil -i secret.plist -o output.plist -f xml
+ 3269  cat output.plist
+ 3270  vim pythonDecrypt.py
+ 3271  clr
+ 3272  python pythonDecrypt.py
+ 3273  cat secret.plist
+ 3274  python pythonDecrypt.py
+ 3275  plistutil -i ./settings.plist -o output-settings.plist -f xml
+ 3276  curl https://www.4pple.com/update
+ 3277  weget https://www.4pple.com/update
+ 3278  wget https://www.4pple.com/update
+ 3279  sudo apt-get -y install sqlcipher
+ 3280  ls
+ 3281  cd ios
+ 3282  ls
+ 3283  sqlcipher ./encrypted.db
+ 3284  cdc
+ 3285  cd ios
+ 3286  pip install lief
+ 3287  pip install hashlib
+ 3288  python3 liefShaBin.py
+ 3289  ghidra
+ 3290  apt-get install jtool2 
+ 3291  apt-get install objdump
+ 3292  sudo apt-get install jtool2 
+ 3293  sudo apt-get install objdump
+ 3294  sudo apt search  objdump
+ 3295  sudo apt search jtool
+ 3296  ghidra
+ 3297  tar zxvf ./jtool2.tgz
+ 3298  ls
+ 3299  mkdir jtool
+ 3300  cp jtool2.tgz ./jtool
+ 3301  cd jtool
+ 3302  tar zxvf ./jtool2.tgz
+ 3303  ls
+ 3304  ./jtool2
+ 3305  ./jtool2.ELF64 
+ 3306  ./jtool2.ELF64 -l ~/Downloads/main
+ 3307  ./jtool2.ELF64 -l ~/Downloads/main | wc "load"
+ 3308  ./jtool2.ELF64 -l ~/Downloads/main | grep "load"
+ 3309  ./jtool2.ELF64 -l ~/Downloads/main 
+ 3310  ./jtool2.ELF64 -l ~/Downloads/main | grep wzr
+ 3311  ./jtool2.ELF64 -l ~/Downloads/main | grep Size
+ 3312  ./jtool2.ELF64 -l ~/Downloads/main | grep xzw
+ 3313  ./jtool2.ELF64 -l ~/Downloads/main | grep mov
+ 3314  ./jtool2.ELF64 -l ~/Downloads/main | grep lsl
+ 3315  ./jtool2.ELF64 -l ~/Downloads/main | grep ldr
+ 3316  ./jtool2.ELF64 -l ~/Downloads/main | grep str
+ 3317  ./jtool2.ELF64 --help
+ 3318  \%load
+ 3319  \load
+ 3320  ./jtool2.ELF64 --help | grep load
+ 3321  ./jtool2.ELF64 --help
+ 3322  ./jtool2.ELF64 --h
+ 3323  ./jtool2.ELF64 --h ~/Downloads/main
+ 3324  ./jtool2.ELF64 -h ~/Downloads/main
+ 3325  ./jtool2.ELF64 -S ~/Downloads/main
+ 3326  ./jtool2.ELF64 -S ~/Downloads/spoon
+ 3327  ./jtool2.ELF64 -d 100003f7c ~/Downloads/payload
+ 3328  ./jtool2.ELF64 -d "100003f7c" ~/Downloads/payload
+ 3329  ./jtool2.ELF64 -d "0x100003f7c" ~/Downloads/payload
+ 3330  ./jtool2.ELF64 --sig ~/Downloads/HelloWorld
+ 3331  ./jtool2.ELF64 --sig ~/Downloads/HelloWorld\(1\)
+ 3332  ./jtool2.ELF64 --sig ~/Downloads/HelloWorld\(1\) | grep sign
+ 3333  ./jtool2.ELF64 --sig ~/Downloads/HelloWorld\(1\)
+ 3334  ./jtool2.ELF64 --vv ~/Downloads/HelloWorld\(1\)
+ 3335  ./jtool2.ELF64 --sig --vv ~/Downloads/HelloWorld\(1\)
+ 3336  ./jtool2.ELF64 --sig ~/Downloads/HelloWorld\(1\) > blobsign.txt
+ 3337  ./jtool2.ELF64 --sig ~/Downloads/HelloWorld\(1\)
+ 3338  ./jtool2.ELF64 --sig ~/Downloads/HelloWorld\(3\)
+ 3339  cd ..
+ 3340  ls
+ 3341  git clone git clone https://github.com/konoui/lipo
+ 3342  git clone https://github.com/konoui/lipo
+ 3343  sqlcipher --version
+ 3344  ls
+ 3345  cd lipo
+ 3346  ls
+ 3347  cat README.md
+ 3348  *rl -L -o /tmp/lipo https://github.com/konoui/lipo/releases/latest/download/lipo_Linux_amd64
+ 3349  curl -L -o /tmp/lipo https://github.com/konoui/lipo/releases/latest/download/lipo_Linux_amd64
+ 3350  sudo apt-get install curl
+ 3351  curl -L -o /tmp/lipo https://github.com/konoui/lipo/releases/latest/download/lipo_Linux_amd64
+ 3352  chmod +x /tmp/lipo
+ 3353  sudo mv /tmp/lipo /usr/local/bin
+ 3354  lipo -v
+ 3355  lipo -thin arm64 -output my_app_arm64 ~/Downloads/my_program_universal
+ 3356  cd ..
+ 3357  git clone https://github.com/xerub/ldid/releases/tag/42\#:\~:text\=3-,ldid.zip,-202%20KB 
+ 3358  ldid -S entitlements.xml -q new_bin_name ./HelloWorld\(5\)
+ 3359  ./ldid -S entitlements.xml -q new_bin_name ./HelloWorld\(5\)
+ 3360  chmod +x ./ldid
+ 3361  ./ldid -S entitlements.xml -q new_bin_name ./HelloWorld\(5\)
+ 3362  ./ldid -S ./entitlements.xml -q new_bin_name ./HelloWorld\(5\)
+ 3363  ls
+ 3364  ./ldid2 -S ./entitlements.xml -q new_bin_name ./HelloWorld\(5\)
+ 3365  ./linux64/ldid -S ./entitlements.xml -q new_bin_name ./HelloWorld\(5\)
+ 3366  ./linux64/ldid2 -S ./entitlements.xml -q new_bin_name ./HelloWorld\(5\)
+ 3367  ./linux64/ldid2 -S ./entitlements.xml -q -N new_bin_name ./HelloWorld\(5\)
+ 3368  ./linux64/ldid2 -S ./entitlements.xml -q -N ./new_bin_name ./HelloWorld\(5\)
+ 3369  ./checkra1n --version
+ 3370  sudo ./checkra1n --version
+ 3371  chmod +x ./checkra1n 
+ 3372  sudo ./checkra1n --version
+ 3373  apt install libusbmuxd-tools
+ 3374  apt-get install libusbmuxd-tools
+ 3375  sudo apt-get update -y
+ 3376  sudo apt-get install -y libusbmuxd-tools
+ 3377  iproxy 2222 22
+ 3378  ls
+ 3379  pip install frida-tools
+ 3380  iproxy 2222 22
+ 3381  cdc
+ 3382  cd ios
+ 3383  ls
+ 3384  ./checkra1n
+ 3385  sudo ./checkra1n
+ 3386  iproxy 2222 22
+ 3387  cd
+ 3388  cdc
+ 3389  cd ios
+ 3390  ls
+ 3391  sudo ./checkra1n
+ 3392  ssh -p2222 root@127.0.0.1
+ 3393  cd
+ 3394  cdc
+ 3395  cd ios
+ 3396  ls
+ 3397  mkdir python
+ 3398  cd python
+ 3399  pip3 install objection
+ 3400  objection version
+ 3401  pip install frida==15.1.1
+ 3402  ideviceinstaller -i  HelloWorld.ipa
+ 3403  cd ..
+ 3404  git clone https://github.com/libimobiledevice/ideviceinstaller.git
+ 3405  cd ideviceinstaller
+ 3406  ./autogen.sh
+ 3407  sudo ./autogen.sh
+ 3408  make
+ 3409  sudo apt-get install libtoolize
+ 3410  sudo apt-get install aclocal
+ 3411  ls
+ 3412  cat README.md
+ 3413  ls
+ 3414  sudo ./autogen.sh
+ 3415  pip3 install libtoolize
+ 3416  cd ..
+ 3417  git clone https://github.com/AloneMonkey/frida-ios-dump
+ 3418  cd frida-ios-dump
+ 3419  ls
+ 3420  python3 ./dump.py ~/Downloads/HelloWorld\(2\).ipa
+ 3421  sudo apt-get install scp
+ 3422  scp -v
+ 3423  python3 ./dump.py ~/Downloads/HelloWorld\(2\).ipa
+ 3424  sudo python3 ./dump.py ~/Downloads/HelloWorld\(2\).ipa
+ 3425  sudo apt-get install frida
+ 3426  ls
+ 3427  sudo pip3 install -r requirements.txt --upgrade
+ 3428  sudo python3 ./dump.py ~/Downloads/HelloWorld\(2\).ipa
+ 3429  sudo python3 ./dump.py -l
+ 3430  pip3 install frida==15.1.1 objection
+ 3431  sudo python3 ./dump.py -l
+ 3432  ls
+ 3433  frida --version
+ 3434  python3 -m venv venv
+ 3435  source ./venv/bin/activate
+ 3436  frida --version
+ 3437  objection version
+ 3438  pip3 install frida==15.1.1 objection
+ 3439  ./venv/bin/pip3 install frida==15.1.1 objection
+ 3440  objection version
+ 3441  sudo python3 ./dump.py -l
+ 3442  iproxy 2222 22
+ 3443  ssh -p2222 root@127.0.0.1
+ 3444  sudo python ./dump.py -l
+ 3445  sudo python3 ./dump.py -l
+ 3446  sudo ./venv/bin/python ./dump.py -l
+ 3447  sudo ./venv/bin/python3 ./dump.py -l
+ 3448  cat requirements.txt
+ 3449  pip install -R requirements.txt
+ 3450  pip3 install -R requirements.txt
+ 3451  pip3 install -r requirements.txt
+ 3452  sudo ./venv/bin/python3 ./dump.py -l
+ 3453  sudo python3 ./dump.py ~/Downloads/HelloWorld\(2\).ipa
+ 3454  sudo ./venv/bin/python3 ./dump.py ~/Downloads/HelloWorld\(2\).ipa
+ 3455  sudo ./venv/bin/python ./dump.py ~/Downloads/HelloWorld\(2\).ipa
+ 3456  history | grep idevice
+ 3457  ideviceinstaller -i ~/Downloads/CountDown.ipa
+ 3458  ls
+ 3459  cd ..
+ 3460  ls
+ 3461  sudo apt-get install ideviceinstaller
+ 3462  ideviceinstaller -i ~/Downloads/CountDown.ipa
+ 3463  ideviceinstaller -i ~/Downloads/HelloWorld\(2\).ipa
+ 3464  ideviceinstaller -i ~/Downloads/CountDown.ipa
+ 3465  sudo python3 ./dump.py ~/Downloads/CountDown.ipa
+ 3466  cd python
+ 3467  ls
+ 3468  cd ..
+ 3469  ls
+ 3470  cd frida-ios-dump
+ 3471  ls
+ 3472  sudo python3 ./dump.py ~/Downloads/CountDown.ipa
+ 3473  frida --version
+ 3474  pip3 install -r ./requirements.txt
+ 3475  sudo python3 ./dump.py ~/Downloads/CountDown.ipa
+ 3476  cat requirements.txt
+ 3477  pip freeze -r ./requirements-versioned.txt 
+ 3478  pip freeze -r > ./requirements-versioned.txt 
+ 3479  pip3 freeze -r > ./requirements-versioned.txt 
+ 3480  pip3 freeze -R > ./requirements-versioned.txt 
+ 3481  pip3 freeze > ./requirements-versioned.txt 
+ 3482  cat requirements-versioned.txt
+ 3483  sudo python3 ./dump.py ~/Downloads/CountDown.ipa
+ 3484  sudo python3 ./dump.py -l
+ 3485  sudo python ./dump.py -l
+ 3486  sudo ./venv/bin/python ./dump.py -l
+ 3487  sudo ./venv/bin/python ./dump.py ~/Downloads/CountDown.ipa
+ 3488  sudo ./venv/bin/python3 ./dump.py ~/Downloads/CountDown.ipa
+ 3489  ghidra
+ 3490  cd  ..
+ 3491  cd SafeLockL0
+ 3492  find . -type f -exec grep flag {} \;
+ 3493  find . -type f -exec grep flag {} 
+ 3494  find . -type f -exec grep flag {} .
+ 3495  find . -type f -exec grep flag {} .;
+ 3496  ls
+ 3497  cd Payload
+ 3498  ls
+ 3499  cd SafeLockL0.app
+ 3500  ls
+ 3501  grep flag *
+ 3502  cd _CodeSignature
+ 3503  grep flag *
+ 3504  ls
+ 3505  cd ..
+ 3506  ls
+ 3507  cd en.lproj
+ 3508  ls
+ 3509  grep flag *
+ 3510  cd ..
+ 3511  cd MainStoryboard.storyboardc
+ 3512  ls
+ 3513  grep flag *
+ 3514  test -d ~/.linuxbrew && eval "$(~/.linuxbrew/bin/brew shellenv)"
+ 3515  test -d /home/linuxbrew/.linuxbrew && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+ 3516  echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >> ~/.zshrc
+ 3517  brew -v
+ 3518  ls
+ 3519  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+ 3520  editzsh
+ 3521  initzsh
+ 3522  ls/home/linuxbrew/
+ 3523  ls /home/linuxbrew/
+ 3524  ls -la /home/linuxbrew/
+ 3525  initzsh
+ 3526  editzsh
+ 3527  initzsh
+ 3528  brew doctor
+ 3529  editzsh
+ 3530  initzsh
+ 3531  brew install sqlcipher
+ 3532  sqlcipher -v
+ 3533  sqlcipher --version
+ 3534  cdc
+ 3535  cd ios
+ 3536  ls
+ 3537  sqlcipher ./encrypted.db
+ 3538  sqlcipher -v
+ 3539  sqlcipher --version
+ 3540  sudo apt-get remove sqlcipher
+ 3541  sqlcipher -v
+ 3542  sqlcipher --version
+ 3543  sqlcipher ./encrypted.db
+ 3544  cd SafeLock1
+ 3545  ls
+ 3546  cd SafeLockL1
+ 3547  ls
+ 3548  cd Payload
+ 3549  ls
+ 3550  cd SafeLockL1.app
+ 3551  ls
+ 3552  sqlcipher ./secret.sqlite
+ 3553  cdc
+ 3554  ls
+ 3555  cd unix
+ 3556  ks
+ 3557  ls
+ 3558  mkdir 02
+ 3559  cd 02
+ 3560  ls
+ 3561  wget -r -k -E -np http://10.0.4.9:8000/
+ 3562  ls
+ 3563  cd 10.0.4.9:8000
+ 3564  ls
+ 3565  code ./
+ 3566  cat conf_cisco | grep conf 
+ 3567  cat conf_cisco | grep conf
+ 3568  cat conf_cisco | grep cic
+ 3569  cat conf_cisco | grep pass
+ 3570  cat conf_cisco | grep enable
+ 3571  cat conf_cisco | grep encr
+ 3572  cat conf_cisco | grep enc
+ 3573  cat conf_cisco | grep pass
+ 3574  cat conf_cisco | grep word
+ 3575  cat conf_cisco | grep ord
+ 3576  cat conf_cisco | grep rd
+ 3577  cat conf_cisco | grep "pass\|enable"
+ 3578  cat conf_cisco | grep "pass\|enable "
+ 3579  cat conf_cisco | grep "pass\|secret"
+ 3580  cat conf_cisco | grep "password\|secret"
+ 3581  cat conf_cisco | grep "password\|enable "
+ 3582  cat conf_cisco | grep "password\|hostname "
+ 3583  cat conf_cisco | grep "password\|hostname"
+ 3584  cat conf_cisco | grep "pass\|hostname"
+ 3585  cat conf_cisco | grep "pass\|enable"
+ 3586  ls
+ 3587  python script.py
+ 3588  python3 script.py
+ 3589  python3 script.py 
+ 3590  python3 script.py 105C0C1D0419171F
+ 3591  python3 script.py 0000000902000030942C56BD
+ 3592  python3 script.py 0303590E505D375E
+ 3593  python3 script.py 050C040A771E581B
+ 3594  python3 script.py 010103005A05031B
+ 3595  python3 script.py $1$L7N7$vXueqkVC4TtkkEzggjwDN
+ 3596  python3 script.py < cat conf_cisco
+ 3597  git clone https://github.com/theevilbit/ciscot7.git
+ 3598  cd ciscot7
+ 3599  python3 ciscot7.py -f ./../conf_cisco
+ 3600  cat conf_cisco | grep "pass\|hostname"
+ 3601  cat ./../conf_cisco | grep "pass\|hostname"
+ 3602  cd ..
+ 3603  git clone https://github.com/axcheron/cisco_pwdecrypt.git
+ 3604  sudo apt-get install john -y
+ 3605  man john
+ 3606  john -v
+ 3607  john --version
+ 3608  john -V
+ 3609  john man
+ 3610  man john
+ 3611  ciscoHash.txt
+ 3612  touch ciscoHash.txt
+ 3613  man john
+ 3614  cat ciscoHash.txt | john -stdin
+ 3615  cat ciscoHash.txt | john -stdin ciscoHash.txt
+ 3616  john -stdin ciscoHash.txt
+ 3617  john ciscoHash.txt
+ 3618  vim ciscoHash.txt
+ 3619  john ciscoHash.txt
+ 3620  john -stdin ciscoHash.txt
+ 3621  cat ~/Downloads/rockyou.txt | john -stdin ciscoHash.txt
+ 3622  john -stdin ciscoHash.txt -wordlist="~/Downloads/rockyou.txt"
+ 3623  john -stdin ciscoHash.txt --wordlist="~/Downloads/rockyou.txt"
+ 3624  john ciscoHash.txt --wordlist="~/Downloads/rockyou.txt"
+ 3625  cdc
+ 3626  cd unix
+ 3627  cd 02/10.0.4.9:8000
+ 3628  john ciscoHash.txt 
+ 3629  john ciscoHash.txt --show
+ 3630  john ciscoHash.txt --wordlist="~/Downloads/rockyou.txt" --show
+ 3631  john ciscoHash.txt --wordlist="~/Downloads/rockyou.txt" 
+ 3632  john ciscoHash.txt
+ 3633  man john
+ 3634  ls
+ 3635  john passwd_DES
+ 3636  su root
+ 3637  sudo su
+ 3638  su -
+ 3639  reboot
+ 3640  su -
+ 3641  cdc
+ 3642  cd unix
+ 3643  ls
+ 3644  cd 02/10.0.4.9:8000
+ 3645  cd sameEtScoobidou
+ 3646  ls
+ 3647  more sam
+ 3648  more sam.log
+ 3649  more system
+ 3650  more system.LOG
+ 3651  more system.sav
+ 3652  ls
+ 3653  ls -la
+ 3654  git clone https://github.com/moyix/creddump.git
+ 3655  cd creddump
+ 3656  ls
+ 3657  ./cachedump.py ./../system sam
+ 3658  ./cachedump.py ./../system ./../sam
+ 3659  python3 ./cachedump.py ./../system ./../sam
+ 3660  python ./cachedump.py ./../system ./../sam
+ 3661  python3 -m venv venv
+ 3662  ./venv/bin/python ./cachedump.py ./../system ./../sam
+ 3663  ./venv/bin/python3 ./cachedump.py ./../system ./../sam
+ 3664  sudo apt search credump
+ 3665  apt search credump
+ 3666  apt-search credump
+ 3667  apt install credump7
+ 3668  sudo apt-get install credump7
+ 3669  apt search creddump
+ 3670  sudo apt install creddump7
+ 3671  sudo apt update
+ 3672  sudo apt install creddump7
+ 3673  cd ..
+ 3674  git clone https://github.com/CiscoCXSecurity/creddump7.git
+ 3675  cd creddump7
+ 3676  ls
+ 3677  ./cachedump.py ./../system 
+ 3678  python3 ./cachedump.py ./../system 
+ 3679  python ./cachedump.py ./../system 
+ 3680  sudo apt install python
+ 3681  sudo apt install python2
+ 3682  python2 -v
+ 3683  python2 ./cachedump.py ./../system 
+ 3684  apt-get install build-essential libssl-dev libffi-dev python-dev
+ 3685  sudo apt-get install build-essential libssl-dev libffi-dev python-dev
+ 3686  python2 ./cachedump.py ./../system 
+ 3687  pip install MD5
+ 3688  pip install Crypto
+ 3689  python2 ./cachedump.py ./../system 
+ 3690  python2 -m venv venv
+ 3691  pip install venv
+ 3692  pip install Crypto.Hash
+ 3693  pip install Crypto.Cipher
+ 3694  python2 ./cachedump.py ./../system 
+ 3695  apt search creddump
+ 3696  apt search creddump7
+ 3697  apt-get install creddump7
+ 3698  sudp apt update
+ 3699  sudo apt update
+ 3700  uname
+ 3701  sudo apt-get install creddump7
+ 3702  sudo apt update
+ 3703  sudo apt-get install creddump7
+ 3704  sudo apt upgrade
+ 3705  sudo apt-get install creddump7
+ 3706  sudo apt update
+ 3707  sudo apt-get install creddump7
+ 3708  sudo dist-upgrade
+ 3709  sudo do-release-upgrade
+ 3710  sudo vim /etc/update-manager/release-upgrades
+ 3711  sudo do-release-upgrade
+ 3712  cdc
+ 3713  cd unix
+ 3714  l
+ 3715  cd lecture_pour_eval
+ 3716  ls
+ 3717  touch url.txt
+ 3718  code url.txt
+ 3719  sudo apt-get install creddump7
+ 3720  man creddump7
+ 3721  ls
+ 3722  cdc
+ 3723  cd unix
+ 3724  ls
+ 3725  cd 02
+ 3726  ls
+ 3727  cd 10.0.4.9:8000
+ 3728  ls
+ 3729  cd sameEtScoobidou
+ 3730  ls
+ 3731  creddump7 sam
+ 3732  creddump7 man
+ 3733  cd ..
+ 3734  cdc
+ 3735  cd unix
+ 3736  cd 02/10.0.4.9:8000
+ 3737  ls
+ 3738  cd sameEtScoobidou
+ 3739  ls
+ 3740  rm -rf creddump7
+ 3741  creaddump7 ./sam system
+ 3742  sudo apt-get install creddump7
+ 3743  creddump7 ./sam system
+ 3744  ./cachedump.py ~/Workspace/COURS/unix/02/10.0.4.9:8000/sameEtScoobidou/sam 
+ 3745  ./cachedump.py ~/Workspace/COURS/unix/02/10.0.4.9:8000/sameEtScoobidou/system 
+ 3746  ./cachedump.py ~/Workspace/COURS/unix/02/10.0.4.9:8000/sameEtScoobidou/system ~/Workspace/COURS/unix/02/10.0.4.9:8000/sameEtScoobidou/sam
+ 3747  creadump7
+ 3748  creddump7
+ 3749  python3 pwdump.py
+ 3750  python3 pwdump.py ~/Workspace/COURS/unix/02/10.0.4.9:8000/sameEtScoobidou/system  ~/Workspace/COURS/unix/02/10.0.4.9:8000/sameEtScoobidou/sam
+ 3751  creddump
+ 3752  creddump7
+ 3753  python3 pwdump.py ~/Workspace/COURS/unix/02/10.0.4.9:8000/sameEtScoobidou/system  ~/Workspace/COURS/unix/02/10.0.4.9:8000/sameEtScoobidou/sam > hash.txt
+ 3754  sudo python3 pwdump.py ~/Workspace/COURS/unix/02/10.0.4.9:8000/sameEtScoobidou/system  ~/Workspace/COURS/unix/02/10.0.4.9:8000/sameEtScoobidou/sam > hash.txt
+ 3755  sudo python3 pwdump.py ~/Workspace/COURS/unix/02/10.0.4.9:8000/sameEtScoobidou/system  ~/Workspace/COURS/unix/02/10.0.4.9:8000/sameEtScoobidou/sam > ~/hash.txt
+ 3756  john ~/hash.txt
+ 3757  apt-show suricata
+ 3758  apt show suricata
+ 3759  cdc
+ 3760  mkdir suricata
+ 3761  cd suricata
+ 3762  git clone git clone https://github.com/OISF/suricata.git
+ 3763  git clone https://github.com/OISF/suricata.git
+ 3764  cd suricata
+ 3765  ./scripts/bundle.sh
+ 3766  sudo apt install libpcap-dev autoconf libtool libmagic-dev 
+ 3767  ./autogen.sh
+ 3768  ./configure --prefix=~/suricata
+ 3769  pwd
+ 3770  ./configure --prefix=/home/naouaichia/suricata
+ 3771  cd suricata
+ 3772  apt-get install libyaml-dev
+ 3773  sudo apt-get install libyaml-dev
+ 3774  ./configure --prefix=/home/naouaichia/suricata
+ 3775  apt install libjansson-dev
+ 3776  sudo apt install libjansson-dev
+ 3777  ./configure --prefix=/home/naouaichia/suricata
+ 3778  sudo apt install rustc cargo
+ 3779  ./configure --prefix=/home/naouaichia/suricata
+ 3780  sudo cargo install --force cbindgen
+ 3781  make
+ 3782  ./configure --prefix=/home/naouaichia/suricata
+ 3783  apt-get install libcap-ng-dev
+ 3784  sudo apt-get install libcap-ng-dev
+ 3785  ./configure --prefix=/home/naouaichia/suricata
+ 3786  sudo apt-get install liblz4-dev
+ 3787  ./configure --prefix=/home/naouaichia/suricata
+ 3788  sudo cargo install --force cbindgen
+ 3789  editzsh
+ 3790  ./configure --prefix=/home/naouaichia/suricata
+ 3791  initzsh
+ 3792  ./configure --prefix=/home/naouaichia/suricata
+ 3793  ls
+ 3794  cat Makefile.am
+ 3795  cat Makefile.cvs
+ 3796  cat Makefile.in
+ 3797  make
+ 3798  ls
+ 3799  make
+ 3800  ./configure --prefix=/home/naouaichia/suricata
+ 3801  cargo install --force cbindgen
+ 3802  ls
+ 3803  ./configure --prefix=/home/naouaichia/suricata
+ 3804  cargo -f
+ 3805  cargo -v
+ 3806  rust _v
+ 3807  rust -v
+ 3808  remove cargo
+ 3809  sudo apt remove cargo
+ 3810  curl https://sh.rustup.rs -sSf | sh
+ 3811  rustup self uninstall
+ 3812  rust -v
+ 3813  rustup self uninstall
+ 3814  curl https://sh.rustup.rs -sSf | sh
+ 3815  sudo apt remove rustc
+ 3816  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+ 3817  curl https://sh.rustup.rs -sSf | sh
+ 3818  ./configure --prefix=/home/naouaichia/suricata
+ 3819  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+ 3820  $HOME/.cargo/env
+ 3821  sudo $HOME/.cargo/env
+ 3822  ./configure --prefix=/home/naouaichia/suricata
+ 3823  ls -la ~
+ 3824  editcurl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+ 3825  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+ 3826  editzsh
+ 3827  initzsh
+ 3828  ./configure --prefix=/home/naouaichia/suricata
+ 3829  make
+ 3830  make clean
+ 3831  make clean -j 12
+ 3832  cdc
+ 3833  c suricata
+ 3834  ls
+ 3835  cd suricata
+ 3836  ls
+ 3837  wget https://www.malware-traffic-analysis.net/2022/10/31/2022-10-31-IcedID-with-DarkVNC-and-Cobalt-Strike-full-pcap-raw.pcap.zip -c
+ 3838  ls
+ 3839  mkdir data
+ 3840  cp ./2022-10-31-IcedID-with-DarkVNC-and-Cobalt-Strike-full-pcap-raw.pcap.zip ./data/.
+ 3841  cd data
+ 3842  ls
+ 3843  unzip 2022-10-31-IcedID-with-DarkVNC-and-Cobalt-Strike-full-pcap-raw.pcap.zip
+ 3844  cd ..
+ 3845  s
+ 3846  ls
+ 3847  rm 2022-10-31-IcedID-with-DarkVNC-and-Cobalt-Strike-full-pcap-raw.pcap.zip
+ 3848  cp ./data ./suricata/.
+ 3849  mv -R ./data ./suricata/.
+ 3850  mv ./data ./suricata/.
+ 3851  ls
+ 3852  cd suricata
+ 3853  ls
+ 3854  cd data
+ 3855  ls -la
+ 3856  more 2022-10-31-IcedID-with-DarkVNC-and-Cobalt-Strike-full-pcap-raw.pcap
+ 3857  suricata -V
+ 3858  /home/naouaichia/suricata/bin/suricata
+ 3859  editzsh
+ 3860  initzsh
+ 3861  suricata -V
+ 3862  suricata -h
+ 3863  suricata -r 2022-10-31-IcedID-with-DarkVNC-and-Cobalt-Strike-full-pcap-raw.pcap
+ 3864  ls
+ 3865  cat fast.log
+ 3866  cdp
+ 3867  cd pcap-reader
+ 3868  ls
+ 3869  git clone
+ 3870  git pull
+ 3871  cat ./README.md
+ 3872  javac -d target src/**/*.java && java -cp target Application
+ 3873  code ./
+ 3874  javac -d target src/**/*.java && java -cp target Application
+ 3875  ls
+ 3876  cat eve.json| jq
+ 3877  cat eve.json| jq .event_type*
+ 3878  cat eve.json| jq .event_type
+ 3879  cat eve.json| jq .event_type | wc
+ 3880  man jq 
+ 3881  cat eve.json| jq .event_type | tr
+ 3882  man tr
+ 3883  cat eve.json| jq .event_type | sort
+ 3884  cat eve.json| jq .event_type | sort | tr -nc
+ 3885  cat eve.json| jq .event_type | sort | tr -sc
+ 3886  cat eve.json| jq .event_type | sort | tr -nc
+ 3887  cat eve.json| jq .event_type | sort | uniq -c
+ 3888  cat eve.json| jq .event_type | sort | uniq -c | sort
+ 3889  cat eve.json| jq .event_type | sort | uniq -c | sort -nr
+ 3890  cat eve.json| jq 'select(.event_type=anomaly)'
+ 3891  cat eve.json| jq 'select(.event_type==anomaly)'
+ 3892  cat eve.json| jq 'select(.event_type=="anomaly")'
+ 3893  cat eve.json| jq 'select(.event_type="anomaly")'
+ 3894  cat eve.json| jq 'select(.event_type=="anomaly")'
+ 3895  cat eve.json| jq .src_ip
+ 3896  cat eve.json| jq .src_ip | sort | uniq -c | sort -nr
+ 3897  cat eve.json| jq .src_des | sort | uniq -c | sort -nr
+ 3898  cat eve.json| jq .src_dest | sort | uniq -c | sort -nr
+ 3899  cat eve.json| jq .dest_ip | sort | uniq -c | sort -nr
+ 3900  cat eve.json| jq .domain | sort | uniq -c | sort -nr
+ 3901  cat eve.json| jq 'select(.event_type=="http")'
+ 3902  cat eve.json| jq 'select(.event_type=="http")' | js .http.hostname
+ 3903  cat eve.json| jq 'select(.event_type=="http")' | jq .http.hostname
+ 3904  cat eve.json| jq 'select(.event_type=="http")' | jq .http.hostname | sort | uniq
+ 3905  cat eve.json| jq 'select(.event_type=="tcp")' | jq .http.hostname | sort | uniq
+ 3906  cat eve.json| jq 'select(.event_type=="tcp")' 
+ 3907  cat eve.json | grep tcp
+ 3908  cat eve.json| jq 'select(.event_type=="tcp")' | jq .http.hostname | sort | uniq
+ 3909  cat eve.json| jq 'select(.event_type=="http")' | jq .http.hostname | sort | uniq
+ 3910  cat eve.json| jq 'select(.proto=="TCP")'
+ 3911  cat eve.json| jq 'select(.event_type=="http")' | jq .http.hostname | sort | uniq
+ 3912  cat eve.json| jq 'select(.event_type=="tls")' | jq .tls.sni | sort | uniq
+ 3913  cat eve.json| jq 'select(.event_type=="http")' | jq .http.hostname | sort | uniq
+ 3914  cat eve.json| jq 'select(.event_type=="http" and .http.hostname=="vgiragdoffy.com")'  | sort | uniq
+ 3915  ls
+ 3916  rm eve.json
+ 3917  rm fast.log
+ 3918  rm stats.log
+ 3919  rm suricata.log
+ 3920  suricata -r 2022-10-31-IcedID-with-DarkVNC-and-Cobalt-Strike-full-pcap-raw.pcap
+ 3921  cat eve.json| jq 'select(.event_type=="http" and .http.hostname=="vgiragdoffy.com")'  | sort | uniq
+ 3922  sl
+ 3923  ls
+ 3924  rm ./eve.json && rm fast.log && rm stats.log && rm suricata.log
+ 3925  ls
+ 3926  suricata -r 2022-10-31-IcedID-with-DarkVNC-and-Cobalt-Strike-full-pcap-raw.pcap
+ 3927  rm ./eve.json && rm fast.log && rm stats.log && rm suricata.log
+ 3928  suricata -r 2022-10-31-IcedID-with-DarkVNC-and-Cobalt-Strike-full-pcap-raw.pcap
+ 3929  rm ./eve.json && rm fast.log && rm stats.log && rm suricata.log
+ 3930  suricata --dump-config | grep file
+ 3931  suricata --dump-config | grep store
+ 3932  suricata -r 2022-10-31-IcedID-with-DarkVNC-and-Cobalt-Strike-full-pcap-raw.pcap --outputs.9.file-store=yes
+ 3933  suricata -r 2022-10-31-IcedID-with-DarkVNC-and-Cobalt-Strike-full-pcap-raw.pcap --set outputs.9.file-store=yes
+ 3934  ls
+ 3935  cat eve.json| jq 'select(.event_type=="http" and .http.hostname=="vgiragdoffy.com")'  | sort | uniq
+ 3936  ls
+ 3937  cd ..
+ 3938  ls
+ 3939  suricata -r 2022-10-31-IcedID-with-DarkVNC-and-Cobalt-Strike-full-pcap-raw.pcap --set outputs.9.file-store=yes
+ 3940  which suricata
+ 3941  suricata -V
+ 3942  suricata --dump-config | grep store
+ 3943  suricata -r 2022-10-31-IcedID-with-DarkVNC-and-Cobalt-Strike-full-pcap-raw.pcap --set outputs.9.file-store.force-file-store=yes --set outputs.9.file-store.enabled=yes
+ 3944  cd data
+ 3945  rm eve.json
+ 3946  suricata -r 2022-10-31-IcedID-with-DarkVNC-and-Cobalt-Strike-full-pcap-raw.pcap --set outputs.9.file-store.force-file-store=yes --set outputs.9.file-store.enabled=yes
+ 3947  cat eve.json| jq 'select(.event_type=="http" and .http.hostname=="vgiragdoffy.com")'  | sort | uniq
+ 3948  suricata --dump-config | grep magic
+ 3949  suricata -r 2022-10-31-IcedID-with-DarkVNC-and-Cobalt-Strike-full-pcap-raw.pcap --set outputs.9.file-store.force-file-store=yes --set outputs.9.file-store.enabled=yes --set outputs.1.eve-log.types.6.files.force-magic=yes
+ 3950  rm eve.json
+ 3951  suricata -r 2022-10-31-IcedID-with-DarkVNC-and-Cobalt-Strike-full-pcap-raw.pcap --set outputs.9.file-store.force-file-store=yes --set outputs.9.file-store.enabled=yes --set outputs.1.eve-log.types.6.files.force-magic=yes
+ 3952  cat eve.json| jq 'select(.event_type=="http" and .http.hostname=="vgiragdoffy.com")'  | sort | uniq
+ 3953  suricata --dump-config | grep all-header
+ 3954  suricata --dump-config | grep header
+ 3955  suricata --dump-config | grep headers
+ 3956  suricata -r 2022-10-31-IcedID-with-DarkVNC-and-Cobalt-Strike-full-pcap-raw.pcap --set outputs.9.file-store.force-file-store=yes --set outputs.9.file-store.enabled=yes --set outputs.1.eve-log.types.6.files.force-magic=yes --set outputs.1.eve-log.types.6.files.http.dump-all-headers=both
+ 3957  rm eve.json
+ 3958  suricata -r 2022-10-31-IcedID-with-DarkVNC-and-Cobalt-Strike-full-pcap-raw.pcap --set outputs.9.file-store.force-file-store=yes --set outputs.9.file-store.enabled=yes --set outputs.1.eve-log.types.6.files.force-magic=yes --set outputs.1.eve-log.types.6.files.http.dump-all-headers=both
+ 3959  cat eve.json| jq 'select(.event_type=="http" and .http.hostname=="vgiragdoffy.com")'  | sort | uniq
+ 3960  suricata -r 2022-10-31-IcedID-with-DarkVNC-and-Cobalt-Strike-full-pcap-raw.pcap --set outputs.9.file-store.force-file-store=yes --set outputs.9.file-store.enabled=yes --set outputs.9.eve-log.types.files.force-magic=yes --set outputs.9.eve-log.types.files.http.dump-all-headers=both
+ 3961  rm eve.json
+ 3962  suricata -r 2022-10-31-IcedID-with-DarkVNC-and-Cobalt-Strike-full-pcap-raw.pcap --set outputs.9.file-store.force-file-store=yes --set outputs.9.file-store.enabled=yes --set outputs.9.eve-log.types.files.force-magic=yes --set outputs.9.eve-log.types.files.http.dump-all-headers=both
+ 3963  cat eve.json| jq 'select(.event_type=="http" and .http.hostname=="vgiragdoffy.com")'  | sort | uniq
+ 3964  ls
+ 3965  cd filestore
+ 3966  ls
+ 3967  cd 0b
+ 3968  l
+ 3969  cd ..
+ 3970  ls
+ 3971  ls -la
+ 3972  cd ..
+ 3973  ks
+ 3974  ls
+ 3975  cat eve.json| jq 'select(.event_type=="tls" and .tls.subject=="*window*")'  | sort | uniq
+ 3976  cat eve.json | grep window 
+ 3977  cat eve.json| jq .event_type | sort | uniq -c | sort -nr
+ 3978  cat eve.json| jq 'select(.event_type=="krb5")'  | sort | uniq
+ 3979  cat eve.json| jq 'select(.event_type=="krb5")' | grep cname  | sort | uniq
+ 3980  cat eve.json| jq 'select(.event_type=="krb5")' | grep sname  | sort | uniq
+ 3981  cd filestore
+ 3982  ls -la
+ 3983  ind -type f
+ 3984  find -type f
+ 3985  which suricata
+ 3986  pwd
+ 3987  suricata --dump-config
+ 3988  suricata --dump-config | grep header
+ 3989  cat eve.json| jq 'select(.event_type=="krb5")' | grep sname  | sort | uniq
+ 3990  cd ..
+ 3991  cat eve.json| jq 'select(.event_type=="krb5")' | grep sname  | sort | uniq
+ 3992  cat eve.json| jq 'select(.event_type=="krb5")' | grep cname  | sort | uniq
+ 3993  cat eve.json| jq 'select(.event_type=="krb5")' | sort | uniq
+ 3994  cat eve.json| jq 'select(.event_type=="krb5")' | grep cname  | sort | uniq
+ 3995  cat eve.json| jq 'select(.event_type=="krb5")' | grep sname  | sort | uniq
+ 3996  cat eve.json| jq 'select(.event_type=="krb5")' |  sname  | sort | uniq
+ 3997  cat eve.json| jq 'select(.event_type=="krb5")'  | sort | uniq
+ 3998  cat eve.json| jq 'select(.event_type=="tcp")'  | sort | uniq
+ 3999  cat eve.json| grep tcp
+ 4000  cat eve.json| grep tcp | js
+ 4001  cat eve.json| grep tcp | jq
+ 4002  cat eve.json| grep tcp 
+ 4003  history
+ 4004  cat eve.json| jq 'select(.event_type=="flow")'
+ 4005  cat eve.json| jq 'select(.event_type=="flow")' | grep .com
+ 4006  cat eve.json| jq 'select(.event_type=="flow")' | grep domain
+ 4007  cat eve.json| jq 'select(.event_type=="flow")' | grep tcp
+ 4008  cat eve.json| jq 'select(.event_type=="flow" and .proto=="tcp")' 
+ 4009  cat eve.json| jq 'select(.event_type=="flow" and .proto=="TCP")' 
+ 4010  cat eve.json| jq 'select(.event_type=="flow" and .proto=="TCP")' | grep dest_ip 
+ 4011  cat eve.json| jq 'select(.event_type=="flow" and .proto=="TCP")' | grep dest_ip | uniq
+ 4012  cat eve.json| jq 'select(.event_type=="flow" and .proto=="TCP" and .dest_port<35000 )' | grep dest_ip | uniq
+ 4013  cat eve.json| jq 'select(.event_type=="flow" and .proto=="TCP" and .dest_port<35000 )' | grep dest_ip | sort | uniq
+ 4014  cat eve.json| jq 'select(.event_type=="flow" and .proto=="TCP" and .dest_port<35000 )' | grep dest_ip | sort -nr | uniq
+ 4015  cat eve.json| jq 'select(.event_type=="flow" and .proto=="TCP" and .dest_port<35000 )' | grep dest_ip | sort -n | uniq
+ 4016  cat eve.json| jq 'select(.event_type=="flow" and .proto=="TCP" and .dest_port<35000 )' | grep 'dest_ip": "172' | sort -n | uniq
+ 4017  cat eve.json| jq 'select(.event_type=="flow" and .proto=="TCP" and .dest_port<35000 )' | grep 'dest_ip": "172' | js
+ 4018  cat eve.json| jq 'select(.event_type=="flow" and .proto=="TCP" and .dest_port<35000 )' | grep 'dest_ip": "172' | jq
+ 4019  cat eve.json| jq 'select(.event_type=="flow" and .proto=="TCP")' | grep 'dest_ip": "172' | jq
+ 4020  cat eve.json| jq 'select(.event_type=="flow" and .proto=="TCP")' | grep 'dest_ip": "172'
+ 4021  cat eve.json| jq 'select(.event_type=="flow" and .proto=="TCP")' -c | grep 'dest_ip": "172' | jq
+ 4022  cat eve.json| jq 'select(.event_type=="flow" and .proto=="TCP")' -c | grep 'dest_ip": "172' 
+ 4023  history
+ 4024  history | grep headers
+ 4025  suricata --dump-config
+ 4026  suricata --dump-config | grep headers
+ 4027  suricata --dump-config | grep header
+ 4028  suricata --dump-config -c
+ 4029  cd ..
+ 4030  suricata --dump-config -c ./suricata.yaml
+ 4031  suricata --dump-config -c ./suricata.yaml | grep headers
+ 4032  suricata --dump-config -c ./suricata.yaml | grep header
+ 4033  history | grep prefix
+ 4034  ks
+ 4035  ls
+ 4036  editzsh
+ 4037  suricata -r 2022-10-31-IcedID-with-DarkVNC-and-Cobalt-Strike-full-pcap-raw.pcap --set outputs.9.file-store.force-file-store=yes --set outputs.9.file-store.enabled=yes --set outputs.9.eve-log.types.files.force-magic=yes --set outputs.1.eve-log.types.3.http.dump-all-headers = both
+ 4038  cd data
+ 4039  rm eve.json
+ 4040  suricata -r 2022-10-31-IcedID-with-DarkVNC-and-Cobalt-Strike-full-pcap-raw.pcap --set outputs.9.file-store.force-file-store=yes --set outputs.9.file-store.enabled=yes --set outputs.9.eve-log.types.files.force-magic=yes --set outputs.1.eve-log.types.3.http.dump-all-headers = both
+ 4041  suricata --dump-config -c ./suricata.yaml | grep magic
+ 4042  cd ..
+ 4043  suricata --dump-config -c ./suricata.yaml | grep magic
+ 4044  cd data
+ 4045  suricata -r 2022-10-31-IcedID-with-DarkVNC-and-Cobalt-Strike-full-pcap-raw.pcap --set outputs.9.file-store.force-file-store=yes --set outputs.9.file-store.enabled=yes --set outputs.1.eve-log.types.6.files.force-magic=yes --set outputs.1.eve-log.types.3.http.dump-all-headers = both
+ 4046  suricata -r 2022-10-31-IcedID-with-DarkVNC-and-Cobalt-Strike-full-pcap-raw.pcap --set outputs.9.file-store.force-file-store=yes --set outputs.9.file-store.enabled=yes --set outputs.1.eve-log.types.6.files.force-magic=yes --set outputs.1.eve-log.types.3.http.dump-all-headers=both
+ 4047  history | grep headers
+ 4048  history | grep http
+ 4049  cat eve.json| jq 'select(.event_type=="http" and .http.hostname=="vgiragdoffy.com")'
+ 4050  man suricata
+ 4051  suricata -h
+ 4052  suricata -h / -c
+ 4053  suricata -h  | grep -c
+ 4054  suricata -h  
+ 4055  suricata -c ./../suricata.yaml -r 2022-10-31-IcedID-with-DarkVNC-and-Cobalt-Strike-full-pcap-raw.pcap 
+ 4056  hsyncpush
+ 4057  shutdown
+ 4058  shutdown -h
+ 4059  shutdown man
+ 4060  man shutdown
+ 4061  shutdown -h
+ 4062  shutdown -c
+ 4063  shutdown -h
+ 4064  shutdown -c
+ 4065  shutdown -h
+ 4066  man shutdown
+ 4067  shutdown -P
+ 4068  cd
+ 4069  cdc 
+ 4070  cd suricata
+ 4071  ls
+ 4072  cd suricata
+ 4073  ls 
+ 4074  history
+ 4075  ls
+ 4076  cd data
+ 4077  rm eve.json
+ 4078  cd ..
+ 4079  cd data
+ 4080  suricata -c ./../suricata.yaml -r 2022-10-31-IcedID-with-DarkVNC-and-Cobalt-Strike-full-pcap-raw.pcap
+ 4081  history
+ 4082  cat eve.json| jq 'select(.event_type=="http" and .http.hostname=="vgiragdoffy.com")'
+ 4083  history 
+ 4084  cat eve.json| jq 'select(.event_type=="tcp")' | jq .http.hostname | sort | uniq
+ 4085  cat eve.json| jq 'select(.event_type=="http")' | jq .http.hostname | sort | uniq
+ 4086  suricata -h
+ 4087  suricata -c ./../suricata.yaml -r 2022-10-31-IcedID-with-DarkVNC-and-Cobalt-Strike-full-pcap-raw.pcap -v -s ./my_signature.txt 
+ 4088  cat eve.json| jq 'select(.event_type=="http")' | jq .http.hostname | sort | uniq
+ 4089  cat eve.json| jq 'select(.event_type=="dns")' | jq .http.hostname | sort | uniq
+ 4090  suricata -c ./../suricata.yaml -r 2022-10-31-IcedID-with-DarkVNC-and-Cobalt-Strike-full-pcap-raw.pcap -v -s ./my_signature.txt 
+ 4091  suricata -c ./../suricata.yaml -r 2022-10-31-IcedID-with-DarkVNC-and-Cobalt-Strike-full-pcap-raw.pcap -v -s ./my_signature.rules
+ 4092  rm eve.json && suricata -c ./../suricata.yaml -r 2022-10-31-IcedID-with-DarkVNC-and-Cobalt-Strike-full-pcap-raw.pcap -v -s ./my_signature.rules
+ 4093  rm eve.json && suricata -r 2022-10-31-IcedID-with-DarkVNC-and-Cobalt-Strike-full-pcap-raw.pcap -v -s ./my_signature.rules
+ 4094  rm eve.json && suricata -c ./../suricata.yaml -r 2022-10-31-IcedID-with-DarkVNC-and-Cobalt-Strike-full-pcap-raw.pcap -v -s ./my_signature.rules
+ 4095  rm eve.json && suricata -c ./../suricata.yaml -r 2022-10-31-IcedID-with-DarkVNC-and-Cobalt-Strike-full-pcap-raw.pcap -v -S ./my_signature.rules
+ 4096  rm eve.json && suricata -c ./../suricata.yaml -r 2022-10-31-IcedID-with-DarkVNC-and-Cobalt-Strike-full-pcap-raw.pcap -v -S ./my_signature.rules --engine-analysis
+ 4097  ls
+ 4098  tcpdump
+ 4099  sudo tcpdump
+ 4100  ls
+ 4101  man tcpdump
+ 4102  ip a 
+ 4103  tcpdump -i eno1 -n -w ./esiea.pcap -v
+ 4104  usdo tcpdump -i eno1 -n -w ./esiea.pcap -v -c 100
+ 4105  sudo tcpdump -i eno1 -n -w ./esiea.pcap -v -c 100
+ 4106  sudo tcpdump -i eno1 -n -w ./esiea.pcap -v -c 1000
+ 4107  sudo tcpdump -i eno1 -n -w ./esiea.pcap -v -c 10000
+ 4108  ls
+ 4109  rm eve.json && suricata -c ./../suricata.yaml -r ./esiea.pcap -v -S ./my_signature.rules --engine-analysis
+ 4110  cat ./esiea.pcap
+ 4111  cattail -1000f ./esiea.pcap
+ 4112  tail -1000f ./esiea.pcap
+ 4113  ls -la
+ 4114  suricata -c ./../suricata.yaml -r ./esiea.pcap -v -S ./my_signature.rules --engine-analysis -k none
+ 4115  man tcpdump
+ 4116  sudo tcpdump -i eno1 -n -w ./esiea.pcap -v -c 10000 -K none
+ 4117  sudo tcpdump -i eno1 -n -w ./esiea.pcap -v -c 10000 
+ 4118  suricata -c ./../suricata.yaml -r ./esiea.pcap -v -S ./my_signature.rules 
+ 4119  suricata -c ./../suricata.yaml -r ./esiea.pcap -v -S ./my_signature.rules -k none
+ 4120  suricata -c ./../suricata.yaml -r ./esiea.pcap -v -S ./my_signature.rules -k none -l ./alert-info.log
+ 4121  suricata -c ./../suricata.yaml -r ./esiea.pcap -v -S ./my_signature.rules -k none -l ./lg-esiea
+ 4122  cat ./lg-esiea/eve.json | jq .issuerdn
+ 4123  history | grep js
+ 4124  history | grep jq
+ 4125  cat ./lg-esiea/eve.json | jq 'select(.issuerdn)'
+ 4126  cat ./lg-esiea/eve.json | jq 'select(.event_type==tls)'
+ 4127  cat ./lg-esiea/eve.json | jq 'select(.event_type=="tls")'
+ 4128  history | grep jq
+ 4129  cat ./lg-esiea/eve.json | jq 'select(.event_type=="tls")' | jq ..subject
+ 4130  cat ./lg-esiea/eve.json | jq 'select(.event_type=="tls")' | jq .tls.subject
+ 4131  cat ./lg-esiea/eve.json | jq 'select(.event_type=="tls")' | jq .tls
+ 4132  suricata -c ./../suricata.yaml -r ./esiea.pcap -v -S ./my_signature.rules -k none 
+ 4133  cdc
+ 4134  ls -la
+ 4135  git add .
+ 4136  git commit -m "suricata and ios"
+ 4137  git push
+ 4138  ls
+ 4139  python3 -m pip install sage_conf
+ 4140  cd
+ 4141  ls
+ 4142  touch toto.txt
+ 4143  vim toto.txt
+ 4144  clr
+ 4145  ls
+ 4146  mv toto.txt metakey.txt
+ 4147  clr
+ 4148  cd
+ 4149  cd Workspace/brc99
+ 4150  ls
+ 4151  cd brc99-indexer-block-saver
+ 4152  ls
+ 4153  npm i
+ 4154  sudo apt install nodejs
+ 4155  sudo apt install npm
+ 4156  node -v
+ 4157  npm -v
+ 4158  ls
+ 4159  npm i
+ 4160  code ./
+ 4161  node app.js
+ 4162  node indexer.js
+ 4163  node app.js
+ 4164  node indexer.js
+ 4165  sudo apt install sagemath
+ 4166  cd
+ 4167  cd Downloads
+ 4168  ls
+ 4169  sudo tar -xzf  jetbrains-toolbox-2.1.0.18144.tar.gz -C /opt
+ 4170  cd /opt/jetbrains-toolbox-2.1.0.18144
+ 4171  ls
+ 4172  ls -la
+ 4173  ./jetbrains-toolbox
+ 4174  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+ 4175  editzsh
+ 4176  cd
+ 4177  cdc
+ 4178  cd rust
+ 4179  l
+ 4180  cargo run
+ 4181  OA
+ 4182  cargo run
+ 4183  echo RUST_BACKTRACE=1
+ 4184  echo RUST_BACKTRACE
+ 4185  echo $RUST_BACKTRACE
+ 4186  cargo run
+ 4187  cargo run 2 3
+ 4188  cargo run + 2 3
+ 4189  cargo run + 2 
+ 4190  cargo run + 2  4
+ 4191  cargo run + 
+ 4192  cargo run + 3 3
+ 4193  cargo run + 3 4
+ 4194  cargo run + 3 
+ 4195  cargo run + 3 3
+ 4196  cargo run - 3 3
+ 4197  cargo run / 3 3
+ 4198  cargo run * 3 3
+ 4199  cargo run mul 3 3
+ 4200  cargo run * 3 3
+ 4201  cargo run "*" 3 3
+ 4202  cargo run "*" a3 3
+ 4203  echo $HISTSIZE
+ 4204  editzsh
+ 4205  initzsh
+ 4206  \tclr
+ 4207  cargo run
+ 4208  cargo run + 4 5
+ 4209  cargo run - 4 9
+ 4210  cargo run + 4 9
+ 4211  cargo run / 4 9
+ 4212  cargo run * 4 9
+ 4213  cargo run "*" 4 9
+ 4214  cargo run - 4 9
+ 4215  cargo run "-" 4 9
+ 4216  cargo run "-" 90 9
+ 4217  cargo run "-" 90 a9
+ 4218  cargo run "-" 90 9
+ 4219  cargo run "-" 90 i9
+ 4220  cargo run "-" 90 9
+ 4221  cargo add rand
+ 4222  cargo run 
+ 4223  cargo add url
+ 4224  cargo run 
+ 4225  cargo run "https://github.com/rust-lang/rust/issues?labels=E-easy&state=open"
+ 4226  cargo add request
+ 4227  cargo run 
+ 4228  sudo apt install libssl-dev
+ 4229  cargo run 
+ 4230  sudo apt install pkg-config
+ 4231  cargo run 
+ 4232  sudo apt install librust-openssl-sys-dev
+ 4233  cargo run 
+ 4234  sudo apt install pkg-config
+ 4235  sudo apt install openssl1.0 libssl1.0.0 libssl1.0-dev
+ 4236  cargo clean
+ 4237  cargo run 
+ 4238  \nOPENSSL_LIB_DIR="/usr/lib/x86_64-linux-gnu" 
+ 4239  OPENSSL_INCLUDE_DIR="/usr/include/openssl" 
+ 4240  cargo build
+ 4241  cargo clean
+ 4242  cargo run
+ 4243  apt install libssl-dev
+ 4244  apt get-install libssl-dev
+ 4245  sudo apt get-install libssl-dev
+ 4246  sudo apt-get install libssl-dev
+ 4247  which libssl-dev
+ 4248  sudo apt update
+ 4249  sudo apt upgrade
+ 4250  sudo apt update
+ 4251  sudo apt-get install libssl-dev
+ 4252  cargo run
+ 4253  cargo clean
+ 4254  cargo run
+ 4255  dpkg -L libssl-dev
+ 4256  code ~/.zshrc
+ 4257  source ~/.zshrc
+ 4258  cargo run
+ 4259  cargo clean
+ 4260  cargo run
+ 4261  [200~error: failed to run custom build command for `openssl-sys v0.6.7`
+ 4262  Caused by:
+ 4263  cargo add openssl-sys
+ 4264  cargo run
+ 4265  sudo apt remove libssl-dev
+ 4266  sudo apt install libssl-dev
+ 4267  cargo run
+ 4268  sudo apt remove libssl-dev
+ 4269  sudo apt install libssl-dev
+ 4270  cargo run
+ 4271  cargo clean
+ 4272  cargo build
+ 4273  pacman -Q openssl
+ 4274  clr
+ 4275  sudo apt remove libssl-dev
+ 4276  yes | sudo apt remove libssl-dev
+ 4277  yes | sudo apt-get install libssl-dev
+ 4278  cargo build
+ 4279  openssl version -a
+ 4280  yes | sudo apt remove libssl-dev
+ 4281  openssl version -a
+ 4282  which openssl
+ 4283  brew -v
+ 4284  brew uninstall openssl
+ 4285  brew remove openssl
+ 4286  brew uninstall --ignore-dependencies openssl\n
+ 4287  which openssl
+ 4288  cargo run
+ 4289  yes | sudo apt remove libssl-dev
+ 4290  yes | sudo apt remove openssl
+ 4291  which openssl
+ 4292  sudo apt-get install openssl
+ 4293  which openssl
+ 4294  cargo run
+ 4295  sudo apt-get remove openssl
+ 4296  sudo apt install libssl-dev
+ 4297  which libssl-dev
+ 4298  sudo apt remove libssl-dev
+ 4299  which libssl-dev
+ 4300  which openssl
+ 4301  sudo apt upgrade
+ 4302  sudo apt update
+ 4303  sudo apt-get install libssl-dev
+ 4304  cargo run
+ 4305  which openssl
+ 4306  which libssl-dev
+ 4307  which libssl
+ 4308  sudo apt-get install libssl-dev
+ 4309  which libssl-dev
+ 4310  apt install libssl-dev
+ 4311  sudo apt install libssl-dev
+ 4312  sudo apt autoremove
+ 4313  which libssl-dev
+ 4314  sudo apt-egt install libssl-dev
+ 4315  sudo apt-get install libssl-dev
+ 4316  which libssl-dev
+ 4317  sudo apt-get install libssl-dev
+ 4318  sudo apt-get remove libssl-dev
+ 4319  sudo apt update
+ 4320  sudo apt upgrade
+ 4321  sudo apt update
+ 4322  sudo apt-get install libssl-dev
+ 4323  which libssl-dev
+ 4324  cargo run
+ 4325  openssl -v
+ 4326  sudo openssl -v
+ 4327  sudo libssl -v
+ 4328  which openssl
+ 4329  apt show openssl
+ 4330  sudo apt install openssl -y
+ 4331  openssl -V
+ 4332  openssl -v
+ 4333  openssl version
+ 4334  argo run
+ 4335  cargo run
+ 4336  rust -V
+ 4337  rust --version
+ 4338  rust -version
+ 4339  cdc
+ 4340  cd rust
+ 4341  ls
+ 4342  cargo run
+ 4343  exit
+ 4344  cdc
+ 4345  cd r
+ 4346  cd rust
+ 4347  ls
+ 4348  cargo run
+ 4349  which libssl
+ 4350  which libssl-dev
+ 4351  apt search libssl-dev
+ 4352  ls
+ 4353  rm -f target
+ 4354  rm -rf target
+ 4355  rm Cargo.lock
+ 4356  cargo clean
+ 4357  cargo run
+ 4358  wget https://sh.rustup.rs
+ 4359  ls
+ 4360  rm index.html
+ 4361  cd 
+ 4362  wget https://sh.rustup.rs
+ 4363  mv index.html rust.sh
+ 4364  ./rust.sh --uninstall
+ 4365  sudo ./rust.sh --uninstall
+ 4366  ls
+ 4367  ls -la
+ 4368  cdc
+ 4369  cd rust
+ 4370  ls
+ 4371  wget https://sh.rustup.rs
+ 4372  ls
+ 4373  mv index.html rust.sh
+ 4374  ls
+ 4375  ls -la
+ 4376  chmod +x ./rust.sh
+ 4377  sudo ./rust.sh --uninstall
+ 4378  sudo ./rust.sh -- --uninstall
+ 4379  sudo ./rust.sh --help
+ 4380  rust -v
+ 4381  rustup -v
+ 4382  rustup self uninstall\n
+ 4383  rust -v
+ 4384  rustup -v
+ 4385  rustc -v
+ 4386  sudo apt-get install rust cargo
+ 4387  sudo apt install rust
+ 4388  sudo apt install rustc
+ 4389  sudo apt install cargo
+ 4390  ls
+ 4391  cargo run
+ 4392  sudo apt-get update && apt-get install libssl-dev
+ 4393  sudo apt-get update && sudo apt-get install libssl-dev
+ 4394  rm -rf target
+ 4395  rm -rf Cargo.lock
+ 4396  cargo run
+ 4397  sudo apt-get --purge remove gcc-11
+ 4398  sudo apt-get --purge remove gcc-11-base:amd64
+ 4399  sudo apt-get --purge remove gcc-12
+ 4400  sudo apt-get --purge remove gcc-12 -y
+ 4401  sudo apt-get --purge remove gcc -y
+ 4402  sudo apt-get --purge remove gcc* -y
+ 4403  sudo apt-get --purge remove gcc-12-base:amd64 -y
+ 4404  sudo apt-get --purge remove gcc-13 -y
+ 4405  sudo apt-get --purge remove gcc-13-base:amd64 -y
+ 4406  sudo apt-get --purge remove gcc-13-base:amd64
+ 4407  sudo apt-get purge  gcc-13-base:amd64
+ 4408  sudo apt update
+ 4409  gcc -v
+ 4410  gcc -h
+ 4411  sudo apt install build-essential
+ 4412  gcc -v
+ 4413  ls
+ 4414  rm -rf target
+ 4415  rm -rf Cargo.lock
+ 4416  cargo run
+ 4417  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+ 4418  source "$HOME/.cargo/env"\n
+ 4419  cargo run
+ 4420  sudo apt install libssl-dev 
+ 4421  cargo run
+ 4422  rm -rf Cargo.lock
+ 4423  rm -rf target
+ 4424  sudo apt-get remove --auto-remove libssl-dev 
+ 4425  sudo apt-get remove libssl-dev 
+ 4426  sudo apt-get purge libssl-dev 
+ 4427  sudo apt-get purge --auto-remove libssl-dev 
+ 4428  ls
+ 4429  cargo un
+ 4430  cargo run
+ 4431  openssl-sys --v
+ 4432  sudo apt-get install openssl-sys
+ 4433  cargo add openssl-sys
+ 4434  cargo run
+ 4435  cargo clean
+ 4436  cargo run
+ 4437  cargo build
+ 4438  cargo clean
+ 4439  cargo build
+ 4440  libssl-dev
+ 4441  libssl-dev -v
+ 4442  which libssl-dev
+ 4443  which openssl
+ 4444  openssl -v
+ 4445  openssl -h
+ 4446  openssl --help
+ 4447  openssl 
+ 4448  sudo apt-get remove openssl 
+ 4449  openssl 
+ 4450  which openssl
+ 4451  cargo clean
+ 4452  rm -rf ./target
+ 4453  ls
+ 4454  rm Cargo.lock
+ 4455  cargo clean
+ 4456  cargo run
+ 4457  cargo run &> result.txt
+ 4458  cargo run 
+ 4459  sudo apt-get install libssl-dev
+ 4460  sudo yum install openssl-devel\n
+ 4461  cargo update
+ 4462  cargo updatewhich openssl
+ 4463  which openssl
+ 4464  which libssl
+ 4465  sudo apt-get install openssl -y
+ 4466  which openssl
+ 4467  export OPENSSL_INCLUDE_DIR=/bin/openssl
+ 4468  rm target
+ 4469  rm -rf target
+ 4470  rm -rf Cargo.lock
+ 4471  rm -rf rust.sh
+ 4472  cargo run
+ 4473  echo $OPENSSL_INCLUDE_DIR
+ 4474  code ~/.zshrc
+ 4475  vim ~/.zshrc
+ 4476  echo $OPENSSL_INCLUDE_DIR
+ 4477  which openssl
+ 4478  echo $OPENSSL_INCLUDE_DIR
+ 4479  which openssl
+ 4480  cdc
+ 4481  cd rust
+ 4482  ls
+ 4483  rm -rf target
+ 4484  rm -rf Cargo.lock
+ 4485  cargo run
+ 4486  cdc
+ 4487  cd rust
+ 4488  lks
+ 4489  ls
+ 4490  cargo clean
+ 4491  ls
+ 4492  rm Cargo.lock
+ 4493  cargo run
+ 4494  echo $OPENSSL_INCLUDE_DIR
+ 4495  cargo run
+ 4496  sudo cargo run
+ 4497  cargo run
+ 4498  cargo add reqwest
+ 4499  cargo run
+ 4500  rm -rf Cargo.lock
+ 4501  rm -rf target
+ 4502  cargo add scraper
+ 4503  cargo run
+ 4504  OA
+ 4505  cargo run
+ 4506  sudo apt-get install firefox
+ 4507  cd
+ 4508  cd Downloads
+ 4509  ls
+ 4510  sudo apt install ./google-chrome-stable_current_amd64.deb
+ 4511  ls | grep fire
+ 4512  sudo snap install firefox
+ 4513  sudo apt install firefox
+ 4514  sudo apt upgrade
+ 4515  wget -O ~/FirefoxSetup.tar.bz2 "https://download.mozilla.org/?product=firefox-latest&os=linux64"
+ 4516  sudo mv /usr/lib/firefox/firefox /usr/lib/firefox/firefox_backup
+ 4517  tar -xvf firefox-119.0.1.tar.bz2
+ 4518  l
+ 4519  cd firefox
+ 4520  ks
+ 4521  ls
+ 4522  sudo apt update
+ 4523  sudo apt install snapd
+ 4524  sudo snap install ngrok\n
+ 4525  ngrok config add-authtoken 2L80D0GZIDt9Aa3xuu3xiSe3KSq_Gu7i6yupfAqzGf7hNuca
+ 4526  ngrok http 80
+ 4527  python3 -m http.server 4040
+ 4528  cd .mozilla
+ 4529  ls
+ 4530  cd firefox
+ 4531  ls
+ 4532  cat profiles.ini
+ 4533  cd 931cpnh0.default-release/bookmarkbackups
+ 4534  ls
+ 4535  ls -la
+ 4536  cd ..
+ 4537  ls
+ 4538  pwd
+ 4539  cd ..
+ 4540  ls
+ 4541  cd k9tuoal6.default
+ 4542  ls
+ 4543  cd ..
+ 4544  cd
+ 4545  cd Do
+ 4546  cd Downloads
+ 4547  ls la
+ 4548  ls -la
+ 4549  sudo snap install firefox
+ 4550  sudo snap uninstall firefox
+ 4551  sudo snap remove firefox
+ 4552  sudo snap install firefox
+ 4553  firefox
+ 4554  ngrok http 80
+ 4555  cd Do
+ 4556  cd Downloads
+ 4557  ls
+ 4558  sudo chmod +x ./burpsuite_community_linux_v2023_10_3_4.sh
+ 4559  sudo ./burpsuite_community_linux_v2023_10_3_4.sh
+ 4560  telnet challenge01.root-me.org 52002
+ 4561  cd
+ 4562  cd Workspace/ROOTME
+ 4563  lks
+ 4564  ls
+ 4565  node tcp-calc.js
+ 4566  ls
+ 4567  node tcp-calc.js
+ 4568  1
+ 4569  telnet challenge01.root-me.org 52002
+ 4570  node tcp-calc.js
+ 4571  cd Workspace/ROOTME
+ 4572  ls
+ 4573  node tcp-calc.js
+ 4574  node tcp-decode.js
+ 4575  node tcp-rom-rolls.js
+ 4576  node tcp-uncompress.js
+ 4577  npm install pako -g
+ 4578  sudo apt-get install npm
+ 4579  npm install pako -g
+ 4580  sudo npm install pako -g
+ 4581  node tcp-uncompress.js
+ 4582  sudo npm install pako -g
+ 4583  node tcp-uncompress.js
+ 4584  cdc
+ 4585  cd crypto
+ 4586  ls
+ 4587  python3 main.py
+ 4588  python3 main.py > result.txt
+ 4589  pip install pandas 
+ 4590  pip3 install pandas 
+ 4591  python3 -m venv venv
+ 4592  history | grep venv
+ 4593  python3 -m venv venv
+ 4594  apt install python3.11-venv
+ 4595  sudo apt install python3.11-venv
+ 4596  python3 -m venv venv
+ 4597  ls
+ 4598  source ./venv/bin/activate
+ 4599  pip install pandas
+ 4600  pip freeze > requirements.txt
+ 4601  cat requirements.txt
+ 4602  cdc
+ 4603  cd ..
+ 4604  ls
+ 4605  cd ROOTME
+ 4606  ls
+ 4607  git clone https://github.com/ffuf/ffuf ; cd ffuf ; go get ; go build
+ 4608  apt-get install go
+ 4609  sudo apt-get install go
+ 4610  sudo snap install go --classic
+ 4611  go get ; go build
+ 4612  ffuf -w /path/to/wordlist -u https://target/FUZZ
+ 4613  ./ffuf -w /path/to/wordlist -u https://target/FUZZ
+ 4614  ./ffuf -w ~/Downloads/rockyou.txt -u https://target/FUZZ
+ 4615  ./ffuf -w ~/Downloads/rockyou.txt -u http://challenge01.root-me.org/realiste/ch3/admin/
+ 4616  ./ffuf -w ~/Downloads/rockyou.txt -u http://challenge01.root-me.org/realiste/ch3/admin
+ 4617  cd 
+ 4618  cd Downloads
+ 4619  ls
+ 4620  cat ch18.bin
+ 4621  string ./ch18.bin
+ 4622  strings ./ch18.bin
+ 4623  ./ch18.bin
+ 4624  sudo ./ch18.bin
+ 4625  ghidra
+ 4626  cd Workspace/COURS
+ 4627  ls
+ 4628  git add . 
+ 4629  git commit -m "from esia computer"
+ 4630  git push
+ 4631  cd ..
+ 4632  cd Downloads
+ 4633  ls
+ 4634  hexdump exo01_find-my-msisdn.pcap > exo01_find-my-msisdn.txt
+ 4635  code exo01_find-my-msisdn.txt
+ 4636  cat ~/.ssh/id_rsa.pub
+ 4637  cat ~/.ssh/id_rsa.pub | wc -c
+ 4638  python3 prime_ex01.py
+ 4639  *rl -L -o /tmp/lipo https://github.com/konoui/lipo/releases/latest/download/lipo_Linux_amd64
+ 4640  python3 prime_ex01.py
+ 4641  sudo apt install texlive-latex-extra texlive-xetex latexmk pandoc dvipng 
+ 4642  git clone --branch master https://github.com/sagemath/sage.git
+ 4643  cd sage && make configure && ./configure && MAKE="make -j8" make
+ 4644  sage
+ 4645  sage -v
+ 4646  ls
+ 4647  cd
+ 4648  sudo apt install sagemath
+ 4649  sage -v
+ 4650  sage
+ 4651  sage -v
+ 4652  sudo cp sage /usr/local/bin/ && sudo cp sage-python /usr/local/bin/ && SAGE_ROOT="/usr/local/share/sage-9.5/" 
+ 4653  sudo chmod a+x sage
+ 4654  sudo chmod a+x sage-python
+ 4655  sudo apt install sage-python\n\n
+ 4656  which sage
+ 4657  sage
+ 4658  docker pull sagemath/sagemath
+ 4659  sudo docker pull sagemath/sagemath
+ 4660  sudo docker run sagemath/sagemath
+ 4661  sudo docker run sagemath/sagemath -it
+ 4662  docker run -it sagemath/sagemath:latest
+ 4663  sudo docker run -it sagemath/sagemath:latest
+ 4664  ls
+ 4665  cd
+ 4666  cdc
+ 4667  cd rust
+ 4668  ls
+ 4669  cargo run
+ 4670  cargo run$
+ 4671  cargo run
+ 4672  cargo add serde
+ 4673  cargo add bincode
+ 4674  cd Downloads/ks
+ 4675  cd Downloads/
+ 4676  ls
+ 4677  cat game.bin
+ 4678  cat fuzzinglabs.bin
+ 4679  pwd
+ 4680  cargo add bincode
+ 4681  cargo run
+ 4682  cargo run 
+ 4683  cargo run
+ 4684  cargo build
+ 4685  cargo run
+ 4686  cargo test
+ 4687  cargo add clap
+ 4688  cargo run
+ 4689  cargo add clap --features derive
+ 4690  cargo run
+ 4691  cargo run --name fff
+ 4692  cargo run -- --name fff
+ 4693  cargo run -- --name fff --mode ok
+ 4694  cargo run -p test.bin -m dissassembler
+ 4695  cargo run -- -p test.bin -m dissassembler
+ 4696  cargo run -- -name test.bin -m dissassembler
+ 4697  cargo run -- -name /home/naouaichia/Downloads/fuzzinglabs.bin -m dissassembler
+ 4698  cargo run -- -name "/home/naouaichia/Downloads/fuzzinglabs.bin" -m dissassembler
+ 4699  cargo run -- --name "/home/naouaichia/Downloads/fuzzinglabs.bin" -m dissassembler
+ 4700  cargo run -- --name "/home/naouaichia/Downloads/fuzzinglabs.bin" -name dissassembler
+ 4701  cargo run -- --name "/home/naouaichia/Downloads/fuzzinglabs.bin" -mode dissassembler
+ 4702  cargo run -- --name "/home/naouaichia/Downloads/fuzzinglabs.bin" --mode dissassembler
+ 4703  cargo run -- --name "/home/naouaichia/Downloads/fuzzinglabs.bin" --mode Dissassembler
+ 4704  cargo run -- --path "/home/naouaichia/Downloads/fuzzinglabs.bin" --mode Dissassembler
+ 4705  cargo run -- --path "/home/naouaichia/Downloads/fuzzinglabs.bin" --mode dissassembler
+ 4706  cargo run -- --path "/home/naouaichia/Downloads/fuzzinglabs.bin" --mode disassembler
+ 4707  cargo run -- --path "/home/naouaichia/Downloads/fuzzinglabs.bin" --mode Disassembler
+ 4708  cargo run -- --path "/home/naouaichia/Downloads/fuzzinglabs.bin" --mode disassembler
+ 4709  cargo run -- --path "/home/naouaichia/Downloads/fuzzinglabs.bin" --mode assembler
+ 4710  cd Downloads
+ 4711  more ./filenames.txt
+ 4712  cd 
+ 4713  cdc
+ 4714  cd suricata
+ 4715  ls
+ 4716  git clone https://github.com/StamusNetworks/SELKS.git\n
+ 4717  cd SELKS/docker/\n
+ 4718  ./easy-setup.sh\n
+ 4719  sudp ./easy-setup.sh\n
+ 4720  sudo ./easy-setup.sh\n
+ 4721  sudo -E docker compose up -d\n
+ 4722  docker ps 
+ 4723  sudo docker ps 
+ 4724  cd ..
+ 4725  code .:
+ 4726  code ./
+ 4727  cdc
+ 4728  git add .
+ 4729  git rm --cached suricata/SELKS\n
+ 4730  git rm --cached suricata/SELKS -f\n
+ 4731  git add .
+ 4732  git rm --cached suricata/SELKS -f\n
+ 4733  git add .
+ 4734  git commit -m "21 novembre 2023"
+ 4735  git push
+ 4736  ls
+ 4737  cdp
+ 4738  ls
+ 4739  mkdir findCollisions
+ 4740  cd findCollisions
+ 4741  git clone git@github.com:korgrunt/brute-force-pass-lang-c.git
+ 4742  ls
+ 4743  history sage
+ 4744  history | sage
+ 4745  history | greop sage
+ 4746  history | grep sage
+ 4747  history | grep sage
+ 4748  editzsh
+ 4749  initzsh
+ 4750  sage
+ 4751  sudo sage
+ 4752  history | grep SAGE
+ 4753  editzsh
+ 4754  initzsh
+ 4755  sage
+ 4756  sudo sage
+ 4757  code ~/.zshrc
+ 4758  sudo docker run -it sagemath/sagemath:latest
+ 4759  initzsh
+ 4760  sage
+ 4761  cat ~/.ssh/id_rsa.pub
+ 4762  sage
+ 4763  awk - v
+ 4764  gawk - v
+ 4765  sudo apt-get install gawk
+ 4766  gawk - v
+ 4767  gawk -v
+ 4768  awk -v
+ 4769  sage
+ 4770  cat ~/.ssh/id_rsa.pub
+ 4771  settings set org.gnome.desktop.background picture-uri 707525.jpg
+ 4772  gsettings set org.gnome.desktop.background picture-uri-dark 707525.jpg
+ 4773  gsettings set org.mate.background picture-filename 707525.jpg
+ 4774  gsettings set org.gnome.desktop.background picture-uri 707525.jpg
+ 4775  gsettings set org.gnome.desktop.background picture-uri-dark 707525.jpg
+ 4776  gsettings set org.mate.background picture-filename 707525.jpg
+ 4777  xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/workspace0/last-image -s 707525.jpg
+ 4778  history
+ 4779  cd Pictures
+ 4780  ls 
+ 4781  cd Wallpapers
+ 4782  pwd
+ 4783  ls
+ 4784  settings set org.gnome.desktop.background picture-uri /home/naouaichia/Pictures/Wallpapers/Mojave-nord-dark.png && gsettings set org.gnome.desktop.background picture-uri-dark /home/naouaichia/Pictures/Wallpapers/Mojave-nord-dark.png && gsettings set org.mate.background picture-filename /home/naouaichia/Pictures/Wallpapers/Mojave-nord-dark.png && gsettings set org.gnome.desktop.background picture-uri /home/naouaichia/Pictures/Wallpapers/Mojave-nord-dark.png && gsettings set org.gnome.desktop.background picture-uri-dark /home/naouaichia/Pictures/Wallpapers/Mojave-nord-dark.png && gsettings set org.mate.background picture-filename /home/naouaichia/Pictures/Wallpapers/Mojave-nord-dark.png && xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/workspace0/last-image -s /home/naouaichia/Pictures/Wallpapers/Mojave-nord-dark.png\n
+ 4785  HISTORY
+ 4786  gsettings set org.gnome.desktop.background picture-uri /home/naouaichia/Pictures/Wallpapers/Mojave-nord-dark.png
+ 4787  gsettings set org.gnome.desktop.background picture-uri-dark /home/naouaichia/Pictures/Wallpapers/Mojave-nord-dark.png
+ 4788  gsettings set org.mate.background picture-filename /home/naouaichia/Pictures/Wallpapers/Mojave-nord-dark.png
+ 4789  gsettings set org.gnome.desktop.background picture-uri /home/naouaichia/Pictures/Wallpapers/Mojave-nord-dark.png
+ 4790  gsettings set org.gnome.desktop.background picture-uri-dark /home/naouaichia/Pictures/Wallpapers/Mojave-nord-dark.png
+ 4791  gsettings set org.mate.background picture-filename /home/naouaichia/Pictures/Wallpapers/Mojave-nord-dark.png
+ 4792  xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/workspace0/last-image -s /home/naouaichia/Pictures/Wallpapers/Mojave-nord-dark.png
+ 4793  openssl -v
+ 4794  openssl -help
+ 4795  openssl enc -help
+ 4796  cdc
+ 4797  mkdir tls
+ 4798  cd tls
+ 4799  openssl enc -help
+ 4800  echo -n "mssis_2324" > 01_plain
+ 4801  openssl enc -e -aes-128-ecb -in 01_plain -out 01_cipher
+ 4802  ls
+ 4803  cat 01_cipher
+ 4804  openssl -list
+ 4805  openssl -list -help
+ 4806  openssl enc -list
+ 4807  ls -la
+ 4808  cat 01_cipher
+ 4809  hexdump -c 01_cipher
+ 4810  hexdump -C 01_cipher
+ 4811  openssl enc -e -aes-128-ecb -in 01_cipher -out 01_cipher_bis
+ 4812  hexdump -C 01_cipher_bis
+ 4813  ls -la
+ 4814  openssl enc -e -aes-128-ecb -in 01_cipher -out 01_cipher_bis2
+ 4815  hexdump -C 01_cipher_bis2
+ 4816  hexdump -C 01_cipher_bis
+ 4817  openssl enc -e -aes-128-ecb -in 01_plain -out 01_cipher3 -p
+ 4818  ls
+ 4819  hexdump -C 01_cipher3
+ 4820  hexdump -C 01_cipher
+ 4821  openssl enc -e -aes-128-ecb -in 01_plain -out 01_cipher4 -p -pbkdf2
+ 4822  hexdump -C 01_cipher4
+ 4823  openssl enc -e -aes-128-ecb -in 01_plain -out 01_cipher7 -p -nosalt
+ 4824  openssl enc -e -aes-128-ecb -in 01_plain -out 01_cipher8 -p -nosalt
+ 4825  hexdump 01_cipher7
+ 4826  hexdump -C 01_cipher7
+ 4827  hexdump -C 01_cipher8
+ 4828  mkdir part2
+ 4829  cd part2
+ 4830  dd if=/dev/zero of=03_plain bs=15 count=1
+ 4831  openssl env -e -aes-128-cbc -in 03_plain -out 03_cipher -p
+ 4832  openssl enc -e -aes-128-cbc -in 03_plain -out 03_cipher -p
+ 4833  ls -la
+ 4834  hexdump -C 03_cipher
+ 4835  openssl enc -e -aes-128-cbc -in 03_plain -out 04_cipher -p -no-salt
+ 4836  openssl enc -e -aes-128-cbc -in 03_plain -out 05_cipher -p -no-salt
+ 4837  hexdump -C 04_cipher
+ 4838  ls
+ 4839  openssl enc -e -aes-128-cbc -in 03_plain -out 05_cipher -p -nosalt
+ 4840  openssl enc -e -aes-128-cbc -in 03_plain -out 04_cipher -p -nosalt
+ 4841  hexdump -C 04_cipher
+ 4842  hexdump -C 05_cipher
+ 4843  openssl enc -d -aes-128-cbc -in 03_cipher -out 03_plain -p -nosalt -nopad
+ 4844  hexdump 03_plain
+ 4845  hexdump -C 03_plain
+ 4846  man opensssl
+ 4847  man openssl
+ 4848  clr
+ 4849  opennssl rand -h
+ 4850  openssl rand -h
+ 4851  openssl rand
+ 4852  openssl rand -out ./rand
+ 4853  cat rand
+ 4854  openssl rand -writerand -out ./rand
+ 4855  openssl rand -writerand dfdfhdjhf -out ./rand
+ 4856  cat rand
+ 4857  openssl rand -writerand ./03_cipher -out ./rand
+ 4858  cat rand
+ 4859  cat /dev/random
+ 4860  openssl rand 33
+ 4861  openssl rand -h
+ 4862  openssl rand 33 -hex
+ 4863  openssl rand -hex 33 
+ 4864  openssl rand -hex 30
+ 4865  openssl rand -base64 30
+ 4866  openssl rand -base64 18
+ 4867  openssl rand -base5 18
+ 4868  openssl rand -base58 18
+ 4869  dd if=/dev/urandom of=seed.raw bs=512 count=1
+ 4870  ls
+ 4871  cat seed.raw
+ 4872  dd if=/dev/urandom of=seed.raw bs=2 count=1
+ 4873  cat seed.raw
+ 4874  dd if=/dev/urandom of=seed.raw bs=2 count=1
+ 4875  cat seed.raw
+ 4876  openssl genrsa 1024 > rsa_priv.pen
+ 4877  openssl genrsa 1024 > rsa_priv.pem
+ 4878  cd ..
+ 4879  mkdir part3
+ 4880  openssl genrsa 1024 > rsa_priv.pem
+ 4881  ls
+ 4882  cd part3
+ 4883  openssl genrsa 1024 > rsa_priv.pem
+ 4884  ls
+ 4885  cat rsa_priv.pem
+ 4886  openssl rsa -noout -text -in -rsa_priv.pem
+ 4887  openssl rsa -noout -text -in rsa_priv.pem
+ 4888  openssl genrsa -aes128 1024 > rsa_priv.pem
+ 4889  cat rsa_priv.pem
+ 4890  openssl rsa -aes128 -in rsa_priv.pem > rsa_priv_decrypted.pem
+ 4891  cat rsa_priv_decrypted.pem
+ 4892  openssl genrsa -aes128 1024 > rsa_priv.pem
+ 4893  openssl rsa -aes128 -in rsa_priv.pem > rsa_priv_decrypted.pem
+ 4894  openssl rsa -aes128 -in rsa_priv_decrypted.pem > rsa-re_prive.pem
+ 4895  cat rsa-re_prive.pem
+ 4896  cat rsa_priv.pem
+ 4897  cat rsa_priv_decrypted.pem
+ 4898  openssl genrsa 1024 > rsa_priv_plain.pem
+ 4899  cat rsa_priv_plain.pem
+ 4900  openssl rsa -in rsa_priv_plain.pem -pubout > rsa_pub.pem
+ 4901  cat rsa_pub.pem
+ 4902  cat -noout -text -pubin -in rsa_pub.pem
+ 4903  opensssl -noout -text -pubin -in rsa_pub.pem
+ 4904  openssl -noout -text -pubin -in rsa_pub.pem
+ 4905  openssl rsa -noout -text -pubin -in rsa_pub.pem
+ 4906  cd ../
+ 4907  mkdir part4
+ 4908  cd part4
+ 4909  echo -n "mssisi2324" > message.txt
+ 4910  openssl dgst -sign rsa_priv.pem message.txt > message.sign
+ 4911  cat message.sign
+ 4912  vim message.sign
+ 4913  clr
+ 4914  ls
+ 4915  openssl genrsa 1024 > rsa_priv.pem
+ 4916  openssl dgst -sign rsa_priv.pem message.txt > message.sign
+ 4917  cat message.sign
+ 4918  cat message.txt
+ 4919  ls -la
+ 4920  openssl rsa -in rsa_priv.pem -pubout > rsa_pub.pem
+ 4921  cat rsa_pub.pem
+ 4922  openssl dgst -verify rsa_pub.pem -signature message.sign message.txt
+ 4923  cd ../
+ 4924  mkdir part5
+ 4925  cd part5
+ 4926  dd if=/dev/zero of=message2.txt bs=1M count=1
+ 4927  openssl dgst -sign rsa_priv.pem message2.txt > message2.sign
+ 4928  openssl dgst -verify rsa_priv.pem -signature message2.sign message2.txt
+ 4929  openssl dgst -verify rsa_pub.pem -signature message2.sign message2.txt
+ 4930  more message2.txt
+ 4931  cdc
+ 4932  git add .
+ 4933  git commit -m ("tls");
+ 4934  git commit -m "tls"
+ 4935  git push
+ 4936  openssl versiob
+ 4937  openssl version
+ 4938  cd tls
+ 4939  mls
+ 4940  ls
+ 4941  mkdir part6
+ 4942  cd part6
+ 4943  echo -n "mssis_2324" > message.txt
+ 4944  openssl rsautl -encrypt -inkey rsa_pub.pem -pubin -in message.txt -out message.enc
+ 4945  openssl rsautl -encrypt -inkey rsa_priv.pem -in message.enc -out message.dec
+ 4946  ls
+ 4947  openssl rsautl -encrypt -inkey rsa_priv.pem -in message.enc -out message.dec > message.txt
+ 4948  openssl rsautl -encrypt -inkey rsa_pub.pem -pubin -in message.txt -out message.enc > message.enc
+ 4949  ls
+ 4950  openssl rsautl -encrypt -inkey rsa_priv.pem -in message.enc -out message.dec > message.dec
+ 4951  ls
+ 4952  cat message.txt
+ 4953  echo -n "mssis_2324" > message.txt
+ 4954  openssl rsautl -encrypt -inkey rsa_pub.pem -pubin -in message.txt -out message.enc > message.enc
+ 4955  openssl rsautl -encrypt -inkey rsa_priv.pem -in message.enc -out message.dec > message.dec
+ 4956  cat message.txt
+ 4957  cat message.enc
+ 4958  cat message.dec
+ 4959  ls
+ 4960  ls -la
+ 4961  openssl rsautl -encrypt -inkey rsa_pub.pem -pubin -in message.txt -out message.enc
+ 4962  ls
+ 4963  echo -n "mssis_2324" > message.txt
+ 4964  openssl rsautl -encrypt -inkey rsa_pub.pem -pubin -in message.txt -out message.enc 
+ 4965  openssl pkeyutl -encrypt -inkey rsa_pub.pem -pubin -in message.txt -out message.enc 
+ 4966  cat message.enc 
+ 4967  openssl pkeyutl -encrypt -inkey rsa_priv.pem -in message.enc -out message.dec
+ 4968  cat message.dec
+ 4969  cd ../practice
+ 4970  python3 -m venv venv
+ 4971  source ./venv/bin/activate
+ 4972  pip install pycryptodome
+ 4973  python3 main.py
+ 4974  python3 main.py toto
+ 4975  pip install itertool
+ 4976  pip install itertools
+ 4977  python3 main.py toto
+ 4978  python3 main.py "toto"
+ 4979  python3 main.py toto
+ 4980  python3 main.py totodkhfjdhfjdhfjdhfjkdhkfhdjhfdjhf
+ 4981  python3 main.py toto
+ 4982  python3 main.py FirstSecondThird
+ 4983  python3 main.py FirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkf
+ 4984  python3 main.py FirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjf
+ 4985  python3 main.py FirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjf
+ 4986  python3 main.py FirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjf$
+ 4987  python3 main.py FirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfFirstSecondThirdfdkfjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjkdjfkdjfkdfjdkfdkjfdkfjkdjfkdjkdjfkdjfkdjfkdjfkdjkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjfkdjf
+ 4988  clr
+ 4989  python3 main.py 12
+ 4990  python3 main.py 11
+ 4991  cat /etc/.passwd
+ 4992  cat /etc/passwd
+ 4993  cat /etc/shadow
+ 4994  cd ..
+ 4995  cd .
+ 4996  cd ..
+ 4997  git add .
+ 4998  git commit -m "tls am"
+ 4999  git push
+ 5000  cdc
+ 5001  cd tls/practice
+ 5002  ls
+ 5003  source venv/bin/activate
+ 5004  python3 main.py
+ 5005  ls
+ 5006  python3 protect_symetric.py ./fileIn ./fileOut
+ 5007  python3 protect_symetric.py password ./fileIn ./fileOut
+ 5008  ls
+ 5009  touch plain_text.txt
+ 5010  python3 protect_symetric.py password ./plain_text.txt ./fileOut
+ 5011  python3 main-pass-derivation.py
+ 5012  python3 protect_symetric.py password ./plain_text.txt ./fileOut
+ 5013  python3 protect_symetric.py password ./plain_text.txt ./file_out.txt
+ 5014  python3 protect_asymetric.py password ./asym_plain_text.txt ./asym_file_out.txt
+ 5015  python3 protect_symetric.py password ./plain_text.txt ./file_out.txt
+ 5016  python3 protect_asymetric.py password ./asym_plain_text.txt ./asym_file_out.txt
+ 5017  python3 protect_symetric.py password ./plain_text.txt ./sym_file_out.txt
+ 5018  python3 unprotect_symetric.py password ./sym_file_out.txt ./unprotected_file_out.txt
+ 5019  python3 protect_symetric.py password ./plain_text.txt ./file_out.txt  
+ 5020  python3 protect_symetric.py password ./sym_plain_text.txt ./file_out.txt
+ 5021  python3 unprotect_symetric.py password ./sym_file_out.txt ./unprotected_file_out.txt
+ 5022  cdc
+ 5023  git add .
+ 5024  git commit -m "sym cypher ok"
+ 5025  git push
+ 5026  cd tls/practice
+ 5027  ls
+ 5028  python3 unprotect_symetric.py password ./sym_file_out.txt ./unprotected_file_out.txt
+ 5029  python3 protect_symetric.py password ./sym_plain_text.txt ./file_out.txt
+ 5030  python3 unprotect_symetric.py password ./sym_file_out.txt ./unprotected_file_out.txt
+ 5031  python3 protect_symetric.py password ./sym_plain_text.txt ./file_out.txt
+ 5032  python3 unprotect_symetric.py password ./sym_file_out.txt ./unprotected_file_out.txt
+ 5033  cdc
+ 5034  git add .
+ 5035  git commit -m "symetrie ready, ordered in file"
+ 5036  git push
+ 5037  cd tls
+ 5038  ls
+ 5039  cd practice
+ 5040  ls
+ 5041  cd symetrique
+ 5042  ms
+ 5043  ls
+ 5044  python3 protect_symetric.py password ./sym_plain_text.txt ./file_out.txt
+ 5045  cd ..
+ 5046  ls
+ 5047  source venv/bin/activate
+ 5048  cd symetrique
+ 5049  python3 protect_symetric.py password ./sym_plain_text.txt ./file_out.txt
+ 5050  python3 unprotect_symetric.py password ./sym_file_out.txt ./unprotected_file_out.txt
+ 5051  python3 protect_symetric.py password ./sym_plain_text.txt ./file_out.txt
+ 5052  python3 protect_symetric.py password ./sym_plain_text.txt ./sym_file_out.txt
+ 5053  python3 unprotect_symetric.py password ./sym_file_out.txt ./unprotected_file_out.txt
+ 5054  cd ../asymetrique
+ 5055  python3 protect_asymetric.py password ./asym_plain_text.txt ./asym_file_out.txt
+ 5056  hexdump -C asym_file_out.txt
+ 5057  hexdump -C asym_file_out.txt > dumped.txt
+ 5058  python3 protect_asymetric.py password ./asym_plain_text.txt ./asym_file_out.txt
+ 5059  hexdump -C asym_file_out.txt > dumped.txt
+ 5060  python3 unprotect_asymetric.py public_sign.pem private_cypher.pem ./asym_file_out.txt ./unprotected.txt
+ 5061  python3 unprotect_asymetric.py public_sign.pem private_cypher.pem ./asym_file_out.txt ./unprotected.txt > res.TXT
+ 5062  python3 unprotect_asymetric.py public_sign.pem private_cypher.pem ./asym_file_out.txt ./unprotected.txt
+ 5063  python3 unprotect_symetric.py password ./sym_file_out.txt ./unprotected_file_out.txt
+ 5064  python3 unprotect_asymetric.py public_sign.pem private_cypher.pem ./asym_file_out.txt ./unprotected.txt
+ 5065  python3 protect_symetric.py password ./sym_plain_text.txt ./file_out.txt
+ 5066  python3 unprotect_asymetric.py public_sign.pem private_cypher.pem ./asym_file_out.txt ./unprotected.txt
+ 5067  python3 protect_asymetric.py password ./asym_plain_text.txt ./asym_file_out.txt
+ 5068  python3 unprotect_asymetric.py public_sign.pem private_cypher.pem ./asym_file_out.txt ./unprotected.txt
+ 5069  hexdump -C asym_file_out.txt > dumped.txt
+ 5070  python3 unprotect_asymetric.py public_sign.pem private_cypher.pem ./asym_file_out.txt ./unprotected.txt
+ 5071  git add .
+ 5072  git commit -m "need check sign and uncrypt asymetrique"
+ 5073  cdc
+ 5074  git add .
+ 5075  git commit "sign and uncrypt asymetrique just need
+ 5076  git commit -m "sign and uncrypt asymetrique just need"
+ 5077  git push
+ 5078  gauw -v
+ 5079  gawk -v
+ 5080  awk -v
+ 5081  cdc
+ 5082  ls
+ 5083  cd grand-reseaux
+ 5084  ls
+ 5085  od -c router.txt
+ 5086  tr -d '\r' < router.txt > router.unix.txt
+ 5087  od -c router.unix.txt
+ 5088  mkdir awkScript
+ 5089  cd awkScript
+ 5090  touch prog01.awk
+ 5091  chmod +x prog01.awk
+ 5092  ./prog01.awk ./../router.unix.txt
+ 5093  ./prog01.awk 
+ 5094  ./prog02.awk
+ 5095  ls -la
+ 5096  ./prog02.awk
+ 5097  ./prog03.awk
+ 5098  ./prog04.awk
+ 5099  ./prog05.awk
+ 5100  ./prog04.awk
+ 5101  ./prog05.awk
+ 5102  ./prog04.awk
+ 5103  ./prog05.awk
+ 5104  man awk
+ 5105  ./prog05.awk
+ 5106  ./prog04.awk
+ 5107  ./prog05.awk
+ 5108  ./prog04.awk
+ 5109  ./prog05.awk
+ 5110  ./prog04.awk
+ 5111  ./prog05.awk
+ 5112  ./prog04.awk
+ 5113  ./prog05.awk
+ 5114  ./prog06.awk
+ 5115  ./prog07.awk
+ 5116  cdc
+ 5117  git add .
+ 5118  git commit -m "grand reseu awk"
+ 5119  git push
+ 5120  cd rust
+ 5121  ls
+ 5122  cd src
+ 5123  ls
+ 5124  cargo run stack.rs
+ 5125  cargo run --bin stack
+ 5126  cargo run main.rs
+ 5127  cargo run 
+ 5128  ./prog05.awk
+ 5129  cargo run 
+ 5130  cargo test
+ 5131  cargo test main
+ 5132  cargo test
+ 5133  cargo test main
+ 5134  cargo test
+ 5135  cargo add ratatui crossterm
+ 5136  cargo run 
+ 5137  cargo run --path /home/naouaichia/Workspace/COURS/rust/src/steps/step7_4.bin --mode RUNNER
+ 5138  cargo run --path /home/naouaichia/Workspace/COURS/rust/src/steps/step7_4.bin --mode runner
+ 5139  cargo run -- --path /home/naouaichia/Workspace/COURS/rust/src/steps/step7_4.bin --mode runner
+ 5140  cargo run -- --path /home/naouaichia/Workspace/COURS/rust/src/steps/step7_3.bin --mode runner
+ 5141  cargo run -- --path /home/naouaichia/Workspace/COURS/rust/src/steps/step7_2.bin --mode runner
+ 5142  cargo run -- --path /home/naouaichia/Workspace/COURS/rust/src/steps/step7_5.bin --mode runner
+ 5143  cargo run -- --path /home/naouaichia/Workspace/COURS/rust/src/steps/step7_4.bin --mode runner
+ 5144  cd ..
+ 5145  ls
+ 5146  cd ..
+ 5147  cargo new rust2
+ 5148  cd rust2
+ 5149  ls
+ 5150  cargo run
+ 5151  cargo install
+ 5152  cargo add
+ 5153  cargo run
+ 5154  cd ..
+ 5155  cargo new rust3
+ 5156  cd rust3
+ 5157  ls
+ 5158  cargo add pcap
+ 5159  cargo run
+ 5160  cargo add pcap-parser
+ 5161  cargo add packet
+ 5162  cargo run
+ 5163  cargo add packet
+ 5164  cargo run
+ 5165  cargo add dns_parser
+ 5166  cargo run
+ 5167  cd ..
+ 5168  cargo new rust4
+ 5169  cd rust4
+ 5170  cargo add regex
+ 5171  cargo ru n
+ 5172  cargo run
+ 5173  cd
+ 5174  cdc
+ 5175  mkdir gpu
+ 5176  cd gpu
+ 5177  git clone https://github.com/bartavelle/tp-cracking 
+ 5178  code ./
+ 5179  sudo apt-get install nvidia-drivers && sudo apt install clang-15 opencl-c-headers clinfo nvidia-libopencl1 && clinfo
+ 5180  sudo apt upgrade
+ 5181  sudo apt update
+ 5182  sudo apt-get install nvidia-drivers && sudo apt install clang-15 opencl-c-headers clinfo nvidia-libopencl1 && clinfo
+ 5183  sudo apt install clang-15 opencl-c-headers clinfo nvidia-libopencl1 && clinfo
+ 5184  clinfo
+ 5185  l
+ 5186  cd tp-cracking
+ 5187  ls
+ 5188  make
+ 5189  sudo apt install clang-15
+ 5190  make
+ 5191  /usr/lib/x86_64-linux-gnu
+ 5192  ls
+ 5193  ld
+ 5194  ls -la
+ 5195  ls -la libOpenCL.so.1*
+ 5196  ls -la libOpenCL.so.*
+ 5197  ls -la libOpenCL.so*
+ 5198  sudo ln -s libOpenCL.so.1 libOpenCL.so
+ 5199  ls -la libOpenCL.so*
+ 5200  cdc
+ 5201  cd gpu
+ 5202  cd tp-cracking
+ 5203  make
+ 5204  sudo apt-get install opencl-headers
+ 5205  sudo apt-get install ocl-icd-libopencl1
+ 5206  make
+ 5207  ls
+ 5208  ls -la
+ 5209  make
+ 5210  cd target
+ 5211  ls
+ 5212  ./simple 83dc2dcea4070eeb926f218ea7ee1fa9
+ 5213  make && ./simple 83dc2dcea4070eeb926f218ea7ee1fa9
+ 5214  cd ..
+ 5215  ls
+ 5216  make
+ 5217  ./target/simple 83dc2dcea4070eeb926f218ea7ee1fa9
+ 5218  make
+ 5219  ./target/simple 83dc2dcea4070eeb926f218ea7ee1fa9
+ 5220  make
+ 5221  ./target/simple 83dc2dcea4070eeb926f218ea7ee1fa9
+ 5222  make
+ 5223  ./target/simple 83dc2dcea4070eeb926f218ea7ee1fa9
+ 5224  make
+ 5225  ./target/simple 83dc2dcea4070eeb926f218ea7ee1fa9
+ 5226  make
+ 5227  ./target/simple 83dc2dcea4070eeb926f218ea7ee1fa9
+ 5228  make && ./target/simple 83dc2dcea4070eeb926f218ea7ee1fa9
+ 5229  clinfo
+ 5230  clinfos
+ 5231  history | grep suricata
+ 5232  cd
+ 5233  history | grep suricata > suricata.install.txt
+ 5234  cdc
+ 5235  cd gpu
+ 5236  cd tp-cracking/gpu-opencl
+ 5237  ls
+ 5238  gcc main.c -o out
+ 5239  ls
+ 5240  make
+ 5241  cd ..
+ 5242  ls
+ 5243  ./target/gpu opencl_kernel.cl 
+ 5244  history
+ 5245  ./target/gpu opencl_kernel.cl 83dc2dcea4070eeb926f218ea7ee1fa9
+ 5246  ./target/gpu vector_md4_kernel.cl 83dc2dcea4070eeb926f218ea7ee1fa9
+ 5247  ./target/gpu ./gpu-opencl/vector_md4_kernel.cl 83dc2dcea4070eeb926f218ea7ee1fa9
+ 5248  ./target/gpu ./gpu-opencl/opencl_kernel.cl 83dc2dcea4070eeb926f218ea7ee1fa9
+ 5249  ./target/gpu ./gpu-opencl/vector_md4_kernel.cl 
+ 5250  ./target/gpu ./gpu-opencl/vector_md4_kernel.cl 83dc2dcea4070eeb926f218ea7ee1fa9
+ 5251  ./target/gpu ./gpu-opencl/vector_md4_kernel.cl 83dc2dcea4070eeb926f218ea7ee1fa9 > resumlt.txt
+ 5252  ./target/gpu ./gpu-opencl/vector_md4_kernel.cl 83dc2dcea4070eeb926f218ea7ee1fa9
+ 5253  ls
+ 5254  ./target/gpu ./gpu-opencl/vector_md4_kernel.cl 83dc2dcea4070eeb926f218ea7ee1fa9
+ 5255  make
+ 5256  git status
+ 5257  git checkout gpu-opencl/main.c
+ 5258  make
+ 5259  ./target/gpu ./gpu-opencl/vector_md4_kernel.cl 83dc2dcea4070eeb926f218ea7ee1fa9
+ 5260  make
+ 5261  ./target/gpu ./gpu-opencl/vector_md4_kernel.cl 83dc2dcea4070eeb926f218ea7ee1fa9
+ 5262  make && ./target/gpu ./gpu-opencl/vector_md4_kernel.cl 83dc2dcea4070eeb926f218ea7ee1fa9
+ 5263  clinfo
+ 5264  clinfos
+ 5265  sudo apt-get install clinfosq
+ 5266  sudo apt-get install clinfo
+ 5267  clinfo
+ 5268  suod -s
+ 5269  sudo -s
+ 5270  ls
+ 5271  cdc
+ 5272  git add .
+ 5273  git commit -m "gpu course and prev"
+ 5274  git reset HEAD~1
+ 5275  git status
+ 5276  vi .gitignore
+ 5277  git status
+ 5278  git log
+ 5279  git status
+ 5280  git add .
+ 5281  git status
+ 5282  cd gpu/tp-cracking
+ 5283  rm -rf .git
+ 5284  git add .
+ 5285  cd ..
+ 5286  git status
+ 5287  git add .
+ 5288  cd ..
+ 5289  git status
+ 5290  git commit -m'gpu'
+ 5291  git push
+ 5292  lshw
+ 5293  lshw | grep nvidia
+ 5294  sudo lshw | grep nvidia
+ 5295  sudo lshw 
+ 5296  sudo lshw > lshw.result
+ 5297  code lshw.result
+ 5298  ssh naouaichia@34.173.254.255 
+ 5299  ssh naouaichia@34.173.254.255
+ 5300  code ~/.ssh/known_hosts
+ 5301  ssh naim@34.173.254.255
+ 5302  history | grep github
+ 5303  ssh naim@34.173.254.255
+ 5304  cdc
+ 5305  cd gpu
+ 5306  ls
+ 5307  cd tp-cracking
+ 5308  ls
+ 5309  make
+ 5310  ./target/simple 
+ 5311  ./target/simple 83dc2dcea4070eeb926f218ea7ee1fa9
+ 5312  make
+ 5313  cdc
+ 5314  git add . 
+ 5315  git commit -m "opencl"
+ 5316  git push
+ 5317  ssh naim@34.173.254.255
+ 5318  cdc
+ 5319  git add .
+ 5320  git commit -m "gpu md4 breaker working well" 
+ 5321  git push
+ 5322  ssh naim@34.173.254.255
+ 5323  cdc
+ 5324  cd gpu
+ 5325  cd tp-cracking
+ 5326  ls
+ 5327  ./target/simple 752f4adfe53d1da0241b5bc216d098fc
+ 5328  make
+ 5329  ./target/simple 752f4adfe53d1da0241b5bc216d098fc
+ 5330  cdc
+ 5331  git add .
+ 5332  git commit -m "ok for gpu"
+ 5333  git push
+ 5334  ./target/simple 752f4adfe53d1da0241b5bc216d098fc
+ 5335  cd ..
+ 5336  git clone git@github.com:korgrunt/COURS.git
+ 5337  cd COURS
+ 5338  code ./
+ 5339  cd
+ 5340  cd Workspace/COURS-old
+ 5341  ls
+ 5342  cd gpu
+ 5343  ls
+ 5344  ls -la
+ 5345  cd tp-cracking
+ 5346  ls
+ 5347  ls -la
+ 5348  rm .gitignore
+ 5349  ls
+ 5350  ls -la
+ 5351  cdc
+ 5352  cd ../COURS-old
+ 5353  ls
+ 5354  code ./
+ 5355  git add .
+ 5356  git commit -m "re add gpu dir"
+ 5357  git push
+ 5358  cd gpu
+ 5359  make
+ 5360  ls 
+ 5361  cd tp-cracking
+ 5362  make
+ 5363  ls 
+ 5364  ./target/simple 
+ 5365  ./target/simple 752f4adfe53d1da0241b5bc216d098fc
+ 5366  ./target/simple 83dc2dcea4070eeb926f218ea7ee1fa9
+ 5367  ./target/simd
+ 5368  ./target/simd 83dc2dcea4070eeb926f218ea7ee1fa9
+ 5369  ls
+ 5370  editzsh
+ 5371  l
+ 5372  cdc
+ 5373  git pull
+ 5374  cdp
+ 5375  ls 
+ 5376  git clone git@github.com:korgrunt/suricata-analizr.git
+ 5377  cd suricata-analizr
+ 5378  code .
