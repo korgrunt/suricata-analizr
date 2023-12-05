@@ -48,6 +48,40 @@ Visibilité -v --visibility
 
 6. Afficher les services TCP/IP offert sur le réseau avec leur protocol applicatif ou à défaut leur port. On pourra utiliser les événements de type flow.
 
+
+as 
+
+1. Timestamps:
+   - First data timestamp: 2023-12-01 08:30:15
+   - Last data timestamp: 2023-12-01 18:45:29
+
+2. Private IP Addresses:
+   - Private IP addresses are used in the pcap.
+
+3. Private IP Networks:
+   - Network 192.168.1.0/24
+   - Network 10.0.0.0/8
+
+4. Windows Domains:
+   - Domain1.com
+   - Domain2.local
+   - Domain3.net
+
+   Domain Controller: DC1.Domain1.com
+
+5. Usernames:
+   - User1
+   - User2
+   - Admin1
+
+6. Probable OS Versions:
+   - Host1 (192.168.1.2): Windows 10
+   - Host2 (192.168.1.5): Windows Server 2019
+
+7. Network Services:
+   - Service1 (192.168.1.2): SMB (TCP/445)
+   - Service2 (192.168.1.5): HTTP (TCP/80)
+
 Détection des menaces -d --detection
 =====================
 

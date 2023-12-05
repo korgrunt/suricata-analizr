@@ -3775,7 +3775,7 @@
  3775  apt install libjansson-dev
  3776  sudo apt install libjansson-dev
  3777  ./configure --prefix=/home/naouaichia/suricata
- 3778  sudo apt install rustc cargo
+ 3778  sudo apt install rustc cargo && sudo cargo install --force cbindgen && sudo apt-get install libcap-ng-dev && sudo apt-get install liblz4-dev && sudo cargo install --force cbindgen
  3779  ./configure --prefix=/home/naouaichia/suricata
  3780  sudo cargo install --force cbindgen
  3781  make

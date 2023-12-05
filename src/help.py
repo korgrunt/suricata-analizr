@@ -7,7 +7,7 @@ ERR_BAD_ARGV = """
         """
 
 def print_help_page():
-    help_page = open('./help.txt', 'r')
+    help_page = open('./documentations/help.txt', 'r')
     print(help_page.read())
     sys.exit(0)
 

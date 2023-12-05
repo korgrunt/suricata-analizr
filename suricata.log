@@ -1,0 +1,70 @@
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Notice: suricata: This is Suricata version 8.0.0-dev (13cc49388 2023-12-01) running in USER mode
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Info: cpu: CPUs/cores online: 8
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Info: suricata: Setting engine mode to IDS mode by default
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Info: exception-policy: master exception-policy set to: auto
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Info: logopenfile: fast output device (regular) initialized: fast.log
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Info: logopenfile: stats output device (regular) initialized: stats.log
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: classification-config: could not open: "/etc/suricata/classification.config": No such file or directory
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Error: classification-config: please check the "classification-file" option in your suricata.yaml file
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Error: reference-config: Error opening file: "/etc/suricata/reference.config": No such file or directory
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Error: reference-config: please check the "reference-config-file" option in your suricata.yaml file
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-reference: unknown reference key "url"
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:43 uses unknown classtype: "bad-unknown", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:47 uses unknown classtype: "shellcode-detect", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:125 uses unknown classtype: "string-detect", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:149 uses unknown classtype: "trojan-activity", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:201 uses unknown classtype: "successful-user", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:211 uses unknown classtype: "policy-violation", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:329 uses unknown classtype: "misc-activity", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:339 uses unknown classtype: "misc-attack", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-reference: unknown reference key "cve"
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:369 uses unknown classtype: "attempted-admin", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:435 uses unknown classtype: "attempted-user", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:507 uses unknown classtype: "suspicious-login", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:745 uses unknown classtype: "not-suspicious", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:829 uses unknown classtype: "successful-admin", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:1043 uses unknown classtype: "suspicious-filename-detect", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:1109 uses unknown classtype: "attempted-recon", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:1139 uses unknown classtype: "network-scan", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:1145 uses unknown classtype: "protocol-command-decode", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:1219 uses unknown classtype: "command-and-control", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:1507 uses unknown classtype: "attempted-dos", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:1527 uses unknown classtype: "web-application-attack", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-reference: unknown reference key "bugtraq"
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-reference: unknown reference key "bid"
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-reference: unknown reference key "nessus"
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:4125 uses unknown classtype: "rpc-portmap-decode", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-reference: unknown reference key "arachnids"
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:4517 uses unknown classtype: "denial-of-service", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-reference: unknown reference key "md5"
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:5771 uses unknown classtype: "unsuccessful-user", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:6527 uses unknown classtype: "successful-recon-largescale", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:6565 uses unknown classtype: "exploit-kit", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:6917 uses unknown classtype: "web-application-activity", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:9727 uses unknown classtype: "system-call-detect", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:11019 uses unknown classtype: "targeted-activity", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:12403 uses unknown classtype: "coin-mining", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:13073 uses unknown classtype: "domain-c2", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:13669 uses unknown classtype: "successful-recon-limited", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:15827 uses unknown classtype: "social-engineering", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:16137 uses unknown classtype: "credential-theft", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:17021 uses unknown classtype: "non-standard-protocol", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-reference: unknown reference key "secunia"
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:20885 uses unknown classtype: "pup-activity", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:23569 uses unknown classtype: "default-login-attempt", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:25589 uses unknown classtype: "external-ip-check", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-classtype: signature at ./emerging-all.rules:26905 uses unknown classtype: "unknown", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:40 Warning: detect-reference: unknown reference key "mcafee"
+[305334 - Suricata-Main] 2023-12-04 22:59:41 Warning: detect-classtype: signature at ./emerging-all.rules:86379 uses unknown classtype: "unusual-client-port-connection", using default priority 3. This message won't be shown again for this classtype
+[305334 - Suricata-Main] 2023-12-04 22:59:41 Info: detect: 1 rule files processed. 34138 rules successfully loaded, 0 rules failed
+[305334 - Suricata-Main] 2023-12-04 22:59:41 Warning: threshold-config: Error opening file: "/etc/suricata//threshold.config": No such file or directory
+[305334 - Suricata-Main] 2023-12-04 22:59:41 Info: detect: 34141 signatures processed. 0 are IP-only rules, 5327 are inspecting packet payload, 28783 inspect application layer, 0 are decoder event only
+[305346 - RX#01] 2023-12-04 22:59:45 Info: pcap: Starting file run for ./Samba-01-Trace.pcap
+[305334 - Suricata-Main] 2023-12-04 22:59:45 Notice: threads: Threads created -> RX: 1 W: 8 FM: 1 FR: 1   Engine started.
+[305346 - RX#01] 2023-12-04 22:59:45 Info: checksum: More than 1/10th of packets have an invalid checksum, assuming checksum offloading is used (137/1000)
+[305346 - RX#01] 2023-12-04 22:59:45 Info: pcap: pcap file ./Samba-01-Trace.pcap end of file reached (pcap err code 0)
+[305334 - Suricata-Main] 2023-12-04 22:59:45 Notice: suricata: Signal Received.  Stopping engine.
+[305334 - Suricata-Main] 2023-12-04 22:59:45 Info: suricata: time elapsed 0.168s
+[305346 - RX#01] 2023-12-04 22:59:45 Notice: pcap: read 1 file, 8716 packets, 3838292 bytes
+[305334 - Suricata-Main] 2023-12-04 22:59:45 Info: counters: Alerts: 0
