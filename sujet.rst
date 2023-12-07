@@ -34,13 +34,13 @@ Visibilité & Détection des menaces -a --all
 Visibilité -v --visibility
 ==========
 
-0. Déterminer et afficher le timestamp des premières et dernières données contenues dans le fichier
+0. OK = Déterminer et afficher le timestamp des premières et dernières données contenues dans le fichier
 
-1. Déterminer et afficher si des adresses IP privées sont utilisées dans le pcap
+1. OK = Déterminer et afficher si des adresses IP privées sont utilisées dans le pcap
 
-2. Si des adresses IP privées sont utilisées, afficher les réseaux utilisés avec leur netmask.
+2. OK = Si des adresses IP privées sont utilisées, afficher les réseaux utilisés avec leur netmask.
 
-3. En utilisant les requêtes DNS, afficher la liste des domaines Windows présent dans la trace. Lister également, le controleur de domaine.
+3. OK = En utilisant les requêtes DNS, afficher la liste des domaines Windows présent dans la trace. Lister également, le controleur de domaine.
 
 4. Afficher le nom des utilisateurs extrait des requêtes SMB et Kerberos
 
@@ -85,7 +85,7 @@ as
 Détection des menaces -d --detection
 =====================
 
-0. Lister les signatures uniques ayant alertés sur le pcap
+0. OK = Lister les signatures uniques ayant alertés sur le pcap
 
 1. En utilisant les metadata des signatures alertant sur le pcap, afficher la liste des malwares détectées
 

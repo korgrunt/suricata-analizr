@@ -77,7 +77,85 @@ def find_network_and_netmask_if_ip_is_private(eve_lines_parsed):
     """
     return ip_report
 
+def is_microsoft_domain(str):
+    microsoft_keywords = ['windows', 'azure', 'microsoft']
 
+    for keyword in microsoft_keywords:
+        if keyword in str.lower():
+            return True
+
+    return False
+
+def is_microsoft_domain_controller(str):
+    microsoft_keywords = [ '_msdcs']
+
+    for keyword in microsoft_keywords:
+        if keyword in str.lower():
+            return True
+
+    return False
+
+def extract_windows_domain(eve_lines_parsed):
+    microsoft_domain = []
+    
+    for evenement in eve_lines_parsed:
+        if(evenement["event_type"] == "dns"):
+            if(is_microsoft_domain(evenement["dns"]["rrname"])):
+                microsoft_domain.append(evenement["dns"]["rrname"])
+    
+    microsoft_domain = list(set(microsoft_domain))
+    microsoft_domain_report = f"""
+            3.Microsoft domain:\n
+            List of domain detecter =>
+    """
+    for domain in microsoft_domain:
+        microsoft_domain_report += f"""
+            {domain}"""
+    
+    return microsoft_domain_report
+
+def extract_windows_domain_controller(eve_lines_parsed):
+    domain_controller = []
+    
+    for evenement in eve_lines_parsed:
+        if(evenement["event_type"] == "dns"):
+            if(is_microsoft_domain_controller(evenement["dns"]["rrname"])):
+                domain_controller.append(evenement["dns"]["rrname"])
+    
+    domain_controller = list(set(domain_controller))
+
+    domain_controller_report = f"""
+            
+            3.Microsoft domain controller:\n
+            List of domain controller detecter =>
+    """
+    for domain in domain_controller:
+        domain_controller_report += f"""
+            {domain}"""
+    
+    return domain_controller_report
+
+
+def extract_user_from_smb_and_kerberos_requests(eve_lines_parsed):
+    users = []
+    
+    for evenement in eve_lines_parsed:
+        if(evenement["event_type"] == "smb" and "smb" in evenement):
+            if("ntlmssp" in evenement["smb"]):
+                users.append(evenement["smb"]["ntlmssp"]["user"])
+    
+    users = list(set(users))
+
+    user_report = f"""
+            
+            3.Username from SMB and Kerberos request:\n
+            List of user =>
+    """
+    for user in users:
+        user_report += f"""
+            {user}"""
+    
+    return user_report
 
 
 
@@ -85,10 +163,13 @@ def find_network_and_netmask_if_ip_is_private(eve_lines_parsed):
 def analyze_visibility_mode(arguments_parsed, eve_lines_parsed):
     report = ''
  
-
     report += extract_oldest_and_newest_timestamp(eve_lines_parsed)
 
     report += find_network_and_netmask_if_ip_is_private(eve_lines_parsed)
+    report += find_network_and_netmask_if_ip_is_private(eve_lines_parsed)
+    report += extract_windows_domain(eve_lines_parsed)
+    report += extract_windows_domain_controller(eve_lines_parsed)
+    report += extract_user_from_smb_and_kerberos_requests(eve_lines_parsed)
     #report += find_network_and_netmask_if_ip_is_private(eve_lines_parsed)
     # Affichage des résultats
     print(report)

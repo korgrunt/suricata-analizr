@@ -35,9 +35,7 @@ def exec_suricata_on_pcap(arguments_parsed):
         sys.exit(1)
 
 def exec_suricata_analyzr(arguments_parsed):
-    if(arguments_parsed['option'] == '-h' or arguments_parsed['option'] == '--help'):
-        print_help_page()
-    elif(arguments_parsed['option'] == '-a' or arguments_parsed['option'] == '--all'):
+    if(arguments_parsed['option'] == '-a' or arguments_parsed['option'] == '--all'):
         eve_file_parsed = exec_suricata_on_pcap(arguments_parsed)
         analyze_visibility_mode(arguments_parsed, eve_file_parsed)
         analyze_detection_mode(arguments_parsed, eve_file_parsed)
@@ -55,28 +53,34 @@ def exec_suricata_analyzr(arguments_parsed):
 
 # Bootstrap program  
 def main(argv):
+    if(argv[1] == '-h' or argv[1] == '--help'):
+        print_help_page()
+        sys.exit(0)
     if len(argv) < 5:
         print(ERR_BAD_ARGV) # bad arguments
         sys.exit(1)
 
     arguments_parsed = parse_arguments(argv)
+    # to uncomment _ start
+    exec_suricata_analyzr(arguments_parsed)
+    # to uncomment _ end
+
     # to delete _start
-    eve_lines_parsed = []
-    with open('./eve.json', 'r') as file:
+    #eve_lines_parsed = []
+    #with open('./eve.json', 'r') as file:
     # Itérez à travers chaque ligne du fichier
-        for line in file:
-            eve_lines_parsed.append(json.loads(line))
-    analyze_visibility_mode(arguments_parsed, eve_lines_parsed)
-    analyze_detection_mode(arguments_parsed, eve_lines_parsed)
+    #    for line in file:
+    #        eve_lines_parsed.append(json.loads(line))
+    #analyze_visibility_mode(arguments_parsed, eve_lines_parsed)
+    #analyze_detection_mode(arguments_parsed, eve_lines_parsed)
     # to delete _end
 
-    # to uncomment _ start
-    #exec_suricata_analyzr(arguments_parsed)
-    # to uncomment _ end
+
     sys.exit(0)
 
 # Start program
 main(sys.argv)
+
 
 
 
