@@ -1,13 +1,13 @@
 suricata_analyzr(1)                                                                                User Commands                                                                                suricata_analyzr(1)
 
 NAME
-       suricata_analyzr - analyse file .pcap for smb protocol
+       suricata_analyzr - analyse file .pcap for smb and kerb5 protocol
 
 REQUIREMENTS
        python3, pip, suricata >= 7.0.3-dev
 
 SYNOPSIS
-       python3 suricata_analyzr [OPTION] [ABS_PATH_PCAP_FILE] [PATH_OUTPUT_FILE<optional>]
+       python3 suricata_analyzr [OPTION] [ABS_PATH_PCAP_FILE] [ABS_PATH_SURICARA_YAML_FILE] [ABS_PATH_SURICARA_SIGNATURE_RULES_FILES] 
 
 DESCRIPTION
        Analyse .pcap file for threat Detection, monitoring, more info below.
@@ -41,7 +41,7 @@ DESCRIPTION
 
        -h, --help display this help and exit
 
-       --version
+       -V, --version
               output version information and exit
 
 EXAMPLES
@@ -60,11 +60,13 @@ EXAMPLES
        python3 main.py --all <absolute_path_to_pcap> <absolute_path_to_config_suricata_yaml>  <absolute_path_to_rules> <absolute_path_to_output_files>
               Output visiblity and detection mode contents to output.rst file.
 
-       python3 main.py --all ./../Samba-01-Trace.pcap ~/Applications/suricata/suricata.yaml ./emerging-all.rules output.rst 
+       python3 main.py --all ./../Samba-01-Trace.pcap ./suricata.yaml ./emerging-all.rules output.rst 
+       python3 main.py -v ./2023-10-31-IcedID-infection-traffic.pcap ./suricata.yaml ./emerging-all.rules output.rst
+       python3 main.py -d ./2023-10-31-IcedID-infection-traffic.pcap ./suricata.yaml ./emerging-all.rules output.rst
               Output visiblity and detection mode contents to output.rst file. <===== USED while dev mode
 
 AUTHOR
-       Written by Aouaichia Naim for suricata, all right to suricata.
+       Written by uricata contributor for suricata, all right to suricata.
 
 REPORTING BUGS
        Suricata Analyzr utils online help: <https://github.com/korgrunt/suricata-analizr>
@@ -79,4 +81,6 @@ SEE ALSO
 
        Full documentation   <https://github.com/korgrunt/suricata-analizr>
                             <https://suricata.io/>
+
+                            
 suricata-analyzer 0.1                                                                      December 2023                                                                                suricata_analyzer(1)

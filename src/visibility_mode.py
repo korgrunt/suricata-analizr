@@ -1,81 +1,23 @@
 import ipaddress
 import datetime
+import re
+import sys
+import os
+from src.iputils import *
 
-def print_report(arguments_parsed, msg):
-    if arguments_parsed['output_file'] is not None and isinstance(arguments_parsed['output_file'], str) and len(arguments_parsed['output_file']) > 0:
-        with open(arguments_parsed['output_file'], 'w') as file:
-            file.write(msg)
-    else:
-        print(msg)
 
 def extract_oldest_and_newest_timestamp(eve_lines_parsed):
 
     timestamps = [obj["timestamp"] for obj in eve_lines_parsed]
     timestamps_datetime = [datetime.datetime.strptime(ts, "%Y-%m-%dT%H:%M:%S.%f%z") for ts in timestamps]
 
+    # Prepare output for report
     return f"""
-            1. Timestamps:\n
+            ============================================
+             Timestamps:\n
             - First timestamp: {min(timestamps_datetime)}
             - Last timestamp: {max(timestamps_datetime)}
     """
-def extract_ip_network_and_netmask(ips):
-    
-    ips_data_formatted = []
-    
-    # Private range of ip
-    private_ranges = [
-        ipaddress.IPv4Network("10.0.0.0/8"),
-        ipaddress.IPv4Network("172.16.0.0/12"),
-        ipaddress.IPv4Network("192.168.0.0/16")
-    ]
-
-    for ip_str in ips:
-        try:
-            ip = ipaddress.ip_address(ip_str)
-            for private_range in private_ranges:
-                if ip in private_range:
-                    ips_data_formatted.append(f"Adresse IP: {ip}, Network: {private_range.network_address}, NetMask: {private_range.netmask}")
-                    break  
-        except ValueError:
-            print(f"Invalide IP Adresse: {ip_str}")
-    return ips_data_formatted
-
-def list_domaine_window_and_list_domain_controleur(eve_lines_parsed):
-    dns_entries = [entry for entry in eve_lines_parsed if 'event_type' in entry and entry['event_type'] == 'flow' and 'app_proto' in entry and entry['app_proto'] == 'dns']
-
-def find_network_and_netmask_if_ip_is_private(eve_lines_parsed):
-    # Extract src ips
-    src_ips = []
-    for objet in eve_lines_parsed:
-        if "src_ip" in objet:
-            src_ips.append(objet["src_ip"])
-    # Extract dest ips
-    dest_ips = []
-    for objet in eve_lines_parsed:
-        if "dest_ip" in objet:
-            dest_ips.append(objet["dest_ip"])
-
-    # filter ip from file on private range, and get network, netmask
-    ips_dest_prviate = extract_ip_network_and_netmask(dest_ips)
-    ips_src_prviate =  extract_ip_network_and_netmask(src_ips)
-    
-    # Prepare output for report
-    ip_report = f"""
-            2.Private IP Addresses:\n
-            -IP SRC =>
-    """
-    for ip_info in ips_src_prviate:
-        ip_report += f"""
-            {ip_info}
-    """
-    ip_report += """
-            -IP DEST =>
-    """
-    for ip_info in ips_dest_prviate:
-        ip_report += f"""
-            {ip_info}
-    """
-    return ip_report
 
 def is_microsoft_domain(str):
     microsoft_keywords = ['windows', 'azure', 'microsoft']
@@ -104,13 +46,17 @@ def extract_windows_domain(eve_lines_parsed):
                 microsoft_domain.append(evenement["dns"]["rrname"])
     
     microsoft_domain = list(set(microsoft_domain))
+
+    # Prepare output for report
     microsoft_domain_report = f"""
-            3.Microsoft domain:\n
+            ============================================
+            Microsoft domain:\n
             List of domain detecter =>
     """
     for domain in microsoft_domain:
         microsoft_domain_report += f"""
-            {domain}"""
+            {domain}
+    """
     
     return microsoft_domain_report
 
@@ -124,16 +70,48 @@ def extract_windows_domain_controller(eve_lines_parsed):
     
     domain_controller = list(set(domain_controller))
 
+    # Prepare output for report
     domain_controller_report = f"""
-            
-            3.Microsoft domain controller:\n
+            ============================================
+            Domain controller:\n
             List of domain controller detecter =>
     """
     for domain in domain_controller:
         domain_controller_report += f"""
-            {domain}"""
+            {domain}
+    """
     
     return domain_controller_report
+
+def find_probable_operating_system(eve_lines_parsed):
+    src_ips_to_os = dict()
+    dest_ips_to_os = dict()
+    for objet in eve_lines_parsed:
+        if (("src_ip" in objet) and (objet["event_type"] == "smb") and ("smb" in objet)):
+            if "request" in objet["smb"]:
+                if "native_os" in objet["smb"]["request"]:
+                    src_ips_to_os[objet["src_ip"]] = objet["smb"]["request"]["native_os"]
+            if "response" in objet["smb"]:
+                if "native_os" in objet["smb"]["response"]:
+                    src_ips_to_os[objet["dest_ip"]] = objet["smb"]["response"]["native_os"]
+    
+
+    # Prepare output for report
+    ip_report = f"""
+            ============================================
+            Operating system for IP Addresses:\n
+            -IP SRC =>
+    """
+    for key, value in src_ips_to_os.items():
+        ip_report += f"""
+            ip address: {key} has probably operating system version: {value if len(value) > 0 else 'Unknown'}
+    """
+    for key, value in dest_ips_to_os.items():
+        ip_report += f"""
+            ip address: {key} has probably operating system version: {value if len(value) > 0 else 'Unknown'}
+    """
+    return ip_report
+
 
 
 def extract_user_from_smb_and_kerberos_requests(eve_lines_parsed):
@@ -146,31 +124,34 @@ def extract_user_from_smb_and_kerberos_requests(eve_lines_parsed):
     
     users = list(set(users))
 
+    # Prepare output for report
     user_report = f"""
-            
-            3.Username from SMB and Kerberos request:\n
+            ============================================
+            Username from SMB and Kerberos request:\n
             List of user =>
     """
     for user in users:
         user_report += f"""
-            {user}"""
+            {user}
+    """
     
     return user_report
 
 
 
 # mode visiblity
-def analyze_visibility_mode(arguments_parsed, eve_lines_parsed):
+def analyze_visibility_mode(eve_lines_parsed):
     report = ''
  
     report += extract_oldest_and_newest_timestamp(eve_lines_parsed)
-
-    report += find_network_and_netmask_if_ip_is_private(eve_lines_parsed)
-    report += find_network_and_netmask_if_ip_is_private(eve_lines_parsed)
+    ip_report, ip_private = find_network_and_netmask_if_ip_is_private(eve_lines_parsed)
+    report += ip_report
     report += extract_windows_domain(eve_lines_parsed)
     report += extract_windows_domain_controller(eve_lines_parsed)
     report += extract_user_from_smb_and_kerberos_requests(eve_lines_parsed)
-    #report += find_network_and_netmask_if_ip_is_private(eve_lines_parsed)
-    # Affichage des résultats
+    report += find_probable_operating_system(eve_lines_parsed)
+
+    # Display result
     print(report)
-    print("visiblity mode")
+
+    return ip_private

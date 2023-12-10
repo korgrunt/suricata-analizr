@@ -44,53 +44,21 @@ Visibilité -v --visibility
 
 4. Afficher le nom des utilisateurs extrait des requêtes SMB et Kerberos
 
-5. Pour les IPs du réseau interne, extraire et afficher les versions probables des systèmes d'exploitation en utilisant les requêtes SMB
+5. OK Pour les IPs du réseau interne, extraire et afficher les versions probables des systèmes d'exploitation en utilisant les requêtes SMB
 
-6. Afficher les services TCP/IP offert sur le réseau avec leur protocol applicatif ou à défaut leur port. On pourra utiliser les événements de type flow.
+6. OK Afficher les services TCP/IP offert sur le réseau avec leur protocol applicatif ou à défaut leur port. On pourra utiliser les événements de type flow.
 
 
-as 
-
-1. Timestamps:
-   - First data timestamp: 2023-12-01 08:30:15
-   - Last data timestamp: 2023-12-01 18:45:29
-
-2. Private IP Addresses:
-   - Private IP addresses are used in the pcap.
-
-3. Private IP Networks:
-   - Network 192.168.1.0/24
-   - Network 10.0.0.0/8
-
-4. Windows Domains:
-   - Domain1.com
-   - Domain2.local
-   - Domain3.net
-
-   Domain Controller: DC1.Domain1.com
-
-5. Usernames:
-   - User1
-   - User2
-   - Admin1
-
-6. Probable OS Versions:
-   - Host1 (192.168.1.2): Windows 10
-   - Host2 (192.168.1.5): Windows Server 2019
-
-7. Network Services:
-   - Service1 (192.168.1.2): SMB (TCP/445)
-   - Service2 (192.168.1.5): HTTP (TCP/80)
 
 Détection des menaces -d --detection
 =====================
 
 0. OK = Lister les signatures uniques ayant alertés sur le pcap
 
-1. En utilisant les metadata des signatures alertant sur le pcap, afficher la liste des malwares détectées
+1. OK En utilisant les metadata des signatures alertant sur le pcap, afficher la liste des malwares détectées
 
-2. Lister les adresses internes impactées par les malwares
+2. OK Lister les adresses internes impactées par les malwares
 
-3. Extraire et afficher la liste des IOCs (hostname, IPs) associés aux alertes sur les malwares
+3. OK Extraire et afficher la liste des IOCs (hostname, IPs) associés aux alertes sur les malwares
 
-4. Utiliser la correlation par flow_id et tx_id pour extraire la liste des IOCs (hashes de fichiers) associés aux alertes sur les malwares
+4. OK Utiliser la correlation par flow_id et tx_id pour extraire la liste des IOCs (hashes de fichiers) associés aux alertes sur les malwares

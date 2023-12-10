@@ -1,4 +1,5 @@
 import sys
+import os
 
 # Help and verion
 ERR_BAD_ARGV = """
@@ -7,10 +8,9 @@ ERR_BAD_ARGV = """
         """
 
 def print_help_page():
-    help_page = open('./documentations/help.txt', 'r')
-    print(help_page.read())
+    os.system("less ./documentations/help.txt")
     sys.exit(0)
 
 def print_version():
-    print("Suricata-Analyze v0.1\n")
+    print("Suricata-Analyzr v0.1\n")
     sys.exit(0)
