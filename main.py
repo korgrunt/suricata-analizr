@@ -5,7 +5,6 @@ from src.help import *
 from src.detection_mode import *
 from src.visibility_mode import *
 from src.iputils import *
-import json
 
 # Parse arguments
 def parse_arguments(argv):
