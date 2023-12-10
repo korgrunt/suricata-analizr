@@ -5,3 +5,5 @@ __pycache__
 __pycache__
 venv/
 *.pcap
+eve.json
+*.log
